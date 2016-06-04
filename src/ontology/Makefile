@@ -7,10 +7,10 @@ ROBOT= robot
 OWLTOOLS= owltools
 
 
-all: all_imports $(ONT).owl
+all: all_imports $(ONT).owl $(ONT).obo
 test: all
 prepare_release: all
-	cp $(ONT).owl $(RELEASEDIR) &&\
+	cp $(ONT).owl $(ONT).obo $(RELEASEDIR) &&\
 	mkdir -p $(RELEASEDIR)/imports &&\
 	cp imports/*{owl,obo} $(RELEASEDIR)/imports &&\
 	git add $(RELEASEDIR)/imports/*{obo,owl} &&\
@@ -20,12 +20,11 @@ prepare_release: all
 
 $(ONT).owl: $(SRC)
 	$(ROBOT) merge -i $< reason -r ELK -s true annotate -V $(BASE)/releases/`date +%Y-%m-%d`/$(ONT).owl -o $@
-	#$(ROBOT) merge -i $< $(pathsubst %, -i %, $(MODULEFILES)) reason -i $< -r ELK -s true annotate -V $(BASE)/releases/`date +%Y-%m-%d`/$(ONT).owl -o $@
 #$(ONT).obo: $(ONT).owl
 #	$(ROBOT) convert -i $< -o $(ONT).obo
 
 
-IMPORTS = envo bfo chebi obi iao pato uo po
+IMPORTS = envo bfo chebi obi iao pato
 IMPORTS_OWL = $(patsubst %, imports/%_import.owl,$(IMPORTS)) 
 
 #$(patsubst %, imports/%_import.obo,$(IMPORTS))
