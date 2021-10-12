@@ -1,0 +1,38 @@
+## https://github.com/EnvironmentOntology/envo/issues/258
+pattern_name: envo/patterns/power_plant
+
+description: >-
+  This is a pattern for specifiying power plants in terms of their energy source, like nuclear or solar
+
+classes: 
+  power plant: ENVO:00002214 
+  anthropogenic generation of energy: ENVO:2000012
+  energy: ENVO:2000015
+  
+
+relations:
+  capable of: RO:0002215
+  realizes: BFO:0000055
+
+vars: 
+  source: "'energy'"
+
+name: 
+  text: "%s power plant"
+  vars: 
+    - source
+
+def: 
+  text: "A power plant driven by %s."
+  vars:
+    - source
+
+equivalentTo: 
+  text: "'power plant'
+  and ('capable of' some 
+    ('anthropogenic generation of energy'
+     and (realizes some %s)))"
+  vars:
+    - source
+
+

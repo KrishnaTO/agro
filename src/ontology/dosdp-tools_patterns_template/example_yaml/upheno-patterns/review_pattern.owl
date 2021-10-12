@@ -1,0 +1,53 @@
+@chris-grove Thank you for your amazing review. I structured it a bit and was able to fix some of the stuff you found already! Thanks!
+
+Missing subsumption (problem with PATO):
+- [ ] abnormalAbsenceOfChemicalEntity.yaml SubClassOf abnormallyDecreasedLevelOfChemicalEntity.yaml
+- [ ] abnormalAbsenceOfBiologicalProcess.yaml SubClassOf abnormallyDecreasedQualityOfBiologicalProcessInLocation.yaml (maybe?)
+- [ ] abnormalAbsenceOfChemicalEntityInLocation.yaml SubClassOf abnormallyDecreasedLevelOfChemicalEntityInLocation.yaml
+- [ ] abnormalAbsenceOfChemicalEntity.yaml SubClassOf abnormallyDecreasedLevelOfChemicalEntity.yaml
+- [ ] abnormalAbsenceOfPigmentationOfAnatomicalEntity.yaml SubClassOf abnormallyDecreasedPigmentationOfAnatomicalEntity.yaml
+- [ ] abnormalAbsenceOfAnatomicalEntity.yaml SubClassOf abnormalQuantityOfAnatomicalEntity.yaml
+- [ ] abnormalQuantityOfAnatomicalEntity.yaml SubClassOf abnormalMorphologyOfAnatomicalEntity.yaml
+
+Missing subsumptions that were missing because of imports (fixed now):
+- [X] abnormalShapeOfAnatomicalEntityByShapeType.yaml SubClassOf abnormalAnatomicalEntity.yaml (related to #11)
+- [X] abnormalMorphologyOfAnatomicalEntity.yaml SubClassOf abnormalAnatomicalEntity.yaml (related to #3)
+- [X] abnormalWeightOfAnatomicalEntity.yaml SubClassOf abnormalAnatomicalEntity.yaml
+
+Missing because of missing alignment between reference ontologies:
+- [ ] abnormalBehavior.yaml SubClassOf abnormalBiologicalProcess.yaml
+
+Missing for logical reasons:
+- [X] abnormallyDecreasedRateOfBiologicalProcess.yaml SubClassOf abnormallyDecreasedQualityOfBiologicalProcessInLocation.yaml: You are right in that decreased rate is a sub-quality of process quality. However, unless there is an axiom statig somewhere (which maybe should?) that EVERY biological process occurs somewhere, the second pattern is more specific in that regard!
+- [X] abnormallyArrestedBiologicalProcess.yaml SubClassOf abnormallyDecreasedQualityOfBiologicalProcessInLocation.yaml: Same as above. None of the two is a generalisation of the other.
+- [X] abnormalFunctionalityOfAnatomicalEntity.yaml SubClassOf abnormalBiologicalProcess.yaml: This is not possible, as the former is a anatomical entity phenotype, while the latter is a biological process phenotype.
+
+Missing because pattern was broken, now fixed:
+- [X] abnormallyDecreasedDistanceBetweenAnatomicalEntities.yaml SubClassOf abnormalDistanceBetweenAnatomicalEntities.yaml
+- [X] abnormallyIncreasedDistanceBetweenAnatomicalEntities.yaml SubClassOf abnormalDistanceBetweenAnatomicalEntities.yaml
+- [X] abnormallyDecreasedQualityOfBiologicalProcess.yaml SubClassOf abnormalBiologicalProcess.yaml: decreased quality pattern used wrong PATO quality (process quality instead of decreased process quality)
+- [X] abnormallyIncreasedRateOfBiologicalProcessInLocation.yaml SubClassOf abnormallyDecreasedQualityOfBiologicalProcessInLocation.yaml
+- [X] abnormalBiologicalProcessInLocation.yaml SubClassOf abnormallyDecreasedQualityOfBiologicalProcess.yaml
+- [X] abnormalDevelopmentOfAnatomicalEntity.yaml SubClassOf abnormallyDecreasedQualityOfBiologicalProcess.yaml
+- [X] abnormallyIncreasedRateOfBiologicalProcess.yaml SubClassOf abnormallyDecreasedQualityOfBiologicalProcess.yaml
+
+Missing because pattern is broken, not (yet) fixed:
+- [ ] abnormallyDecreasedNumberOfAnatomicalEntity.yaml SubClassOf abnormalQuantityOfAnatomicalEntity.yaml: abnormalQuantityPattern needs to be changed to abnormalNumberOfAnatomicalEntity. Right now makes no sense.
+- [ ] abnormallyDecreasedNumberOfCellularComponent.yaml SubClassOf abnormallyAlteredNumberOfCellularComponent.yaml
+- [ ] abnormallyIncreasedNumberOfAnatomicalEntity.yaml SubClassOf abnormalQuantityOfAnatomicalEntity.yaml
+- [ ] abnormallyIncreasedNumberOfCellularComponent.yaml SubClassOf abnormallyAlteredNumberOfCellularComponent.yaml
+- [ ] lesionInAnatomicalEntity SubClassOf abnormalAnatomicalEntity.yaml: Broken EQ.
+- [ ] abnormalCellProliferationInAnatomicalEntity: Broken EQ.
+
+> Existing subsumptions that seem wrong:
+
+- [X] All fixed.
+
+> I don't understand the difference between: 
+
+- [ ] 'abnormalPositionOfAnatomicalEntity.yaml' and 'mislocalisedAnatomicalEntity.yaml': Will discuss at next phenotype call
+- [ ] 'abnormalQuantityOfAnatomicalEntity.yaml' and 'abnormallyAlteredNumberOfAnatomicalEntities.yaml': Will discuss at next phenotype call
+- [X] 'abnormallyLackingAllPartsOfTypeAnatomicalEntity.yaml' and 'abnormalAbsenceOfAnatomicalEntity.yaml': Former is now deprecated.
+
+Same label, different entities:
+- [X] abnormallyIncreasedHeightOfAnatomicalEntity.yaml and abnormallyIncreasedHeightOfAnatomicalEntityInLocation.yaml both have the same label "increased height of the 'anatomical entity'": `fixed`
