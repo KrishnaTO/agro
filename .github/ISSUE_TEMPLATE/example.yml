@@ -5,6 +5,14 @@ labels: ["bug", "triage"]
 assignees:
   - octocat
 body:
+  - type: input
+    id: 
+    attributes:
+      label: 
+      description: 
+      placeholder: 
+      validations:
+        required: false
   - type: markdown
     attributes:
       value: |
