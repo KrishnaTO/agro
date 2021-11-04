@@ -5279,7 +5279,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002075> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00010005> (inorganic fertilizer role)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.brenntag.com/en-us/industries/agriculture/guide-to-fertilizers/") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.britannica.com/topic/fertilizer") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00010005> "A fertilizer that is derived of one or more of nitrogen, phosphorus, and potassium."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.brenntag.com/en-us/industries/agriculture/guide-to-fertilizers/") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.britannica.com/topic/fertilizer") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00010005> "A role that inheres in a material entity that is mined from mineral deposits or manufactured from synthetic compounds and that excludes carbon-containing materials except ureas."@en)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00010005> <http://orcid.org/0000-0002-2627-0696>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/AGRO_00010005> "2021-10-10T23:49:58Z"^^xsd:dateTime)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.britannica.com/topic/fertilizer") rdfs:comment <http://purl.obolibrary.org/obo/AGRO_00010005> "Inorganic fertilizers exclude carbon-containing materials except ureas"@en)
