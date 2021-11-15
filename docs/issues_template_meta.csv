@@ -1,0 +1,14 @@
+,term,annot,property,title,ns,tag
+add-term.md,x,,,NTR,,term-add
+mergeTerm.md,x,,,Merge,,term-mod
+obsolete-a-term.md,x,,,Obsolete,,term-mod
+split-term.md,x,,,Split,,term-add
+add-synonym.md,,x,,Synonym,synonym,term-annot
+fix-xref.md,,x,,xref,dbXref,term-annot
+relabel-term.md,,x,,Label,label,term-annot
+revise-textual-definition.md,,x,,Def,def,term-annot
+typos-bugs-errors.md,,x,,,,
+revise-logical-definition.md,,,x,,,term-logic
+revise-subclass-relationship.md,,,x,Axiom,eq/subclass,term-logic
+custom.md,,,,,,
+qc.md,,,,,,

@@ -1,0 +1,1000 @@
+1238,OPEN,NTRs related to equipment found in food processing facilities,,2021-11-08 03:37:04 +0000 UTC
+1237,CLOSED,accidental creation from another issue [pls delete],,2021-11-05 01:10:00 +0000 UTC
+1234,OPEN,Add synonym - photosynthetically active radiation [PAR],,2021-11-03 13:22:27 +0000 UTC
+1226,OPEN,Documentation: no NTR should ever subclass a non-ENVO class,,2021-11-02 16:58:05 +0000 UTC
+1225,OPEN,New term: Constructed wetland = def. A wetland which was constructed,,2021-10-21 12:28:18 +0000 UTC
+1224,OPEN,New synonym request : dead organic matter,,2021-10-21 15:45:14 +0000 UTC
+1223,OPEN,Distinguish plant litter from leaf litter,,2021-10-21 13:48:02 +0000 UTC
+1222,CLOSED,Requesting id_range for Agronomy project,,2021-11-10 15:13:26 +0000 UTC
+1219,CLOSED,Suni instance has class level owl:Restriction,,2021-10-13 23:29:49 +0000 UTC
+1217,OPEN,issue when adding terms using the entity_attribute_location template,,2021-10-13 23:28:07 +0000 UTC
+1216,CLOSED,Undeclared class in foodon_import.owl,bug,2021-11-01 16:52:59 +0000 UTC
+1214,OPEN,NTR: bed net,,2021-10-05 17:19:02 +0000 UTC
+1213,OPEN,new term [Monument]: a type of structure that was explicitly created to commemorate a person or event",,2021-10-19 13:52:37 +0000 UTC
+1212,OPEN,Add broad syn "seagrass" to seagrass bed,,2021-10-13 19:15:02 +0000 UTC
+1210,CLOSED,NT: Taiga biome / boreal forest,,2021-09-21 17:58:35 +0000 UTC
+1209,OPEN,Create design patterns for biome and ecosystem,,2021-10-13 19:14:06 +0000 UTC
+1208,OPEN,terrestrial biome should be a subclass of terrestrial ecosystem,,2021-09-07 17:13:06 +0000 UTC
+1206,OPEN,New term: milky sea,,2021-08-30 06:17:55 +0000 UTC
+1205,OPEN,Modeling of earthquakes in envo,,2021-08-30 18:39:02 +0000 UTC
+1204,OPEN,No rain forest term?,,2021-08-23 12:37:46 +0000 UTC
+1203,OPEN,Definitions missing for several waste management terms,,2021-08-19 14:26:48 +0000 UTC
+1202,OPEN,DC vs oboInOwl annotation properties?,,2021-08-19 00:55:08 +0000 UTC
+1200,OPEN,Request for a new set of EnvO terms,GOLD/EBI-MGNIFY,2021-08-27 07:14:49 +0000 UTC
+1199,OPEN,inconsistencies in hierarchy between envo-basic.obo, envo-basic.json, and envo-basic.owl,,2021-08-06 20:19:36 +0000 UTC
+1198,OPEN,envo basic is missing many parents,,2021-08-09 15:41:22 +0000 UTC
+1196,OPEN,fluid astronomical body part and compound astronomical body part have same logical def,,2021-08-06 20:03:14 +0000 UTC
+1194,OPEN,Request for new ENVO terms,,2021-09-08 12:30:59 +0000 UTC
+1193,OPEN,Request for new EnvO terms,,2021-08-20 14:31:46 +0000 UTC
+1191,OPEN,Request for new terms,,2021-08-20 14:32:47 +0000 UTC
+1190,OPEN,Discuss: add import for REX,,2021-06-24 00:50:02 +0000 UTC
+1189,OPEN,NTR: insulated shipping container,,2021-06-23 19:35:37 +0000 UTC
+1187,CLOSED,envo_bridge is injecting a problematic IAO annotation,,2021-06-18 17:45:38 +0000 UTC
+1185,OPEN,Editing nurdle, obsoleting manufactured plastic, and plastic production compound, and adding further relevant classes to the envoPlastics subset,enhancement, SDG Ontology Framework,2021-06-25 14:11:37 +0000 UTC
+1183,OPEN,NTR: forest,GOLD/EBI-MGNIFY,2021-06-16 21:06:01 +0000 UTC
+1182,CLOSED,ro_import does not include domain/range constraints,,2021-10-13 19:06:43 +0000 UTC
+1181,CLOSED,incoherency: freezing fog,axiomatization,2021-09-23 13:35:46 +0000 UTC
+1180,OPEN,NTR: shipwreck,GOLD/EBI-MGNIFY,2021-06-15 08:02:14 +0000 UTC
+1179,OPEN,NTRs: Indoor and outdoor air,GOLD/EBI-MGNIFY,2021-06-15 03:39:18 +0000 UTC
+1178,OPEN,NTR: thermokarst pond,GOLD/EBI-MGNIFY,2021-06-15 03:31:43 +0000 UTC
+1177,OPEN,NTRs: algal bloom subtypes by taxonomy,GOLD/EBI-MGNIFY,2021-06-15 03:24:35 +0000 UTC
+1176,OPEN,NTR: Periphyton,GOLD/EBI-MGNIFY,2021-06-16 15:50:42 +0000 UTC
+1175,OPEN,NTR: hypoxic zone, anoxic zone,GOLD/EBI-MGNIFY,2021-06-15 03:24:34 +0000 UTC
+1174,OPEN,NTR: rainforest/rainforest biome and subtypes,GOLD/EBI-MGNIFY,2021-06-15 05:59:50 +0000 UTC
+1173,OPEN,headwater fixes,GOLD/EBI-MGNIFY,2021-06-15 03:24:34 +0000 UTC
+1170,CLOSED,Add obofoundry topic to repo metadata,,2021-06-08 12:30:42 +0000 UTC
+1168,OPEN,Adding axioms to plastic-related terms,enhancement,2021-10-07 08:56:25 +0000 UTC
+1167,OPEN,Post-merge curation of COVID transmission site terminology,enhancement,2021-05-19 17:33:30 +0000 UTC
+1166,CLOSED,Adjustments to existing terms and hierarchy in ENVO,,2021-06-08 12:31:36 +0000 UTC
+1165,OPEN,Set of terms that could go in ENVO rather than OBI,,2021-05-18 16:21:44 +0000 UTC
+1160,OPEN,ESIP SEM-Harmo Cryohackathon sessions Feb - April 2021,mapping, SWEET,2021-06-10 17:04:57 +0000 UTC
+1159,OPEN,Terms missing definitions,bug,2021-10-27 14:19:18 +0000 UTC
+1157,CLOSED,NTR: "weathering of plastic",SDG Ontology Framework, New term,2021-05-12 20:25:59 +0000 UTC
+1156,CLOSED,NTR: "fragmentation (process)",SDG Ontology Framework, New term,2021-05-14 09:18:27 +0000 UTC
+1154,OPEN,NTR: bituminous sands,enhancement,2021-05-14 14:08:07 +0000 UTC
+1152,CLOSED,NTR: "ingestion", "adsorption",SDG Ontology Framework, New term,2021-05-13 09:37:44 +0000 UTC
+1150,CLOSED,Editing plastic composition terms imported from CHEBI,SDG Ontology Framework, Modify term,2021-05-13 09:35:42 +0000 UTC
+1148,CLOSED,NTR: "plastic manufacturing process",SDG Ontology Framework, New term,2021-05-13 09:38:02 +0000 UTC
+1147,OPEN,same term for bioreactor in OBI,duplicate, Modify term, possible domain conflict,2021-05-10 17:57:11 +0000 UTC
+1144,CLOSED,NTR: "coastal anthropogenic litter",SDG Ontology Framework, New term,2021-05-10 16:37:06 +0000 UTC
+1142,CLOSED,NTR: "biopolymer" and "synthetic polymer",SDG Ontology Framework, New term,2021-05-13 09:38:21 +0000 UTC
+1141,OPEN,difference between shore, beach, and coast,,2021-05-11 01:47:17 +0000 UTC
+1139,CLOSED,NTR: "weathering", "entanglement" and "entanglement of organisms in marine debris",SDG Ontology Framework, New term,2021-05-12 20:27:33 +0000 UTC
+1137,CLOSED,NTR: "fishing", "fishing gear", "ghost fishing", "discarded fishing gear", "abandoned fishing gear" and "lost fishing gear",SDG Ontology Framework, New term,2021-05-13 09:38:58 +0000 UTC
+1136,CLOSED,NTR: "fouling", "biofouling",SDG Ontology Framework, New term,2021-05-13 09:37:23 +0000 UTC
+1134,CLOSED,Editing "foam" and "sea foam",SDG Ontology Framework, Modify term,2021-05-13 09:37:02 +0000 UTC
+1131,CLOSED,NTR: "natural plastic" and "synthetic plastic",SDG Ontology Framework, New term,2021-05-10 16:37:38 +0000 UTC
+1130,OPEN,Review FTT mappings,,2021-05-06 22:48:50 +0000 UTC
+1129,OPEN,Create SSSOM files for all mappings,mapping,2021-05-12 20:00:09 +0000 UTC
+1128,OPEN,github pages is incorrectly configured,,2021-05-19 17:09:06 +0000 UTC
+1126,CLOSED,NTR: "biodegradation", "biodegradation of plastic",SDG Ontology Framework, New term,2021-05-13 09:36:40 +0000 UTC
+1123,CLOSED,goosocean subset,,2021-05-06 11:08:24 +0000 UTC
+1122,CLOSED,Editing "marine bed", "shoreline", "sea surface layer",SDG Ontology Framework, Modify term,2021-05-12 20:30:53 +0000 UTC
+1120,CLOSED,NTR: "water column", "biota", "marine biota",SDG Ontology Framework, New term,2021-05-13 09:36:15 +0000 UTC
+1117,CLOSED,Adding multilingual interpretations to "waste disposal process", "recycling process" and "anthropogenic litter",SDG Ontology Framework, Modify term,2021-05-13 09:35:56 +0000 UTC
+1116,CLOSED,NTR: "plastic fragment", "plastic line", "plastic pellet",SDG Ontology Framework, New term,2021-05-13 09:35:35 +0000 UTC
+1114,CLOSED,NTR: "marine anthropogenic litter" and "littering",SDG Ontology Framework, New term,2021-05-13 09:34:46 +0000 UTC
+1112,CLOSED,Import of plastic-related terms,import,2021-05-07 16:30:05 +0000 UTC
+1111,OPEN,Pattern for pipeline network terms,thoughts,2021-05-04 08:18:58 +0000 UTC
+1110,OPEN,New Term Requests,,2021-05-06 17:59:39 +0000 UTC
+1108,CLOSED,Adding multilingual interpretations to "primary microplastic particle" and "secondary microplastic particle",SDG Ontology Framework,2021-05-13 09:34:21 +0000 UTC
+1106,CLOSED,Editing "piece of plastic" and "landfill",SDG Ontology Framework, Modify term,2021-05-13 09:34:10 +0000 UTC
+1103,OPEN,further specify fluid environmental material,,2021-04-29 15:15:50 +0000 UTC
+1102,OPEN,add "contaminated" pattern,,2021-04-29 14:54:26 +0000 UTC
+1101,CLOSED,Use has component relation for has part arity relations,,2021-04-29 21:04:36 +0000 UTC
+1099,CLOSED,NTR: "plastic film", "plastic foam",SDG Ontology Framework, New term,2021-05-14 05:44:58 +0000 UTC
+1096,CLOSED,NTR: "thermosetting disposition" , "thermosetting material",SDG Ontology Framework, New term,2021-05-13 09:33:28 +0000 UTC
+1094,CLOSED,NTR: "plastisphere",SDG Ontology Framework, New term,2021-05-06 14:38:51 +0000 UTC
+1093,OPEN,Merge agricultural process into agriculture,enhancement, possible domain conflict,2021-05-14 16:56:17 +0000 UTC
+1091,OPEN,Makefile implementation of "ENVO Robot template and merge workflow" wiki page?,general-maintenance,2021-04-23 16:31:00 +0000 UTC
+1089,OPEN,Consolidate ROBOT templates from #1030 and #1075,,2021-04-23 13:32:02 +0000 UTC
+1088,CLOSED,ID range reservation for NMDC,,2021-04-22 17:31:18 +0000 UTC
+1087,OPEN,robot query errors with envo owl artifacts,,2021-04-20 19:16:11 +0000 UTC
+1086,OPEN,Remove legacy synonyms on ice sheet,,2021-04-14 20:01:16 +0000 UTC
+1085,CLOSED,New subset - Required to update SLIM list in Makefile?,help wanted, documentation,2021-05-07 16:33:49 +0000 UTC
+1083,CLOSED,NTR: "megaplastic particle", "macroplastic particle", "mesoplastic particle", "nanoplastic particle",SDG Ontology Framework, New term,2021-05-13 09:40:18 +0000 UTC
+1081,CLOSED,NTR - Adding "thermoplastic material" and "thermoplasticity",SDG Ontology Framework, New term,2021-05-13 09:40:52 +0000 UTC
+1079,CLOSED,NTR - plastic,SDG Ontology Framework, New term,2021-05-06 14:39:12 +0000 UTC
+1077,CLOSED,Adding new ID-ranges for @iwilkie and @meichen-liu,,2021-04-08 09:14:55 +0000 UTC
+1076,CLOSED,Request term for cheese subpart,,2021-04-06 18:54:21 +0000 UTC
+1075,CLOSED,Jagadishcs term requests for NMDC: batch 2/2, 2021-04,,2021-06-08 13:18:59 +0000 UTC
+1074,CLOSED,Unsatisfiable classes (using HermiT),bug,2021-05-14 15:55:52 +0000 UTC
+1072,OPEN,ENVO is outside DL profile which causes reasoners to fail,,2021-09-03 03:14:56 +0000 UTC
+1070,OPEN,NTR robot file of new transportation and medical infrastructure and other terms,,2021-04-07 08:44:33 +0000 UTC
+1069,OPEN,Accidental equivalent definitions,bug,2021-04-08 03:45:20 +0000 UTC
+1068,OPEN,Usage of terms from EnvO 'material entity' & 'food material' for MIxS env_medium,MIxS,2021-03-09 14:07:08 +0000 UTC
+1067,OPEN,Request for new terms to be included in the EnvO that are already existing in PO & BTO,MIxS,2021-03-09 18:24:12 +0000 UTC
+1066,OPEN,documentation/standards for defining axioms,documentation,2021-03-09 23:06:02 +0000 UTC
+1065,CLOSED,Does ENVO want seasons?,,2021-03-02 21:20:39 +0000 UTC
+1063,OPEN,manufactured product parent terms,enhancement, axiomatization,2021-05-14 16:55:00 +0000 UTC
+1062,OPEN,Remove unreviewed terms,,2021-02-11 14:33:19 +0000 UTC
+1061,OPEN,Envo Term request for Lime Buffer Capacity and Equilibrium Lime Buffer Capacity,,2021-02-04 18:00:17 +0000 UTC
+1059,OPEN,Land as subclass or part of,thoughts,2021-03-09 21:34:07 +0000 UTC
+1058,OPEN,Geological vs geographic features,,2021-01-24 19:55:49 +0000 UTC
+1057,CLOSED,Should we subclass "System"?,wontfix,2021-03-09 19:15:36 +0000 UTC
+1056,OPEN,Should "plateau" be a subclass of "Land"?,,2021-01-17 22:08:54 +0000 UTC
+1055,OPEN,greenhouse biome?,,2021-04-26 09:34:30 +0000 UTC
+1053,OPEN,Align with OEO,,2021-01-08 09:38:08 +0000 UTC
+1052,OPEN,request term "freeze dried specimen",,2020-12-30 16:15:13 +0000 UTC
+1051,OPEN,definition of environmental system/environment,,2020-12-16 19:11:11 +0000 UTC
+1050,OPEN,request ENVO term for "subglacial water",,2020-12-14 09:27:53 +0000 UTC
+1048,CLOSED,Request for creation of a new biome/broad-scale environmental context term:,wontfix,2021-03-09 14:53:36 +0000 UTC
+1047,OPEN,request ENVO term for purified deionized water (e.g. milli q),,2021-03-10 07:53:12 +0000 UTC
+1046,OPEN,Deprecate ENVO:alga replaced by PCO:alga excluding Cyanobacteria?,,2020-11-23 21:10:33 +0000 UTC
+1045,OPEN,Same identifier assigned to several term through `alt_id`,,2020-12-01 22:38:53 +0000 UTC
+1044,OPEN,Document requirements and usage of ENVO for earth-specific vs interplanetary use cases,documentation,2021-03-09 07:54:06 +0000 UTC
+1042,OPEN,Correct part relation in Grain of Sand and in Sand,axiomatization,2021-03-09 21:12:52 +0000 UTC
+1041,OPEN,NASA is using ENVO and other OBO foundry terms for definitions of terms,,2021-01-28 23:09:07 +0000 UTC
+1039,OPEN,design patterns for emission processes,axiomatization,2021-03-09 17:10:48 +0000 UTC
+1038,CLOSED,Addition to the Editor's Slack,,2020-11-23 21:04:16 +0000 UTC
+1037,OPEN,high atmospheric level: Expand subClassOf A and B to two subClassOf axioms,axiomatization,2021-03-09 15:02:17 +0000 UTC
+1036,OPEN,Suggested changes to use of PATO in cirrostratus cloud,axiomatization,2021-03-09 12:53:01 +0000 UTC
+1034,OPEN,suggested axiom changes to ice hierarchy,axiomatization,2020-11-19 17:07:57 +0000 UTC
+1033,OPEN,ice field proposed simplifications,axiomatization,2021-03-09 15:02:43 +0000 UTC
+1030,OPEN,Jagadishcs term requests for NMDC: batch 1/2 2020-10 (env-medium and local-env),,2021-05-12 16:49:18 +0000 UTC
+1029,OPEN,EnvO terms for host-associated samples,question,2020-11-23 19:40:06 +0000 UTC
+1028,OPEN,Cryohackathon session Oct-14 and Nov-18,enhancement, mapping, SWEET,2020-11-23 19:59:33 +0000 UTC
+1027,OPEN,Uberon anatomical entity vs CARO anatomical entity,,2020-11-09 01:31:01 +0000 UTC
+1026,OPEN,Use travis to check curated TSVs/CSVs have UNIX line endings,,2021-04-06 07:53:52 +0000 UTC
+1025,OPEN,New subclass of poultry manure: duck manure,,2020-10-06 15:12:24 +0000 UTC
+1024,OPEN,New subclass of poultry manure: turkey manure,,2020-10-06 15:01:37 +0000 UTC
+1023,OPEN,New subclass of poultry manure: chicken manure,,2020-10-06 13:57:13 +0000 UTC
+1022,OPEN,Reclassify bovine dairy liquid manure under a new term bovine manure,,2020-10-06 13:01:21 +0000 UTC
+1018,OPEN,review robot report 2020-09-30,,2020-10-14 19:18:31 +0000 UTC
+1017,OPEN,For class 'eaves' the definition is included as 'has_narrrow_synonym',,2020-09-24 13:54:40 +0000 UTC
+1015,OPEN,Add more precise measurements for classification of water by salinity,,2020-11-02 14:21:56 +0000 UTC
+1014,CLOSED,Small lake biome is classified under freshwater lake biome,MIxS,2021-09-07 17:17:54 +0000 UTC
+1013,OPEN,Add comment to 'eaves' describing function?,,2020-09-24 13:53:01 +0000 UTC
+1012,OPEN,NTR: Famine (revisiting),,2021-03-30 20:24:45 +0000 UTC
+1010,CLOSED,Cryohackathon session,enhancement,2020-10-14 18:52:14 +0000 UTC
+1009,OPEN,NTR: snowpack water volume,enhancement,2020-09-10 14:20:47 +0000 UTC
+1008,OPEN,NTR: human dwelling environment related terms,,2020-12-16 19:26:39 +0000 UTC
+1006,OPEN,Mixture terms require new imports,,2020-12-15 23:54:14 +0000 UTC
+1005,OPEN,NTRs: flammagenitus, cumulonimbus flammagenitus cloud,,2020-09-12 15:51:01 +0000 UTC
+1004,CLOSED,ecoregion is both material and immaterial!,UA-SRC,2020-09-23 14:38:57 +0000 UTC
+1003,OPEN,NTR: topsoil,soil, UA-SRC,2020-08-31 22:09:17 +0000 UTC
+1001,OPEN,Incorporate "Ontology of Soil Properties and Processes",soil, mapping,2020-08-13 10:15:18 +0000 UTC
+1000,OPEN,Nebulae: space clouds?,Modify term, New term,2020-08-13 15:06:46 +0000 UTC
+999,OPEN,create atmospheric étages,New term, thoughts,2020-09-07 12:47:12 +0000 UTC
+998,OPEN,Term revisions: cloud genera,enhancement, Modify term,2020-09-10 10:08:39 +0000 UTC
+996,CLOSED,Term revision: Cumulus cloud,bug, enhancement, Modify term,2020-08-10 12:21:28 +0000 UTC
+995,OPEN,Add Zobler soil types,soil,2020-09-09 03:59:49 +0000 UTC
+990,OPEN,NTR: graupel,enhancement, mapping, Hazards, MIxS, SWEET,2020-08-10 13:00:46 +0000 UTC
+989,OPEN,Rename 'master' branch to something like 'primary', or 'trunk',,2020-07-16 08:26:40 +0000 UTC
+987,OPEN,Upgrade debris flow semantics for wildfire use cases,enhancement, axiomatization, soil, Hazards,2020-07-16 04:03:38 +0000 UTC
+983,CLOSED,NTRs for ECTO exposure use cases,enhancement, Hazards,2020-07-31 18:06:11 +0000 UTC
+982,OPEN,ENVO mappings for a few SESAR 'material' terms,,2020-06-30 01:11:33 +0000 UTC
+981,OPEN,Request for assigning a few ENVO terms under ENVO feature,MIxS,2020-10-06 07:27:57 +0000 UTC
+980,OPEN,Request for new ENVO term labels:,,2020-07-06 22:16:10 +0000 UTC
+977,OPEN,Ensure consistent use of CHEBI for design patterns,Modify term, pattern,2020-07-18 05:25:59 +0000 UTC
+974,CLOSED,NTR: potting soil,soil, PR submitted, UA-SRC,2020-08-10 12:45:35 +0000 UTC
+973,OPEN,compost soil lacking definition,soil, PR submitted, UA-SRC,2020-08-05 23:54:06 +0000 UTC
+972,OPEN,Consider OLS as standard resolver,,2020-06-18 19:26:28 +0000 UTC
+971,OPEN,Proposed rename: solid astronomical body part -> landform,,2020-06-15 23:19:18 +0000 UTC
+969,CLOSED,Error in target imports/seed.txt,question,2020-06-07 23:35:06 +0000 UTC
+967,OPEN,Creation of ENVO planned process DOSDP,enhancement, pattern,2020-06-11 19:27:08 +0000 UTC
+964,OPEN,NTR: environmental structure: new grouping above astronomical body part,enhancement, New term,2020-10-06 21:51:45 +0000 UTC
+963,CLOSED,frazil + frazile ice both under both material and ABP,question, interesting-discussion, in editor's version,2020-07-03 08:37:01 +0000 UTC
+960,CLOSED,Request for the individual list of ENVO terms by each of the triad,question,2020-06-10 23:29:50 +0000 UTC
+958,CLOSED,Request for a new term - Fracking water (ENVO material),enhancement, in editor's version, GOLD/EBI-MGNIFY,2020-07-03 08:30:51 +0000 UTC
+955,CLOSED,Term ENVO_01000814 misplaced in hierarchy,bug, axiomatization,2020-06-01 22:41:08 +0000 UTC
+954,OPEN,Australian landform classification - alignment opportunity? checklist?,question, mapping,2020-06-02 18:48:36 +0000 UTC
+953,OPEN,NTRs regarding soil measurements and processes,enhancement, soil,2021-02-10 10:00:56 +0000 UTC
+952,CLOSED,Term ENVO_00000428 missing a label,in editor's version,2020-07-03 08:30:50 +0000 UTC
+950,OPEN,Bulk request for weather related "terms",enhancement,2020-08-10 13:02:26 +0000 UTC
+949,CLOSED,move external bridging axioms to separate import,,2020-05-30 17:24:15 +0000 UTC
+948,CLOSED,Fix robot report ERRORs,,2020-05-15 02:29:29 +0000 UTC
+947,CLOSED,can't clone ENVO,,2020-06-18 23:20:30 +0000 UTC
+946,OPEN,NTRs: concentration of... in soil and in water,enhancement, soil, Planet Microbe,2020-08-05 23:54:05 +0000 UTC
+945,OPEN,remove foodon import,,2021-10-15 19:26:05 +0000 UTC
+944,OPEN,dubious class: planetary manufacturing process,,2020-06-03 23:09:28 +0000 UTC
+943,CLOSED,anthropogenic generation of energy: incorrect equiv axioms,,2020-05-15 02:29:28 +0000 UTC
+941,OPEN,volcanic ash has one subtype: acidic volcanic ash,,2020-05-14 17:26:55 +0000 UTC
+940,OPEN,fluid, gas, liquid, plasma,,2020-05-14 00:37:36 +0000 UTC
+939,OPEN,Check for duplicate IDs when de-padded,,2020-05-14 00:05:16 +0000 UTC
+938,CLOSED,id-ranges files needs extra zero padding,,2020-05-14 00:03:17 +0000 UTC
+937,CLOSED,duplicate definitions,,2020-05-15 02:29:28 +0000 UTC
+936,OPEN,Sublcasses of ice field,,2020-05-13 20:01:26 +0000 UTC
+935,CLOSED,Biome class missing an rdfs:label in main ENVO file,,2020-06-01 17:10:46 +0000 UTC
+934,OPEN,glacial advance,,2020-05-13 18:36:36 +0000 UTC
+932,OPEN,planned deforestation: axiomatize using standard pattern (or potentially obsolete),,2020-06-03 16:33:24 +0000 UTC
+931,OPEN,site vs. geographical entity,axiomatization, in editor's version,2020-04-30 12:07:21 +0000 UTC
+930,OPEN,improve empo subset,,2020-04-17 20:17:31 +0000 UTC
+929,CLOSED,Hydrothermal field,in editor's version,2020-07-03 08:30:50 +0000 UTC
+927,OPEN,NTRs: Rock phosphate, Kainite, Carnallite, rotten stone,enhancement,2020-04-08 23:35:20 +0000 UTC
+926,CLOSED,NTRs: hatchery, poultry hatchery, manure pit,enhancement, New term, in editor's version,2020-07-03 08:37:00 +0000 UTC
+925,CLOSED,Link cold seep biomes to cold seeps,enhancement, in editor's version,2020-07-03 08:37:00 +0000 UTC
+924,CLOSED,Obsolete legacy ground water term,bug,2021-03-09 14:54:50 +0000 UTC
+923,OPEN,new classes: porosity of snow and porosity of ice,MIxS,2020-06-03 01:42:40 +0000 UTC
+922,OPEN,NTR: faecal string of shrimp,,2020-07-29 13:26:17 +0000 UTC
+921,OPEN,NTR: typhoon,,2020-03-11 13:56:42 +0000 UTC
+920,OPEN,Check and address OBO dashboard results,bug, enhancement,2020-03-10 22:34:04 +0000 UTC
+919,OPEN,NTR: wave,,2020-04-08 19:53:11 +0000 UTC
+918,CLOSED,NTR: tin building roof,,2020-11-24 20:15:31 +0000 UTC
+917,CLOSED,CSV export of ENVO terms,,2020-02-21 16:59:01 +0000 UTC
+916,OPEN,Greenhouse gas causally influences climate change - BFO role and causality,question, axiomatization,2020-03-03 14:43:20 +0000 UTC
+915,OPEN,Clean up branches,,2020-02-13 12:08:51 +0000 UTC
+913,OPEN,Outdated imports and unsats,,2020-02-11 08:55:07 +0000 UTC
+912,OPEN,Create/organize training material for EnvO contributors,documentation,2021-03-10 05:14:45 +0000 UTC
+910,OPEN,Naming conventions for ENVO modules,enhancement, question,2020-02-15 01:05:05 +0000 UTC
+909,CLOSED,Spin off new ontology for environmental parameters,,2021-03-09 17:57:19 +0000 UTC
+908,OPEN,NTR: ice-wedge polygon, ice wedge,,2020-03-06 10:16:11 +0000 UTC
+907,OPEN,NTR: depth to bedrock,,2021-03-13 00:13:12 +0000 UTC
+906,CLOSED,Add license to header,,2020-02-28 21:08:29 +0000 UTC
+905,OPEN,dc11 vs dcterms as namespace for Dublin Core,,2019-12-13 04:48:33 +0000 UTC
+904,OPEN,Finalise GOOS EOVs,enhancement, SDG Ontology Framework,2020-08-05 12:32:47 +0000 UTC
+903,CLOSED,NTR: volcanic field,enhancement, Hazards, MIxS,2020-04-08 18:45:08 +0000 UTC
+901,OPEN,Violence axioms,,2019-11-07 17:04:21 +0000 UTC
+900,CLOSED,Solid environmental material as a subclass of ice,interesting-discussion,2020-11-12 14:15:30 +0000 UTC
+897,OPEN,NTRs related to MIxS sediment checklist,enhancement, possible domain conflict, MIxS,2020-01-17 06:43:11 +0000 UTC
+896,OPEN,NTRs regarding soil properties and qualities for MIxS key mappings and some others,soil, MIxS,2020-08-05 23:54:05 +0000 UTC
+895,OPEN,'volcanic soil' needs work,enhancement, soil, PR submitted, GOLD/EBI-MGNIFY,2020-08-05 23:55:07 +0000 UTC
+894,OPEN,"permeability of soil" and "porosity of soil",soil,2020-08-05 23:55:07 +0000 UTC
+893,OPEN,new term request - interior wall,,2019-10-24 21:20:52 +0000 UTC
+892,CLOSED,MIxS use of Biome hierarchy,MIxS,2021-03-09 16:31:18 +0000 UTC
+891,OPEN,Review terms 'fecal environment' and 'fecal material' (ENVO:01001029, ENVO:00002003),MIxS,2019-11-07 13:40:13 +0000 UTC
+890,OPEN,NTR: depth in soil,soil, MIxS,2020-08-05 23:55:07 +0000 UTC
+889,OPEN,Environmental processes classes request,,2019-10-23 09:59:22 +0000 UTC
+888,OPEN,How to represent environmental impacts (causality in BFO),,2019-10-22 11:53:53 +0000 UTC
+887,CLOSED,New ENVO term "enrichment culture",enhancement, in editor's version, MIxS,2020-07-03 08:37:00 +0000 UTC
+886,OPEN,Add environmental qualities for inside and outside,,2019-10-16 22:16:52 +0000 UTC
+885,OPEN,move website to GitHub pages or similar,,2020-08-07 22:13:52 +0000 UTC
+884,OPEN,Add check to ensure IDs do not clash when zero-padding removed,,2019-10-14 17:26:36 +0000 UTC
+883,OPEN,liquid water salinity,enhancement, Planet Microbe, MIxS, BCODMO,2020-10-06 23:09:04 +0000 UTC
+882,OPEN,turbidity of liquid water,Planet Microbe, MIxS,2019-10-24 19:12:22 +0000 UTC
+881,OPEN,Validate survival of module obsolescence,question,2019-10-06 21:24:15 +0000 UTC
+880,OPEN,Enhance fire semantics,enhancement,2019-10-06 19:55:50 +0000 UTC
+879,OPEN,NTR: altitude,,2019-09-17 16:48:43 +0000 UTC
+878,OPEN,NTR: black carbon,,2019-09-10 06:46:47 +0000 UTC
+877,OPEN,NTRs: Sponge environments,,2019-09-09 09:38:26 +0000 UTC
+876,OPEN,Stale definitions from PCO survive in release files,bug,2019-10-02 04:25:12 +0000 UTC
+875,OPEN,non used 'subsets',,2019-09-06 05:07:48 +0000 UTC
+874,OPEN,RO:0002259 should perhaps not be taken as a 'subset',,2019-09-06 03:57:21 +0000 UTC
+873,OPEN,not used entry in ENVO,low priority,2019-09-07 13:02:59 +0000 UTC
+872,OPEN,'ObsoleteClass' entry doesn't follow OBO 'id' spec,,2019-09-06 03:45:47 +0000 UTC
+871,OPEN,Multiple subsets missing in headers,bug,2019-09-06 05:34:48 +0000 UTC
+870,OPEN,BUG: incomplete annotation property pruning in release version,bug,2019-09-06 02:35:45 +0000 UTC
+869,OPEN,ecological succession processes,enhancement, axiomatization,2019-09-04 09:50:57 +0000 UTC
+868,OPEN,NTR: Meol,enhancement, SDG Ontology Framework,2019-09-04 03:39:58 +0000 UTC
+867,OPEN,NTR: atmospheric ghost lights,enhancement, interesting-discussion, SDG Ontology Framework,2019-09-04 04:00:32 +0000 UTC
+866,OPEN,past ENVO releases in obograph json format,,2019-09-03 21:22:24 +0000 UTC
+865,OPEN,Refactoring biome,,2019-10-07 00:53:47 +0000 UTC
+864,OPEN,Wrangle areas and astronomical body parts,,2019-09-04 10:29:55 +0000 UTC
+863,OPEN,Create DP for fumes,,2019-08-30 12:59:02 +0000 UTC
+862,OPEN,NTR: tobacco smoke,,2019-08-27 20:59:53 +0000 UTC
+861,CLOSED,fumes, vapors, and gases,,2019-08-30 12:48:59 +0000 UTC
+860,CLOSED,NTR: seismic activity,in editor's version, Hazards,2020-07-03 08:37:00 +0000 UTC
+859,OPEN,NTR: lots of anthropogenic features,,2019-11-05 16:15:47 +0000 UTC
+858,OPEN,GOLD/EBI Air terms,enhancement, mapping, GOLD/EBI-MGNIFY,2019-10-16 21:27:03 +0000 UTC
+857,OPEN,NTR: age-depth model,,2019-12-10 12:23:04 +0000 UTC
+856,OPEN,NTR: Chemical fire,Hazards,2019-09-09 14:07:08 +0000 UTC
+850,OPEN,NTR:hydrocarbon-based oil,Hazards,2019-08-23 12:41:07 +0000 UTC
+849,CLOSED,NTR: wind storm,in editor's version, PR submitted, Hazards,2020-07-03 08:36:59 +0000 UTC
+848,CLOSED,NTR: monsoon,in editor's version, PR submitted, Hazards,2020-07-03 08:36:59 +0000 UTC
+847,OPEN,NTR: derecho,Hazards,2020-06-19 03:28:47 +0000 UTC
+846,CLOSED,NTR: acid rain,in editor's version, PR submitted, Hazards,2020-07-03 08:36:58 +0000 UTC
+845,OPEN,NTR: coastal erosion,Hazards,2019-08-21 17:02:35 +0000 UTC
+844,OPEN,NTR: chemical spill,Hazards,2019-08-16 09:49:12 +0000 UTC
+843,OPEN,NTR: loess,,2019-08-14 09:36:50 +0000 UTC
+842,OPEN,NTR: saltation,,2019-08-12 20:03:48 +0000 UTC
+841,OPEN,NTR: fluid,,2019-08-12 20:04:00 +0000 UTC
+836,OPEN,Does 'atmospheric aerosolisation of dust' include 'sand-storm'?,Hazards,2019-08-16 09:49:34 +0000 UTC
+835,OPEN,NTR: Pyroclastic flow,Hazards,2019-08-16 09:49:52 +0000 UTC
+834,OPEN,NTR: Seiche,Hazards,2019-08-20 17:14:48 +0000 UTC
+833,OPEN,Upload ENVO to Wikidata mappings,,2019-08-19 01:57:35 +0000 UTC
+832,CLOSED,NTR: Fire break,in editor's version, PR submitted, Hazards,2020-07-03 08:36:58 +0000 UTC
+831,CLOSED,NTR: Planned burn,in editor's version, PR submitted, Hazards,2020-07-03 08:36:58 +0000 UTC
+830,OPEN,human environmental conditions,,2019-08-20 13:52:14 +0000 UTC
+829,OPEN,"area of scrub" vs "scrubland area",Hazards,2019-08-16 09:51:06 +0000 UTC
+828,CLOSED,NTR: Grass-fire,in editor's version, PR submitted, Hazards,2020-07-03 09:49:09 +0000 UTC
+827,OPEN,wildfire/bushfire hierarchy and defs,Hazards,2019-08-16 09:51:54 +0000 UTC
+825,OPEN,NTR: Australian Soil Classification,soil,2020-09-09 12:10:21 +0000 UTC
+823,OPEN,Atmospheric fronts,enhancement, axiomatization, in editor's version, mapping,2020-07-03 09:47:21 +0000 UTC
+822,OPEN,Celebrating Apollo 11!,,2019-08-14 06:05:18 +0000 UTC
+821,CLOSED,ENVO marine oxygen minimum zone lacks defintion,bug, SDG Ontology Framework, in editor's version, PR submitted,2020-07-03 09:55:03 +0000 UTC
+818,CLOSED,NTR: open cage mariculture,enhancement, in editor's version,2020-07-03 08:36:58 +0000 UTC
+817,OPEN,NTRs: sustainability,SDG Ontology Framework, possible domain conflict,2019-07-23 10:54:42 +0000 UTC
+816,OPEN,Land use logical definition does not match text definition,enhancement, axiomatization,2019-07-22 16:56:37 +0000 UTC
+814,CLOSED,new term Jökulhlaup,enhancement, in editor's version,2020-07-03 08:36:57 +0000 UTC
+812,CLOSED,add glaciovolcano,enhancement, in editor's version,2020-07-03 08:30:50 +0000 UTC
+808,CLOSED,creation of urea in liquid water,enhancement, in editor's version, Planet Microbe,2020-07-03 08:30:49 +0000 UTC
+807,OPEN,envo microbiome,help wanted, interesting-discussion, possible domain conflict,2019-07-24 14:00:33 +0000 UTC
+805,OPEN,Tropical forest biome,GOLD/EBI-MGNIFY,2019-08-16 10:02:32 +0000 UTC
+804,OPEN,Crystal geyser?,question, GOLD/EBI-MGNIFY,2021-06-15 03:35:15 +0000 UTC
+803,OPEN,Freshwater sediment biome?,GOLD/EBI-MGNIFY,2019-08-16 10:03:44 +0000 UTC
+802,OPEN,Termite gut,enhancement, GOLD/EBI-MGNIFY,2019-08-16 10:04:13 +0000 UTC
+801,CLOSED,thalassic and athalassic qualities,in editor's version, GOLD/EBI-MGNIFY,2020-07-03 09:57:01 +0000 UTC
+800,OPEN,xref for definition of 'area of lichen dominated vegetation' does not resolve,,2019-07-17 15:25:08 +0000 UTC
+798,CLOSED,vadose cave,in editor's version,2020-07-03 08:30:49 +0000 UTC
+795,CLOSED,add intermediate parent for atmospheric aerosol formation,enhancement, in editor's version,2020-07-03 09:48:20 +0000 UTC
+794,OPEN,New DP: formation process,,2019-06-08 18:07:19 +0000 UTC
+793,CLOSED,Shared exact synonyms,bug, high priority, in editor's version,2020-07-19 03:25:41 +0000 UTC
+792,OPEN,Add design pattern for ecosystem and biome,axiomatization,2019-06-11 12:28:14 +0000 UTC
+791,OPEN,incorrect classification: mangrove island is-a ecosystem,axiomatization,2019-07-15 20:22:32 +0000 UTC
+790,OPEN,polar biome has only a single subclass,,2019-06-10 18:04:36 +0000 UTC
+789,OPEN,Missing ontology header info,bug,2019-07-25 15:02:05 +0000 UTC
+788,CLOSED,Duplicate definitions,bug, high priority, in editor's version,2020-07-03 09:49:50 +0000 UTC
+787,CLOSED,tundra, tundra biome, tundra ecosystem,enhancement, interesting-discussion, axiomatization, in editor's version,2020-07-03 09:53:03 +0000 UTC
+785,CLOSED,NTR: carbon sequestration,enhancement, in editor's version,2020-07-03 08:36:57 +0000 UTC
+782,CLOSED,ice superclass to soild environmental material,enhancement, interesting-discussion, MIxS,2020-06-01 22:41:09 +0000 UTC
+781,OPEN,organismal groupings for EBI/JGI GOLD microbiome terms,mapping, GOLD/EBI-MGNIFY,2019-08-16 10:01:31 +0000 UTC
+780,OPEN,Add fish agri-food system,,2019-07-16 14:36:43 +0000 UTC
+779,OPEN,Mine NatSciData environment descriptors for targets,,2019-05-22 16:03:55 +0000 UTC
+777,CLOSED,NTR: submarine groundwater discharge,enhancement, high priority, in editor's version,2020-07-03 08:36:56 +0000 UTC
+776,OPEN,seamount and submarine volcano,GOLD/EBI-MGNIFY,2019-08-16 09:58:58 +0000 UTC
+775,CLOSED,epilimnion and hypolimnion,GOLD/EBI-MGNIFY,2019-10-08 22:24:32 +0000 UTC
+773,OPEN,Map phsyiographic feature component of IGSN,,2020-05-24 22:01:58 +0000 UTC
+772,OPEN,Add term : superionic ice,enhancement,2019-05-09 17:16:36 +0000 UTC
+770,CLOSED,Add term: manganese nodule ecosystem,enhancement, high priority, axiomatization, in editor's version,2020-07-03 08:36:56 +0000 UTC
+769,OPEN,Add multiple issue templates,enhancement,2020-10-05 21:52:30 +0000 UTC
+768,CLOSED,Usage of 'composed primarily of' relation,help wanted, question,2021-03-09 21:19:35 +0000 UTC
+766,CLOSED,Add column for environmental system to ebi_biomes.csv,,2019-05-02 17:44:45 +0000 UTC
+764,CLOSED,NTR: particulate organic matter terms,,2019-05-03 11:07:32 +0000 UTC
+758,CLOSED,Please add ruth.duerr3@gmail.com to the ENVO editors slack channel,,2019-04-26 16:41:59 +0000 UTC
+757,OPEN,Update DbXref for INTERNAS contributions,,2019-04-25 16:16:02 +0000 UTC
+754,OPEN,synonyms for bare soil and related terms,soil,2019-05-02 18:15:49 +0000 UTC
+752,CLOSED,Duplicate axioms in some classes,,2019-04-15 17:23:15 +0000 UTC
+750,CLOSED,NTR: bare soil,enhancement,2019-04-23 16:48:02 +0000 UTC
+749,CLOSED,potentially duplicated classes: oxygen and dioxygen in water,question, axiomatization, in editor's version, PR submitted, Planet Microbe,2020-07-03 08:36:55 +0000 UTC
+748,OPEN,NTR: permafrost freezing process,help wanted, question,2019-05-03 11:01:00 +0000 UTC
+746,OPEN,Revise thermokarst semantics,bug, enhancement,2019-04-09 17:45:30 +0000 UTC
+744,CLOSED,NTR: soil organic matter,soil,2020-08-05 23:55:05 +0000 UTC
+743,OPEN,Change label for marine layer,,2019-04-05 04:29:43 +0000 UTC
+741,CLOSED,NTR: active layer,enhancement,2019-04-30 06:33:01 +0000 UTC
+740,OPEN,Explore ESRI EMU Framework,,2019-03-28 08:55:42 +0000 UTC
+739,CLOSED,Updating definition and axioms for tundra,enhancement,2019-04-26 22:45:52 +0000 UTC
+738,OPEN,Add semantics of Sargasso blooms and invasion / overproduction and impacts,,2019-03-27 10:59:44 +0000 UTC
+737,OPEN,The many faces of paraffin: hierarchy refactoring,enhancement,2019-03-24 19:21:50 +0000 UTC
+735,CLOSED,modification of ebi_biomes.csv,GOLD/EBI-MGNIFY,2019-10-08 22:27:13 +0000 UTC
+733,CLOSED,Addition of id ranges for chemical_concentration and ebi_biomes,GOLD/EBI-MGNIFY, Planet Microbe,2019-10-08 23:07:27 +0000 UTC
+731,OPEN,Map to NERC VS,enhancement, mapping,2020-07-16 21:46:07 +0000 UTC
+729,CLOSED,fix label for balast water,,2019-03-20 21:04:03 +0000 UTC
+727,CLOSED,NTR: lake water,enhancement, in editor's version,2019-04-05 00:31:03 +0000 UTC
+725,CLOSED,NTR: speed of a water current,enhancement, in editor's version,2020-07-03 09:53:53 +0000 UTC
+724,OPEN,Incomplete deduplication of APs in release,,2019-04-15 14:28:25 +0000 UTC
+723,OPEN,NTR: Cyclogenesis and Anticyclogenesis,,2019-03-26 14:24:53 +0000 UTC
+721,CLOSED,import new terms from CHEBI,enhancement,2019-04-29 17:54:59 +0000 UTC
+719,CLOSED,NTR: terms for concentration of carbon dioxide in environmental material,,2019-03-20 00:22:30 +0000 UTC
+718,OPEN,Add and correct logical axioms to environmental zone,enhancement, interesting-discussion, axiomatization,2019-10-14 03:03:05 +0000 UTC
+716,OPEN,Change ENVO_01000551 label 'paraffin' to 'kerosene'?,bug, enhancement, in editor's version,2020-07-03 21:39:03 +0000 UTC
+711,CLOSED,water chlorophyll concentration,Planet Microbe,2019-10-08 22:27:58 +0000 UTC
+707,CLOSED,NTR: sea surface temperature,enhancement, in editor's version,2019-03-18 15:24:59 +0000 UTC
+705,OPEN,axiom for connecting two objects,,2019-03-06 03:43:16 +0000 UTC
+703,CLOSED,NTR: frost heaving,enhancement, in editor's version,2019-03-18 20:25:44 +0000 UTC
+701,CLOSED,NTR: adfreeze,in editor's version,2019-03-18 20:29:30 +0000 UTC
+700,CLOSED,Integrate robot report into workflow,,2020-09-30 20:58:18 +0000 UTC
+699,CLOSED,mountain classes have incorrectly formatted dbxrefs preventing release,bug, help wanted, high priority,2019-03-18 15:54:54 +0000 UTC
+697,CLOSED,delete newCloud,,2019-03-05 02:34:57 +0000 UTC
+689,CLOSED,Roundtrip envo-edit.owl to use latest owlapi,,2019-03-02 00:46:39 +0000 UTC
+687,CLOSED,increased combustibility unsatisfiable,,2019-03-02 11:07:28 +0000 UTC
+686,CLOSED,unsatisfiable class planetary wind,,2019-03-02 01:11:12 +0000 UTC
+684,CLOSED,unsatisfiable class area of perennial ice or snow,in editor's version,2019-03-18 15:24:58 +0000 UTC
+683,CLOSED,failure while preparing release with ODK,,2019-03-02 00:30:55 +0000 UTC
+679,CLOSED,Fix chemical_concentration.yaml,Planet Microbe,2019-10-08 23:05:05 +0000 UTC
+677,CLOSED,creation of a robot template tsv for biome classes,GOLD/EBI-MGNIFY,2019-10-08 23:05:24 +0000 UTC
+676,CLOSED,Use RO determined_by relation,enhancement, axiomatization, in editor's version,2019-03-14 01:56:57 +0000 UTC
+674,CLOSED,Addition of CHEBI:26675 - silicic acid,Planet Microbe,2019-10-08 23:05:49 +0000 UTC
+672,OPEN,Creation of EBI Biome terms,enhancement, mapping, GOLD/EBI-MGNIFY,2019-08-16 09:58:16 +0000 UTC
+669,OPEN,Refactor repo to use standard ODK Makefile,,2019-03-02 12:03:28 +0000 UTC
+668,CLOSED,Create more detailed documentation on git workflow,,2019-03-05 17:09:47 +0000 UTC
+667,OPEN,Use dosdp-tools rather than apply-pattern,,2019-03-02 10:26:17 +0000 UTC
+666,CLOSED,make new template for chemical concentration in environmental material,Planet Microbe,2019-10-08 23:06:49 +0000 UTC
+663,CLOSED,Create a class for NOX,in editor's version, PR submitted, Planet Microbe,2020-07-03 09:57:35 +0000 UTC
+661,OPEN,surface layer changes,,2019-03-02 13:17:55 +0000 UTC
+660,CLOSED,NTR: undergrowth,in editor's version,2019-03-18 15:24:58 +0000 UTC
+659,CLOSED,NTR: Forest floor,in editor's version,2019-03-18 15:24:58 +0000 UTC
+658,OPEN,PURLs for WWF ecoregions,help wanted, high priority,2021-09-07 20:16:05 +0000 UTC
+657,OPEN,Handling the idea of sample in ENVO and SWEET,,2019-01-18 05:17:12 +0000 UTC
+656,CLOSED,NTR: infrasound,in editor's version,2019-03-18 15:24:58 +0000 UTC
+655,OPEN,NTR: maternal famine,,2019-07-30 20:38:48 +0000 UTC
+654,OPEN,Consider updates to Ice Cap definition,enhancement,2019-01-24 16:07:08 +0000 UTC
+653,OPEN,Plastic properties for things like frozen land,,2019-03-02 11:31:44 +0000 UTC
+652,OPEN,Definition of Frazil ice,,2019-03-02 11:27:28 +0000 UTC
+651,OPEN,Create sized based categories for ice floes,,2019-01-29 01:13:58 +0000 UTC
+650,OPEN,Cross axiomatise / import taxa for alpine tundra biome,enhancement, axiomatization, class available!,2019-05-03 11:06:29 +0000 UTC
+649,CLOSED,Reference fix for GCW dbxrefs,,2019-03-06 20:38:35 +0000 UTC
+648,CLOSED,how to refer to rainfall?,in editor's version,2019-03-18 15:24:58 +0000 UTC
+645,OPEN,foodon food product class placement,,2018-12-05 20:27:07 +0000 UTC
+644,OPEN,NTR: climatic zone,,2018-12-03 09:33:04 +0000 UTC
+642,OPEN,Fill in missing MEO syns,mapping,2018-11-12 22:25:14 +0000 UTC
+641,OPEN,bog as synonym for toilet,enhancement,2018-11-13 10:05:37 +0000 UTC
+640,OPEN,Include envoEmpo obo and json in release subset,,2018-11-12 22:25:14 +0000 UTC
+633,CLOSED,Previous FoodOn self-parent issue surfaces in ENVO,,2019-02-15 18:21:56 +0000 UTC
+632,OPEN,NTRs related to glacial flow,enhancement,2018-10-24 17:56:44 +0000 UTC
+631,CLOSED,NTR: moonmoon,enhancement, question,2021-03-09 21:21:07 +0000 UTC
+630,CLOSED,Should "tap water" be in ENVO or FoodOn?,,2018-11-12 22:31:37 +0000 UTC
+629,CLOSED,NTR: satellite imaging,enhancement, in editor's version,2019-03-18 15:24:58 +0000 UTC
+628,CLOSED,Add "prison" under building,enhancement, in editor's version,2019-03-18 15:24:58 +0000 UTC
+627,OPEN,Classes for OMP,enhancement, possible domain conflict,2018-11-12 22:25:14 +0000 UTC
+626,CLOSED,NTR: land use,enhancement, in editor's version,2019-03-18 15:24:57 +0000 UTC
+625,OPEN,Align to CCO geospatial entities,,2019-07-29 20:04:51 +0000 UTC
+624,OPEN,NTR: create classes for monitoring processes and sites,enhancement,2018-10-09 23:35:46 +0000 UTC
+622,CLOSED,Make a base module of envo,,2018-11-02 15:35:45 +0000 UTC
+621,CLOSED,new term request for 'mussle bed' and 'gill tissue',in editor's version,2019-03-18 15:24:57 +0000 UTC
+620,CLOSED,Add fire tornado,enhancement, SDG Ontology Framework, in editor's version,2019-03-18 15:24:57 +0000 UTC
+619,OPEN,Make examples of using ENVO for bioinformaticians,,2018-07-27 11:36:12 +0000 UTC
+618,OPEN,Need 'energy'?,,2020-07-16 01:21:41 +0000 UTC
+617,CLOSED,'Mountain' definition is old,enhancement, axiomatization, in editor's version,2019-03-18 15:24:57 +0000 UTC
+615,CLOSED,water is a magma???,,2018-05-17 20:11:47 +0000 UTC
+614,OPEN,Which foodon classes should be imported into ENVO,,2018-05-16 21:11:52 +0000 UTC
+613,OPEN,consider moving out cell culture classes,,2018-05-16 20:52:17 +0000 UTC
+612,CLOSED,remove flopo dependency,,2018-05-18 20:03:45 +0000 UTC
+611,CLOSED,problems with arable land connections to AGRO,,2018-05-18 20:03:45 +0000 UTC
+610,CLOSED,Remove some imports from current release,,2018-05-18 20:03:44 +0000 UTC
+609,CLOSED,SDGIO axioms leaking into envo-edit,,2018-05-18 20:03:44 +0000 UTC
+607,CLOSED,new release?,,2018-05-29 23:03:18 +0000 UTC
+605,OPEN,boundary layers,,2018-04-16 16:19:35 +0000 UTC
+604,CLOSED,NTR: hydroclimate,enhancement, interesting-discussion,2018-05-18 20:36:00 +0000 UTC
+603,CLOSED,New terms needed for South American ecoregions?,enhancement, in editor's version,2019-03-18 15:24:57 +0000 UTC
+602,CLOSED,New particle formation event,enhancement, interesting-discussion, in editor's version,2019-03-18 15:24:57 +0000 UTC
+601,OPEN,Adding new experimental field sites to GAZ,,2018-10-18 11:45:42 +0000 UTC
+600,CLOSED,Make ENVO CC-0,Usability,2019-10-02 23:35:35 +0000 UTC
+599,OPEN,Ice ablation process subclasses,,2018-05-14 13:49:07 +0000 UTC
+598,CLOSED,NTR: waste disposal-related terms,enhancement, in editor's version,2019-03-18 15:24:57 +0000 UTC
+597,OPEN,Fix vegetated area semantics to accommodate seagrass beds,bug, enhancement, axiomatization,2018-03-07 14:07:50 +0000 UTC
+596,OPEN,Terms for planetary science,enhancement,2018-03-06 18:09:25 +0000 UTC
+595,OPEN,change label for meteor,,2020-11-18 09:40:29 +0000 UTC
+593,CLOSED,NTR: crop canopy,enhancement, axiomatization, in editor's version,2019-03-18 15:24:56 +0000 UTC
+592,CLOSED,NTR: office building,in editor's version,2019-03-18 15:24:56 +0000 UTC
+591,OPEN,GAZ to INSDC country list mapping,,2019-04-07 19:13:00 +0000 UTC
+590,CLOSED,GAZ typo,wontfix,2019-04-07 19:07:06 +0000 UTC
+589,CLOSED,NTR: flood defence,in editor's version,2019-03-18 15:24:56 +0000 UTC
+588,CLOSED,Typo in Definition of marine bathyal zone biome,in editor's version,2019-03-18 15:24:56 +0000 UTC
+587,CLOSED,NTR: solar radiation,in editor's version,2018-11-03 18:34:31 +0000 UTC
+586,OPEN,Map to agINFRA Soil Controlled Vocabulary,,2018-11-12 23:18:56 +0000 UTC
+585,CLOSED,hyroform relation to 'water body',enhancement, in editor's version,2019-03-18 15:24:56 +0000 UTC
+584,OPEN,export 'bacon curing brine' to FOODON,,2018-01-31 22:15:36 +0000 UTC
+583,CLOSED,new dust terms,enhancement, in editor's version,2019-03-18 15:24:56 +0000 UTC
+582,CLOSED,Class to add: vog,enhancement, in editor's version,2019-03-18 15:24:56 +0000 UTC
+581,CLOSED,magma has "liquid environmental material" under it,bug, axiomatization, in editor's version,2019-03-18 15:24:56 +0000 UTC
+580,CLOSED,NTR: wilderness or natural geographic feature,enhancement, interesting-discussion, SDG Ontology Framework, in editor's version,2019-03-18 15:30:06 +0000 UTC
+579,OPEN,Addition to definitions of habitat types in seamount catalogue,question, possible domain conflict,2017-12-01 13:55:13 +0000 UTC
+578,OPEN,For Gazetteer: suggest a "First Level Administrative Division of the United States" class,question,2018-01-31 22:02:16 +0000 UTC
+577,OPEN,Formation of particles in an atmosphere descriptions,question, interesting-discussion,2017-11-28 16:56:28 +0000 UTC
+576,OPEN,Do not merge imports when making envo.owl,enhancement,2017-09-19 11:26:01 +0000 UTC
+574,OPEN,New subset: conservation entities,enhancement, SDG Ontology Framework,2017-09-12 18:43:14 +0000 UTC
+573,OPEN,Integrating IUCN categories into forest semantics,enhancement,2017-09-05 11:39:21 +0000 UTC
+572,CLOSED,NTR: ecosystem fragment,enhancement, SDG Ontology Framework, in editor's version,2019-03-18 15:30:06 +0000 UTC
+571,OPEN,NTRs: Types of conservation activity,enhancement, SDG Ontology Framework,2017-09-11 16:07:07 +0000 UTC
+570,OPEN,NTRs: Environmental management classes,enhancement, SDG Ontology Framework,2017-09-11 14:30:42 +0000 UTC
+569,CLOSED,Approach to IUCN protected area categories in Wikidata,,2017-09-05 10:55:32 +0000 UTC
+568,CLOSED,Revise: "protected area",enhancement, interesting-discussion, SDG Ontology Framework, in editor's version,2019-03-18 15:30:06 +0000 UTC
+567,CLOSED,Term transfer: Geodiversity,enhancement, in editor's version, possible domain conflict,2019-03-18 15:30:06 +0000 UTC
+566,CLOSED,NTR: Gut content of a holothurian,enhancement, in editor's version,2019-03-18 15:30:05 +0000 UTC
+565,CLOSED,NTR: algal biomass,enhancement, in editor's version,2019-03-18 15:30:05 +0000 UTC
+564,CLOSED,NTR: brownish colored sea ice,enhancement, in editor's version,2019-03-18 15:30:05 +0000 UTC
+563,OPEN,NTR: surface of sediment / water,enhancement,2017-10-09 16:02:49 +0000 UTC
+562,CLOSED,addition of term Rhizoplane,enhancement, in editor's version,2019-03-18 15:30:05 +0000 UTC
+560,CLOSED,NTR: detritus,enhancement, axiomatization,2017-08-16 19:11:04 +0000 UTC
+559,CLOSED,Remove relations collection of organisms subclass of material entity,enhancement, high priority, axiomatization, in editor's version,2017-08-22 00:52:27 +0000 UTC
+558,OPEN,NTR: secchi depth,,2017-08-11 11:29:45 +0000 UTC
+557,CLOSED,NTR: precipitation amount,enhancement, in editor's version,2019-03-18 15:30:05 +0000 UTC
+556,CLOSED,NTR: wind speed,enhancement, in editor's version,2019-03-18 15:30:05 +0000 UTC
+555,CLOSED,NTR: wind direction,enhancement, in editor's version,2019-03-18 15:30:05 +0000 UTC
+554,OPEN,NTR: oxygen saturation,,2017-08-17 07:15:56 +0000 UTC
+553,CLOSED,NTR: oxygen concentration,in editor's version,2019-03-18 15:30:05 +0000 UTC
+552,CLOSED,new terms for pathogen sampling sites,enhancement, in editor's version,2017-08-18 17:13:29 +0000 UTC
+551,CLOSED,Transmit PURL to Omics related TSVs to MIxS community,enhancement, in editor's version,2017-08-22 00:52:27 +0000 UTC
+550,CLOSED,NTR: Karman vortices,enhancement, in editor's version,2017-08-22 00:52:27 +0000 UTC
+549,CLOSED,Concept for atmospheric new particle formation,enhancement, interesting-discussion, in editor's version,2017-08-22 00:52:27 +0000 UTC
+548,OPEN,Link GeOMe habitat terms to ENVO environmental terms,enhancement, mapping,2017-08-06 07:48:00 +0000 UTC
+547,OPEN,Describe usages of ENVO in OBO metadata,,2017-07-31 03:07:48 +0000 UTC
+546,CLOSED,UTR: 'anoxic water',enhancement, in editor's version,2017-08-22 00:52:27 +0000 UTC
+545,CLOSED,NTR: rockslide lake,in editor's version,2017-08-22 00:52:27 +0000 UTC
+544,CLOSED,NTR: landslide lake,enhancement, in editor's version,2017-08-22 00:52:27 +0000 UTC
+543,CLOSED,NTR: aeolian lake,enhancement, in editor's version,2017-08-22 00:52:27 +0000 UTC
+542,CLOSED,UTR: rift lake,in editor's version,2017-08-22 00:52:27 +0000 UTC
+541,CLOSED,NTR: tectonic lake,enhancement, in editor's version,2017-08-22 00:52:27 +0000 UTC
+540,CLOSED,NTR: oxic lake,enhancement, in editor's version,2017-08-22 00:52:27 +0000 UTC
+539,CLOSED,NTR: hypoxic lake,enhancement, in editor's version,2017-08-22 00:52:27 +0000 UTC
+538,CLOSED,NTR: anoxic lake,enhancement, in editor's version,2017-08-22 00:52:27 +0000 UTC
+537,CLOSED,NTR: hypoxic water,enhancement, in editor's version,2017-08-22 00:52:26 +0000 UTC
+536,CLOSED,NTR: oxic water,enhancement, in editor's version,2017-08-22 00:52:26 +0000 UTC
+535,CLOSED,NTR: volcanic lake,wontfix,2017-07-31 19:23:53 +0000 UTC
+534,CLOSED,NTR: caldera lake,enhancement, in editor's version,2017-08-22 00:52:26 +0000 UTC
+533,CLOSED,NTR: meteorite lake,enhancement, in editor's version,2017-08-22 00:52:26 +0000 UTC
+532,CLOSED,NTR: natural lake,interesting-discussion,2017-07-31 04:29:17 +0000 UTC
+531,CLOSED,NTR: humic lake,,2017-07-31 04:29:17 +0000 UTC
+530,CLOSED,NTR: hypersaline lake,enhancement,2017-07-31 04:29:17 +0000 UTC
+529,CLOSED,NTR: hypereutrophic lake,,2017-07-31 04:29:17 +0000 UTC
+528,CLOSED,NTR: hypereutrophic water,enhancement,2017-07-31 04:29:17 +0000 UTC
+527,OPEN,NTR: oil plume,enhancement,2017-07-31 19:31:20 +0000 UTC
+526,CLOSED,NTR: Marine protected areas,enhancement, SDG Ontology Framework,2017-09-04 10:40:56 +0000 UTC
+525,OPEN,NTR: algal turf,,2017-07-14 03:39:09 +0000 UTC
+523,CLOSED,NTR: groundwater,enhancement,2017-07-31 04:29:16 +0000 UTC
+522,OPEN,NTR: dwelling related,enhancement,2020-12-02 20:22:01 +0000 UTC
+521,CLOSED,ROBOT import routines fail on special characters,bug,2017-07-05 22:19:06 +0000 UTC
+520,CLOSED,NTR: concentration of chloride in water,enhancement,2017-07-31 04:29:16 +0000 UTC
+516,OPEN,Import more useful synonym types from UBERON,enhancement,2017-06-26 17:20:07 +0000 UTC
+515,CLOSED,NTR: temperature of water,class available!,2017-06-26 19:14:33 +0000 UTC
+514,CLOSED,Is Envo curation linked at all to Gazetteer?,,2019-05-02 12:12:47 +0000 UTC
+513,OPEN,Technosphere? Novel ecosystem? Natural ecosystem? How to represent which parts of biosphere that are under technical human influcence?,enhancement, interesting-discussion, class available!,2018-09-13 03:13:49 +0000 UTC
+512,OPEN,Paleoclimate vocabulary: LinkedEarth ontology,enhancement, question, interesting-discussion, high priority, possible domain conflict,2017-11-13 19:35:04 +0000 UTC
+511,CLOSED,Error in redirects for owl:versionIRIs,bug, high priority,2017-06-09 16:39:44 +0000 UTC
+510,CLOSED,NTR: tree ring,,2017-05-22 12:23:22 +0000 UTC
+509,CLOSED,NTR: diatomaceous earth,,2017-07-31 04:29:16 +0000 UTC
+508,OPEN,NTR: dander,,2017-06-09 12:34:32 +0000 UTC
+507,CLOSED,Homogenise replaced by / consider APs,enhancement,2017-05-04 14:13:02 +0000 UTC
+506,OPEN,New classes: foehn winds phenomena,,2017-05-03 09:42:52 +0000 UTC
+505,OPEN,New terms for anthropocentric specimen sites,enhancement, class available!,2017-06-26 19:45:19 +0000 UTC
+504,OPEN,Term deprecation request sea ice formation process,,2017-05-02 15:24:31 +0000 UTC
+503,CLOSED,NTR: Tree line,enhancement,2017-05-30 10:42:12 +0000 UTC
+502,CLOSED,NTR: microplastic particle,enhancement, high priority,2017-07-31 04:29:16 +0000 UTC
+501,CLOSED,NTR: Arctic tree-line ecotone,enhancement,2017-07-31 04:29:16 +0000 UTC
+500,CLOSED,NTR: lichen woodland,enhancement,2017-07-31 04:29:16 +0000 UTC
+499,CLOSED,PCO:microbial community,enhancement, in editor's version,2019-03-18 15:30:04 +0000 UTC
+498,CLOSED,cryoform, PATO:frozen,enhancement,2017-04-11 16:35:15 +0000 UTC
+497,OPEN,Request PATO:decreased porosity,enhancement,2017-04-11 11:13:19 +0000 UTC
+496,OPEN,Map ice classes to WMO vocabularies,enhancement,2019-03-21 20:54:01 +0000 UTC
+495,OPEN,Handling explosions,,2017-04-07 16:58:29 +0000 UTC
+494,CLOSED,Create TSV export of envoPolar,enhancement, class available!,2017-08-17 20:03:14 +0000 UTC
+493,OPEN,rafting and ridging processes,enhancement,2017-04-12 09:11:25 +0000 UTC
+492,OPEN,agro patterns,,2017-06-28 12:26:43 +0000 UTC
+491,OPEN,vegetated hill,enhancement, class available!,2017-06-26 19:14:47 +0000 UTC
+490,CLOSED,soil humidity,soil,2017-07-31 04:29:16 +0000 UTC
+489,CLOSED,meltpond -> intraglacial lake,enhancement,2019-08-13 08:43:54 +0000 UTC
+488,OPEN,Provide astronomical body references for horizons,enhancement, axiomatization,2017-04-06 13:10:46 +0000 UTC
+486,OPEN,handling depression,bug, enhancement,2017-04-06 12:30:13 +0000 UTC
+485,OPEN,Foam and other colloids,enhancement, axiomatization,2017-03-31 13:27:23 +0000 UTC
+484,OPEN,Request new PATO qualities?,enhancement,2017-03-31 15:23:35 +0000 UTC
+483,CLOSED,Prepping pull request 3 for project cryophile,enhancement, axiomatization,2017-04-04 10:07:31 +0000 UTC
+482,CLOSED,Term expansion request: Marine Sediment,bug, enhancement,2017-04-04 10:30:44 +0000 UTC
+480,OPEN,Incorporate non-cloud meteors,enhancement,2017-03-28 15:48:00 +0000 UTC
+479,OPEN,Incorporate cloud varieties,enhancement,2017-03-28 15:48:22 +0000 UTC
+478,OPEN,Incorporate cloud species,enhancement,2017-03-28 15:44:15 +0000 UTC
+477,CLOSED,Incorporate cloud genera,enhancement, in editor's version,2019-03-18 15:30:04 +0000 UTC
+476,CLOSED,new class: basin,enhancement,2017-04-04 10:28:49 +0000 UTC
+475,OPEN,new arctic ice associated classes,enhancement, interesting-discussion, axiomatization,2017-04-05 11:20:34 +0000 UTC
+474,OPEN,new classes: phase transition process & relevant subclasses,enhancement,2017-03-28 16:08:13 +0000 UTC
+473,CLOSED,new/ updated classes: glaciers, glacial ice & erosionally enriched ice,,2017-04-04 10:19:08 +0000 UTC
+472,OPEN,new classes: firn / firn-ice transition / névé-firn transition / related terms,,2018-04-09 15:01:11 +0000 UTC
+471,CLOSED,névé,,2017-03-31 08:54:24 +0000 UTC
+470,OPEN,NTR Migration path,class available!,2017-04-11 19:29:25 +0000 UTC
+467,CLOSED,Request for new category,,2017-03-13 04:04:36 +0000 UTC
+466,CLOSED,Environment ontology - new category for terrestrial subsurface fluid,,2017-07-03 18:37:36 +0000 UTC
+465,CLOSED,incorrect axiom annotation for ice,,2017-02-24 22:01:52 +0000 UTC
+464,CLOSED,deprecated ENVO:mushroom,,2017-05-05 14:45:49 +0000 UTC
+463,CLOSED,NTR: air pressure,,2017-02-09 04:24:53 +0000 UTC
+462,CLOSED,NTR: wetness of soil,,2017-03-13 04:04:36 +0000 UTC
+461,CLOSED,NTR: temperature of soil,,2017-03-13 04:04:36 +0000 UTC
+460,CLOSED,A number of anthropogenic and other terms for our GenEpiO,,2017-06-28 10:50:26 +0000 UTC
+459,OPEN,deprecated ENVO terms,,2017-01-20 16:34:17 +0000 UTC
+458,CLOSED,NTR: adding NLCD classes to biome,high priority,2017-03-03 13:30:58 +0000 UTC
+457,CLOSED,Remove logical axioms for obsolete classes,,2017-01-16 17:37:56 +0000 UTC
+456,CLOSED,Reconcile environmental materials with CHEBI mixture branch,,2017-04-11 03:11:02 +0000 UTC
+454,CLOSED,deprecated term 'anthropogenic habitat',,2017-03-13 03:05:00 +0000 UTC
+453,CLOSED,new class: mobility size spectrometer,possible domain conflict,2017-04-11 19:33:09 +0000 UTC
+452,OPEN,new class: aerosol mass spectrometer,possible domain conflict,2017-04-03 16:07:20 +0000 UTC
+451,CLOSED,New class: cloud condensation nuclei counter,possible domain conflict,2017-04-11 19:33:46 +0000 UTC
+450,CLOSED,New class required: cloud condendation nuclei,,2017-03-13 05:49:04 +0000 UTC
+449,OPEN,Add cardinality points: north, east, west, south,,2017-03-31 16:20:15 +0000 UTC
+448,CLOSED,NTR: Feasting pit,,2017-03-13 04:04:36 +0000 UTC
+447,OPEN,generalise "cavity",enhancement,2016-12-06 06:18:26 +0000 UTC
+446,CLOSED,NTR: boiling river,,2017-03-13 04:04:36 +0000 UTC
+445,CLOSED,NTR: ballast water,,2017-07-31 04:29:16 +0000 UTC
+444,CLOSED,NTR: Automatic telling machine (ATM),New term,2017-03-13 05:49:04 +0000 UTC
+443,OPEN,New classes: soil profile, soil profile characterization,,2016-12-05 22:33:40 +0000 UTC
+442,CLOSED,Hailstorm,,2017-07-31 04:29:16 +0000 UTC
+441,OPEN,Control subsets,enhancement,2017-08-02 02:26:18 +0000 UTC
+440,OPEN,Create a metagenomics slim,enhancement,2017-08-02 02:29:21 +0000 UTC
+439,OPEN,Review: composition of soil,bug, axiomatization, soil,2016-11-22 16:49:21 +0000 UTC
+438,OPEN,NTR: biological soil crust,interesting-discussion, class available!,2017-03-16 13:54:44 +0000 UTC
+437,OPEN,Food waste,,2017-03-02 16:07:21 +0000 UTC
+436,OPEN,New class: percolation speed in soil,,2016-11-07 11:03:58 +0000 UTC
+435,OPEN,Create design pattern for environmental data and variables,help wanted, high priority,2020-06-04 07:40:33 +0000 UTC
+434,CLOSED,NTR: solar panel array,,2017-07-31 04:29:16 +0000 UTC
+433,OPEN,fuel classification,,2017-07-18 06:09:12 +0000 UTC
+432,OPEN,New calsses:air temperature amplitude,,2016-11-02 16:34:46 +0000 UTC
+431,OPEN,New classes: air temperature at dew-point,,2016-11-02 16:35:06 +0000 UTC
+430,OPEN,New classes: net shortwave radiation,,2016-11-02 16:35:27 +0000 UTC
+429,OPEN,New classes: pesticide content in surface water,,2016-11-02 16:35:59 +0000 UTC
+428,OPEN,New classes: soil aggregate, soil aggregate stability,,2016-11-02 16:36:21 +0000 UTC
+427,OPEN,New class: runoff curve number,,2016-11-02 16:36:51 +0000 UTC
+426,OPEN,New classes: soil compaction, soil compaction categories,enhancement, soil,2017-04-05 11:22:59 +0000 UTC
+425,OPEN,New class: volumetric water content in soil,,2016-11-03 09:46:04 +0000 UTC
+424,OPEN,new classes: soil sample top, soil sample top depth, soil sample bottom depth,,2016-11-03 09:46:46 +0000 UTC
+423,OPEN,New classes: soil natural drainage classes,,2016-10-13 10:43:03 +0000 UTC
+422,OPEN,New class: percentage base saturation,,2016-11-03 09:47:17 +0000 UTC
+421,OPEN,New class: cation area density in soil,,2016-11-03 09:47:38 +0000 UTC
+420,OPEN,New class: soil drainage, soil drainage speed,,2016-11-03 09:48:02 +0000 UTC
+419,CLOSED,New class: soil electrical conductivity,,2021-11-02 17:55:57 +0000 UTC
+418,OPEN,New class: exchangeable calcium content in soil,,2016-11-03 09:48:50 +0000 UTC
+417,OPEN,New class: residual water, residual water content in soil,,2016-11-03 09:49:17 +0000 UTC
+416,OPEN,New classes: fragipan layer, fragipan layer depth,,2016-11-22 12:57:36 +0000 UTC
+415,OPEN,New class: exchangeable potassium content in soil,,2016-11-03 09:50:23 +0000 UTC
+414,OPEN,New class: sulfate sulfur content in soil,,2016-11-03 09:50:41 +0000 UTC
+413,OPEN,New class: organic matter content in soil,,2021-11-02 17:53:18 +0000 UTC
+412,OPEN,New class: tetraphosphorus decaoxide content in soil,,2016-11-03 09:51:17 +0000 UTC
+411,OPEN,New class: total organic carbon content in soil,,2016-11-03 09:51:37 +0000 UTC
+410,OPEN,New class: calcium carbonate content in soil,,2016-11-03 09:51:57 +0000 UTC
+409,OPEN,New class: total potassium content in soil,,2016-11-03 09:53:18 +0000 UTC
+408,OPEN,New class: total phosphorus content in soil,,2016-11-03 09:53:31 +0000 UTC
+407,OPEN,New class: organic phosphorus content in soil,,2016-11-03 09:53:49 +0000 UTC
+406,OPEN,New class: organic nitrogen content in soil,,2016-11-03 09:54:02 +0000 UTC
+405,OPEN,New class: sodium content in soil,,2016-11-03 10:01:14 +0000 UTC
+404,OPEN,New class: magnesium content in soil,,2016-11-03 09:54:28 +0000 UTC
+403,OPEN,New class: aluminium content in soil,,2016-11-03 09:54:44 +0000 UTC
+402,OPEN,New class: iron content in soil,,2016-11-03 09:54:58 +0000 UTC
+401,OPEN,New class: manganese content in soil,,2016-11-03 09:55:11 +0000 UTC
+400,CLOSED,New class: ammonium content in soil,,2021-10-06 14:55:43 +0000 UTC
+399,CLOSED,New class: nitrate content in soil,,2021-10-06 14:56:50 +0000 UTC
+398,OPEN,New classes: topsoil, topsoil thickness,,2021-10-06 14:51:17 +0000 UTC
+397,OPEN,New classes: soil albedo, dry soil albedo, moist soil albedo,,2016-11-03 09:56:26 +0000 UTC
+396,OPEN,New classes: water evaporation in soil, water evaporation speed in soil,,2016-11-03 09:56:42 +0000 UTC
+395,OPEN,New classes: water infiltration, soil water infiltration, soil water infiltration speed,,2016-11-07 12:25:34 +0000 UTC
+394,OPEN,New class: soil total nitrogen content,,2021-10-06 14:42:31 +0000 UTC
+393,OPEN,New class: soil water potential,,2016-11-03 09:57:27 +0000 UTC
+392,OPEN,New classes for soil texture categories,,2021-10-06 14:34:46 +0000 UTC
+391,CLOSED,new class: soil texture measurement datum,,2021-10-06 13:59:41 +0000 UTC
+390,OPEN,New classes: soil water content, soil field capacity, soil permanent wilting point,,2016-11-03 09:58:21 +0000 UTC
+389,CLOSED,New class: soil porosity,,2021-10-06 14:30:38 +0000 UTC
+388,OPEN,New classes: soil layer, soil layer top, soil layer top depth, soil layer bottom, soil layer bottom depth,,2021-11-05 01:25:51 +0000 UTC
+387,OPEN,Term request: 'air temperature measurement datum', 'rate of hydrological precipitation', 'atmospheric water vapor measurement datum', 'mean rate of hydrological precipitation', 'mean air temperature', and 'mean atmospheric water vapor',enhancement, high priority,2021-06-09 15:03:25 +0000 UTC
+386,CLOSED,new release request,,2016-11-22 13:42:03 +0000 UTC
+385,OPEN,Add design pattern for mines,,2016-09-19 16:19:23 +0000 UTC
+384,CLOSED,NT: coal,,2016-09-16 04:42:31 +0000 UTC
+383,OPEN,Marine protection targets from SNH,,2016-09-14 08:36:52 +0000 UTC
+382,CLOSED,NTR: Biochar,,2019-02-19 19:26:36 +0000 UTC
+381,OPEN,Align with EPA CPCat,,2016-08-22 15:32:55 +0000 UTC
+380,OPEN,Align with soil and soil process ontology,soil,2016-08-16 15:17:32 +0000 UTC
+379,OPEN,NTR: abandoned coal mine,,2016-08-22 22:26:16 +0000 UTC
+378,OPEN,Clarify semantics of dust and aerosol; and add subclasses,,2016-08-10 09:41:20 +0000 UTC
+377,OPEN,Add "microburst",,2016-08-02 16:28:22 +0000 UTC
+376,OPEN,New class: soil saturated hydraulic conductivity,soil,2016-11-03 10:01:40 +0000 UTC
+375,OPEN,New class: soil bulk density,soil,2021-10-06 14:27:10 +0000 UTC
+374,OPEN,New class: soil water content,soil,2021-10-06 14:25:18 +0000 UTC
+373,OPEN,New class: soil gravel content,soil,2021-10-06 14:29:25 +0000 UTC
+372,OPEN,New class: soil sand content,soil,2016-11-03 10:02:41 +0000 UTC
+371,OPEN,New class: soil silt content,soil,2016-11-03 10:02:56 +0000 UTC
+370,OPEN,New class: soil clay content,soil,2021-10-06 14:17:13 +0000 UTC
+369,OPEN,new classes: soil electrical conductivity, soil salinity,soil,2021-11-02 17:55:47 +0000 UTC
+368,OPEN,new class: color of soil,soil,2016-11-03 10:04:45 +0000 UTC
+367,OPEN,New class: soil pH,soil,2021-10-06 14:22:26 +0000 UTC
+366,OPEN,New class: vapour pressure,,2021-11-02 17:45:59 +0000 UTC
+365,OPEN,New class: rainy day, rainy day count,,2016-11-03 10:05:23 +0000 UTC
+364,OPEN,New class: photosynthetically active radiation,,2021-11-04 14:25:57 +0000 UTC
+363,OPEN,New class: photosynthetic photon flux density,,2021-11-02 17:35:25 +0000 UTC
+362,OPEN,New class: wind run,,2016-11-03 10:06:09 +0000 UTC
+361,OPEN,New class: runoff, runoff volume,soil,2016-11-03 10:06:22 +0000 UTC
+360,OPEN,New classes: sunshine, sunshine duration,,2021-11-03 10:04:32 +0000 UTC
+359,CLOSED,new class: day duration,,2021-11-02 16:52:54 +0000 UTC
+358,OPEN,new classes: water table, water table depth,,2016-11-03 10:07:30 +0000 UTC
+357,CLOSED,new class: wind direction,,2021-11-03 13:55:15 +0000 UTC
+356,OPEN,New class : rainfall and snowfall volume,,2016-11-03 10:08:06 +0000 UTC
+355,OPEN,new class: rainfall volume,,2016-11-03 10:08:20 +0000 UTC
+354,OPEN,new class: evapotranspiration volume,soil,2016-11-03 10:08:38 +0000 UTC
+353,OPEN,new class: evaporation volume,,2016-11-03 10:08:52 +0000 UTC
+352,OPEN,New class : air CO2 concentration,,2016-11-03 10:09:04 +0000 UTC
+351,CLOSED,New class: wind speed,,2021-11-03 13:55:09 +0000 UTC
+350,CLOSED,New class : Air temperature measurement datum,,2016-11-03 10:10:13 +0000 UTC
+349,OPEN,Import "stand" from PCO,,2016-07-21 13:01:07 +0000 UTC
+348,OPEN,Obsolete '' Animal manure'' and create ''animal dung'',enhancement, interesting-discussion, axiomatization, soil,2017-01-21 07:38:15 +0000 UTC
+347,OPEN,Add / clarify landscape,,2016-07-20 12:14:15 +0000 UTC
+346,CLOSED,Add CESAB subset,,2017-08-02 02:30:43 +0000 UTC
+345,CLOSED,New term: Marl,,2016-07-22 14:59:58 +0000 UTC
+344,CLOSED,Represent iceberg-determined ecosystem,,2021-03-09 14:51:19 +0000 UTC
+343,OPEN,Enhance geothermal vent representation,,2016-06-30 09:44:56 +0000 UTC
+342,OPEN,Represent buried, frozen oceans,,2016-06-30 09:32:28 +0000 UTC
+341,CLOSED,Vivarium definition update: include microbes,enhancement,2017-07-31 04:29:16 +0000 UTC
+340,CLOSED,NTR:geomorphologic process,enhancement,2017-07-31 04:29:16 +0000 UTC
+339,CLOSED,Something up with RO imports,,2016-06-15 22:20:29 +0000 UTC
+338,CLOSED,Build issues in java and python,,2016-06-30 07:32:45 +0000 UTC
+337,CLOSED,New Term: puddle,,2017-07-31 04:29:16 +0000 UTC
+336,OPEN,New user for ENVO list of users,,2016-06-12 08:02:20 +0000 UTC
+335,OPEN,Anthropogenic qualities,enhancement, high priority,2016-06-09 18:37:05 +0000 UTC
+334,OPEN,New classes: treated wastewater and desalinated water,,2016-06-04 18:23:47 +0000 UTC
+333,OPEN,Coordinate soil classifications,soil,2019-07-23 10:53:51 +0000 UTC
+332,CLOSED,New classes and in-subset `USDA order of soil taxonomy`,soil,2016-08-16 15:16:14 +0000 UTC
+331,CLOSED,New in-subset : World Reference Base soil group,soil,2016-08-16 15:16:14 +0000 UTC
+330,CLOSED,New classes : greyzem and podzoluvisol,soil,2016-08-16 15:16:14 +0000 UTC
+328,OPEN,NTR: benthic denitrification, aeolian nitrogen input, riverine nitrogen input,,2016-05-25 13:14:11 +0000 UTC
+327,OPEN,Fire burned last night,,2016-05-25 13:43:50 +0000 UTC
+326,CLOSED,PURLs should not use https,bug,2016-07-21 08:01:08 +0000 UTC
+324,CLOSED,smoke is_a anatomical structure !?,bug,2017-08-02 02:32:03 +0000 UTC
+323,OPEN,Rates of environmental processes and the entity-attribute approach,enhancement,2020-06-02 18:54:40 +0000 UTC
+322,OPEN,New Terms: 'open' and 'closed' eaves,interesting-discussion, SDG Ontology Framework, high priority, class available!,2016-05-20 15:18:06 +0000 UTC
+321,CLOSED,NTR: exorheic lake,,2016-05-17 15:28:15 +0000 UTC
+320,OPEN,Animal manure should not be classified as a waste material,enhancement, SDG Ontology Framework,2016-11-22 16:07:07 +0000 UTC
+318,OPEN,Distribute iMicrobe sample descriptions as RDF,,2016-05-18 16:40:15 +0000 UTC
+317,CLOSED,NTR: relative humidity,,2016-05-17 11:08:58 +0000 UTC
+316,CLOSED,NTR: wind,New term,2016-05-22 09:39:50 +0000 UTC
+314,CLOSED,NTR: photosphere,interesting-discussion, class available!,2017-03-28 16:26:19 +0000 UTC
+313,CLOSED,GAZ homepage,,2016-05-16 21:15:03 +0000 UTC
+312,CLOSED,NTR : wildfire,SDG Ontology Framework, class available!,2017-02-24 22:10:57 +0000 UTC
+311,OPEN,Synonyms that are identical to a label for a different class,mapping,2018-11-12 22:21:18 +0000 UTC
+310,CLOSED,Defns for sake and beer,,2016-06-04 15:43:05 +0000 UTC
+309,OPEN,Invasive species,,2016-03-12 09:36:14 +0000 UTC
+308,CLOSED,NTR: Methane clathrate deposit,class available!,2017-02-26 16:52:46 +0000 UTC
+307,CLOSED,obo2obo error in build process,bug,2016-03-08 05:19:50 +0000 UTC
+306,OPEN,NTR: coral bleaching,class available!,2017-02-24 22:12:19 +0000 UTC
+305,OPEN,NTR:polygon pond,,2016-03-03 14:58:41 +0000 UTC
+304,OPEN,NTR:Limestone "Chocolate Hills",,2016-03-03 14:48:25 +0000 UTC
+303,OPEN,Bottled Beer Defn,,2016-03-01 18:45:50 +0000 UTC
+302,OPEN,NTR: Low light environment,,2016-03-08 05:34:17 +0000 UTC
+301,OPEN,NTR: Under bark environment,,2016-02-27 16:36:33 +0000 UTC
+300,CLOSED,NTR: Hair ice,,2016-05-17 18:11:44 +0000 UTC
+299,CLOSED,NTR: Industrialisation,wontfix, SDG Ontology Framework,2016-02-18 19:58:53 +0000 UTC
+298,OPEN,NTR: Infrastructure,SDG Ontology Framework,2016-02-18 19:39:12 +0000 UTC
+297,CLOSED,NTR:flower strip,,2016-05-20 15:55:26 +0000 UTC
+296,OPEN,NTR: biodigester,SDG Ontology Framework,2016-02-11 13:49:59 +0000 UTC
+295,CLOSED,Create Arctic subset,,2017-04-15 19:23:42 +0000 UTC
+294,OPEN,definition for 'recycling process',,2016-02-18 15:59:39 +0000 UTC
+293,CLOSED,Add python3 for Travis CI?,bug, high priority,2016-03-09 06:59:23 +0000 UTC
+292,OPEN,non UTF-8 characters,,2016-02-03 17:21:07 +0000 UTC
+291,OPEN,Add owl style check for simple intersection constructs,,2016-02-02 18:47:14 +0000 UTC
+290,CLOSED,owl issue: ENVO_02500006 "results in expansion of" lacks a declaration axiom,bug,2016-02-02 16:31:30 +0000 UTC
+289,CLOSED,NTR: "Nurdle",,2016-02-03 22:54:40 +0000 UTC
+288,OPEN,Revise representation of wetlands,enhancement, SDG Ontology Framework,2016-02-01 20:05:33 +0000 UTC
+287,OPEN,Using CHEBI roles,question,2016-01-30 12:06:39 +0000 UTC
+286,OPEN,Cline, layer, gradient,,2016-01-27 12:37:16 +0000 UTC
+285,OPEN,Anthropised vs anthropogenic,low priority,2016-01-26 21:55:14 +0000 UTC
+284,CLOSED,NTRs: Terms for food products,,2017-02-26 17:50:16 +0000 UTC
+283,OPEN,suggest to add [detritus] as organic material,,2016-01-15 16:57:53 +0000 UTC
+282,CLOSED,NTR: oligotrophic lake,,2016-02-03 22:55:33 +0000 UTC
+281,CLOSED,NTR: mesotrophic lake,,2016-02-03 22:55:19 +0000 UTC
+280,OPEN,NTR: 'carbon emission',interesting-discussion, SDG Ontology Framework, high priority, class available!,2020-05-19 06:33:55 +0000 UTC
+279,CLOSED,NTR: environmental quality,,2016-01-06 17:49:18 +0000 UTC
+278,CLOSED,NTR: air temperature,,2020-03-19 15:37:04 +0000 UTC
+277,CLOSED,Errors loading OBO file in OBO Edit 2,bug, Usability, high priority,2016-02-03 18:01:54 +0000 UTC
+276,OPEN,NTR: marine mucilage - and other subtypes of marine snow,class available!,2016-05-20 16:09:50 +0000 UTC
+275,OPEN,Proposed pattern for ecosystem-level X classes,,2016-03-09 04:52:38 +0000 UTC
+274,OPEN,Transformation of, derives from, etc,,2015-12-17 01:14:08 +0000 UTC
+273,CLOSED,Fix URLs on envo website,,2015-12-14 23:23:12 +0000 UTC
+272,OPEN,Rural,SDG Ontology Framework, high priority,2016-02-03 15:30:40 +0000 UTC
+271,CLOSED,Make envo environmental system a subclass of system,,2016-02-03 22:51:31 +0000 UTC
+270,OPEN,NTR:Species dispersal,,2019-03-05 15:16:42 +0000 UTC
+269,OPEN,NTR: evergreen, semi-deciduous and deciduous forest,,2015-11-30 17:06:30 +0000 UTC
+268,OPEN,Improve representation of island formation processes and island types,,2016-01-02 20:23:20 +0000 UTC
+267,CLOSED,Double PATO import?,,2015-12-01 17:16:43 +0000 UTC
+266,OPEN,NTR: slum,SDG Ontology Framework, class available!,2016-06-04 08:55:08 +0000 UTC
+265,OPEN,NTR: informal settlement,SDG Ontology Framework, class available!,2016-06-04 08:56:50 +0000 UTC
+264,OPEN,NTR: human dwelling,SDG Ontology Framework, class available!,2016-06-11 19:34:39 +0000 UTC
+263,CLOSED,NTR: "slum",,2015-12-05 14:18:11 +0000 UTC
+262,OPEN,Definition for 'waste',SDG Ontology Framework, class available!,2016-06-04 08:57:57 +0000 UTC
+261,OPEN,Add saline qualities for appropriate classes,,2015-10-23 03:54:07 +0000 UTC
+260,OPEN,design pattern: pollution,,2015-10-19 16:14:05 +0000 UTC
+259,CLOSED,NTR: population density,help wanted, low priority, New term,2015-10-19 23:26:02 +0000 UTC
+258,CLOSED,power plants,low priority, New term,2019-02-19 19:26:36 +0000 UTC
+257,OPEN,Add biogeochemical cycles,,2015-10-12 11:49:56 +0000 UTC
+256,OPEN,add axioms for environmental material,axiomatization,2015-09-28 16:24:50 +0000 UTC
+255,OPEN,NTRs: radiation,,2020-06-22 16:07:41 +0000 UTC
+254,OPEN,Define design patterns for processes,,2015-09-22 19:19:08 +0000 UTC
+253,OPEN,Should we add seasons?,interesting-discussion, high priority,2021-04-06 13:16:31 +0000 UTC
+252,OPEN,NTR:"particulate matter",class available!,2017-04-04 08:49:40 +0000 UTC
+251,OPEN,NTR: "plankton",,2016-12-21 08:08:13 +0000 UTC
+250,OPEN,NTR: subterranean biome and subterranean feature,,2015-09-15 17:05:14 +0000 UTC
+249,OPEN,NTRs: Classes for hydrological processes and qualities,,2019-07-03 13:01:23 +0000 UTC
+248,OPEN,Map/axiomtize NCBI metagenomes hierarchy with ENVO,enhancement,2015-09-09 08:19:09 +0000 UTC
+247,OPEN,Add processes relevant to disasters in SDGIO,,2019-07-03 13:01:23 +0000 UTC
+246,CLOSED,NTR: drought,,2016-05-20 16:49:37 +0000 UTC
+245,CLOSED,inconsistent use of uper-case and lower case spelling of term names,question,2015-09-01 12:44:51 +0000 UTC
+243,CLOSED,spire-envo mapping purl needs updating,,2015-09-29 15:30:06 +0000 UTC
+241,CLOSED,what is the syntactic defintion of the ENVO ids?,,2015-08-31 11:18:00 +0000 UTC
+240,CLOSED,purls still point to google code,,2015-09-25 22:47:04 +0000 UTC
+239,CLOSED,Add a license,question,2015-09-26 00:24:33 +0000 UTC
+238,CLOSED,Align to CNR-IIA vocabs,,2015-08-24 00:55:05 +0000 UTC
+237,CLOSED,NTRs: weather and climate,enhancement, interesting-discussion, SDG Ontology Framework, high priority, in editor's version,2017-08-22 00:52:26 +0000 UTC
+236,OPEN,NTRs for GEMET,,2015-08-07 07:53:54 +0000 UTC
+235,CLOSED,NTR: wildlife corridor,,2017-03-27 13:36:08 +0000 UTC
+234,CLOSED,Merge envo-process with envo-edit,,2015-08-06 05:57:30 +0000 UTC
+233,CLOSED,Set up BFO import,,2017-07-04 12:32:32 +0000 UTC
+232,CLOSED,Import and start using IAO curation status,,2015-08-05 13:59:51 +0000 UTC
+231,OPEN,Document design patterns,Usability,2015-07-16 22:38:59 +0000 UTC
+230,CLOSED,new term request - transportation device,,2015-09-01 16:20:24 +0000 UTC
+229,CLOSED,new term request - material used in building a house,,2015-07-16 15:36:21 +0000 UTC
+228,CLOSED,New term request - source of energy,,2015-09-06 18:41:45 +0000 UTC
+227,CLOSED,New term request - device related,,2015-09-01 14:36:24 +0000 UTC
+226,CLOSED,new term request - toilet facility in a household,,2020-07-19 03:26:24 +0000 UTC
+225,OPEN,new term request - source of drinking water,,2015-09-01 14:42:41 +0000 UTC
+224,CLOSED,Import "quality of a substance" branch from PATO,,2015-08-05 14:00:28 +0000 UTC
+223,OPEN,Fix bodily fluids...,enhancement, Type-Defect, Modify term,2015-07-15 15:04:35 +0000 UTC
+222,OPEN,Tidy auto-migrated tickets,,2015-06-17 02:21:39 +0000 UTC
+147,CLOSED,Channel: revise,enhancement,2017-04-27 15:46:39 +0000 UTC
+221,CLOSED,change logical definition of sterile water,auto-migrated, high priority,2015-09-01 16:05:31 +0000 UTC
+146,OPEN,Lake Typology and classification system,,2015-06-03 23:30:35 +0000 UTC
+145,CLOSED,NTR: rainfall,,2016-05-17 12:21:13 +0000 UTC
+144,CLOSED,Consider renaming freshwater lake biome (ENVO:01000252),wontfix,2015-09-22 11:28:56 +0000 UTC
+143,OPEN,Consider relationship between ENVO:00000428 and traditionally defined bioime,interesting-discussion, Modify term, high priority,2015-07-16 15:40:34 +0000 UTC
+142,CLOSED,CICES for ecosystem services,,2015-06-03 21:33:54 +0000 UTC
+141,OPEN,Add or map to LCCS classes,,2015-05-17 15:09:14 +0000 UTC
+140,OPEN,NTRs: [air, water, ...] quality,enhancement, SDG Ontology Framework,2020-06-02 18:54:36 +0000 UTC
+139,OPEN,Add definitions for GFM 2000 classes,,2015-04-14 17:23:20 +0000 UTC
+138,OPEN,Create "do not use for annotation" property,,2015-04-07 21:58:29 +0000 UTC
+137,CLOSED,Enriched soil types,soil,2016-08-16 15:16:14 +0000 UTC
+136,CLOSED,Zones, layers, and similar entities,,2019-03-18 16:06:54 +0000 UTC
+135,OPEN,Map to LTER vocabulary,mapping,2019-08-15 10:55:00 +0000 UTC
+134,OPEN,NTR: plastics,auto-migrated, interesting-discussion,2015-04-15 14:32:41 +0000 UTC
+133,OPEN,Import RO's eco subset,auto-migrated,2020-06-04 07:40:33 +0000 UTC
+132,OPEN,Xrefs and new terms for CMECS,enhancement, auto-migrated, Type-Defect,2020-06-02 18:54:40 +0000 UTC
+131,OPEN,UBERON import artifacts?,auto-migrated, Type-Defect,2020-06-02 18:54:39 +0000 UTC
+130,OPEN,Incorporate ecosystem services into ENVO,enhancement, auto-migrated,2020-06-02 18:54:36 +0000 UTC
+129,CLOSED,Fix 'algal bloom',auto-migrated, Type-Defect,2015-03-30 20:39:20 +0000 UTC
+128,CLOSED,Migrate to github,auto-migrated, Type-Defect,2015-04-14 14:04:15 +0000 UTC
+127,OPEN,definition requests: lake sediment and children,auto-migrated, Type-Defect,2020-06-02 18:54:39 +0000 UTC
+126,CLOSED,NTR: Deep chlorophyll maximum,auto-migrated,2015-03-28 19:23:42 +0000 UTC
+125,CLOSED,Add ID range for TermGenie,auto-migrated, Type-Defect,2015-03-28 19:23:41 +0000 UTC
+124,CLOSED,NTR: enrichment culture,auto-migrated,2019-11-07 15:15:07 +0000 UTC
+123,CLOSED,NTR: NTR: Domestic house (feature),auto-migrated,2015-07-15 16:05:30 +0000 UTC
+122,CLOSED,NTR: Red Sea biome,auto-migrated,2015-03-28 19:23:40 +0000 UTC
+121,CLOSED,NTR: Polar biome,auto-migrated,2015-04-07 21:56:50 +0000 UTC
+120,CLOSED,multiple host,auto-migrated,2015-03-30 20:50:33 +0000 UTC
+119,CLOSED,NTR: growth chamber study,auto-migrated,2015-03-28 19:23:38 +0000 UTC
+118,CLOSED,NTR: BBCH growth stage 63, BBCH growth stage 64, BBCH growth stage 65,wontfix, auto-migrated,2015-09-06 21:59:59 +0000 UTC
+117,CLOSED,NTR: Carbon Nanotubes enriched soil,auto-migrated, soil,2016-08-16 15:16:14 +0000 UTC
+116,CLOSED,NTR: autoclaved sand,auto-migrated,2015-03-28 19:23:37 +0000 UTC
+115,CLOSED,NTR: root matter,auto-migrated,2015-04-13 12:21:38 +0000 UTC
+114,CLOSED,NTR: old plant,auto-migrated,2015-04-07 21:20:03 +0000 UTC
+113,CLOSED,NTR: young plant,auto-migrated,2015-04-13 12:13:19 +0000 UTC
+112,CLOSED,NTR: corn field,auto-migrated,2015-04-08 10:00:30 +0000 UTC
+111,CLOSED,rhizosphere,auto-migrated, soil,2016-08-16 15:16:14 +0000 UTC
+110,CLOSED,NTR: gastrointestinal contents,auto-migrated,2019-09-16 19:41:44 +0000 UTC
+109,OPEN,ENVO:wood and secondary xylen,auto-migrated, Type-Defect,2020-06-02 18:54:39 +0000 UTC
+108,CLOSED,equivalence axiom for stack references obsolete class; also is the definition correct?,auto-migrated, Type-Defect,2015-03-30 20:37:19 +0000 UTC
+107,CLOSED,Classes to import,auto-migrated,2015-03-28 19:23:32 +0000 UTC
+106,OPEN,Establish pattern for a material being composed of many pieces of a feature,auto-migrated, Type-Defect,2020-06-02 18:54:39 +0000 UTC
+105,CLOSED,typo: extraterrestial habitat --> extraterrestrial habitat,auto-migrated, Type-Defect,2015-03-28 19:23:30 +0000 UTC
+104,OPEN,NTR: neutral water habitat,auto-migrated,2015-03-28 19:23:29 +0000 UTC
+103,CLOSED,NTR: cypress swamp,auto-migrated,2015-03-28 19:23:28 +0000 UTC
+102,CLOSED,Revise littoral zone hierarchy,auto-migrated, Type-Defect, Usability,2015-04-07 21:19:46 +0000 UTC
+101,OPEN,GOLD habitat terms,auto-migrated,2019-02-08 18:19:27 +0000 UTC
+100,OPEN,Term suggestions from ENVIRONMENTS EOL,enhancement, auto-migrated, interesting-discussion, high priority,2019-07-03 13:01:23 +0000 UTC
+99,OPEN,Various suggested enhancements, additional synonyms and French translations,auto-migrated,2015-03-28 19:23:23 +0000 UTC
+98,CLOSED,meadow soil (ENVO:00005761) is_a meadow,auto-migrated, soil,2016-08-16 15:16:14 +0000 UTC
+97,OPEN,Map to USNVC classification,auto-migrated,2015-03-28 19:23:23 +0000 UTC
+96,OPEN,feed,auto-migrated, Type-Defect,2020-06-02 18:54:39 +0000 UTC
+95,OPEN,Add EUNIS Mapping,auto-migrated,2016-05-18 17:37:12 +0000 UTC
+94,OPEN,Ensure all marineregions.org gazetteer types are in ENVO,auto-migrated, Type-Defect,2020-06-02 18:54:39 +0000 UTC
+93,OPEN,Greenhouse gas,enhancement, auto-migrated, Type-Defect, SDG Ontology Framework, high priority,2017-12-15 15:10:49 +0000 UTC
+92,OPEN,Volcano subtypes,auto-migrated, interesting-discussion,2016-05-17 18:13:07 +0000 UTC
+91,OPEN,Create a termgenie for ENVO,auto-migrated, Type-Defect,2020-06-02 18:54:39 +0000 UTC
+90,CLOSED,range of mounts,auto-migrated, Type-Defect, interesting-discussion,2015-04-15 15:49:32 +0000 UTC
+89,CLOSED,Incorrect xrefs for organ.,auto-migrated, Type-Defect,2015-03-28 19:23:20 +0000 UTC
+88,CLOSED,NTR: field,auto-migrated,2015-04-14 15:22:44 +0000 UTC
+87,CLOSED,NTR: atmosphere,auto-migrated,2015-03-28 19:23:19 +0000 UTC
+86,OPEN,Remove geopolitical entities,auto-migrated, Type-Defect,2020-06-02 18:54:39 +0000 UTC
+85,CLOSED,NTR: Ecoregion,auto-migrated,2015-03-28 19:23:17 +0000 UTC
+84,CLOSED,Volcanic features and double inheritance,auto-migrated, Type-Defect,2015-09-06 20:37:50 +0000 UTC
+83,OPEN,Define physiographic feature,auto-migrated, Type-Defect,2020-06-02 18:54:39 +0000 UTC
+82,OPEN,Review "surface",auto-migrated, Type-Defect,2020-06-02 18:54:39 +0000 UTC
+81,OPEN,Redefine: karst field ENVO:00004683,auto-migrated, Type-Defect,2020-06-02 18:54:39 +0000 UTC
+80,CLOSED,Add (dis)tributary relations,auto-migrated, Type-Defect,2015-03-28 19:23:15 +0000 UTC
+79,OPEN,Synonyms used by GAZ,auto-migrated, Type-Defect,2020-06-02 18:54:39 +0000 UTC
+78,CLOSED,NTR: subtypes of lake,auto-migrated,2015-09-01 15:59:31 +0000 UTC
+77,CLOSED,definition of ENVO:00002297 ! environmental feature,auto-migrated,2015-03-28 19:23:09 +0000 UTC
+76,CLOSED,Mixture of 8-digit and 7-digit IDs,auto-migrated, Type-Defect,2016-05-16 21:35:48 +0000 UTC
+75,CLOSED,NTR: gut biome,auto-migrated,2017-07-31 04:36:39 +0000 UTC
+74,CLOSED,Add GeoNames xrefs,auto-migrated,2015-03-28 19:23:08 +0000 UTC
+73,OPEN,Add xrefs for Getty TGN terms,auto-migrated,2020-06-04 07:40:33 +0000 UTC
+72,CLOSED,Add xrefs to EcoLexicon,auto-migrated,2015-03-28 19:23:06 +0000 UTC
+71,CLOSED,Add ADL xrefs,auto-migrated,2015-09-06 22:19:08 +0000 UTC
+70,CLOSED,Add SWEET xrefs,auto-migrated, Type-Defect,2015-03-28 19:23:04 +0000 UTC
+69,OPEN,Create annotation guideines,auto-migrated, Type-Defect,2020-06-02 18:54:36 +0000 UTC
+68,CLOSED,Update downloads page,auto-migrated, Type-Defect,2015-03-28 19:23:02 +0000 UTC
+67,CLOSED,Text definition: polar,auto-migrated,2020-04-08 19:00:19 +0000 UTC
+66,OPEN,NTR: digestate,auto-migrated,2015-03-28 19:23:00 +0000 UTC
+65,CLOSED,Connect GAZ to ENVO,auto-migrated,2019-05-02 15:37:42 +0000 UTC
+64,CLOSED,freshwater biome [ENVO:00000873],auto-migrated,2015-03-28 19:22:56 +0000 UTC
+63,CLOSED,NTR: coral reef biome,auto-migrated,2016-11-22 13:27:49 +0000 UTC
+62,CLOSED,possible duplicate: "mangrove biome" ENVO:01000021 and ENVO:01000181,auto-migrated, Type-Defect,2015-03-28 19:22:55 +0000 UTC
+61,CLOSED,Broaden syn 'bottom' in bed [ENVO:00000501],auto-migrated,2015-03-28 19:22:54 +0000 UTC
+60,OPEN,NTR: bottom,auto-migrated,2015-03-28 19:22:53 +0000 UTC
+59,CLOSED,NTR: bottom,auto-migrated,2015-03-28 19:22:52 +0000 UTC
+58,CLOSED,Add syn 'gravelly soil' to leptosol [ENVO:00002241],auto-migrated,2015-03-28 19:22:51 +0000 UTC
+57,CLOSED,NTR: boulder,auto-migrated,2015-03-28 19:22:51 +0000 UTC
+56,CLOSED,NTR: montane conifer woodland,auto-migrated,2015-03-28 19:22:50 +0000 UTC
+55,CLOSED,NTR: salt,auto-migrated,2015-09-06 22:05:52 +0000 UTC
+54,OPEN,NTR: montane conifer,auto-migrated, possible domain conflict,2016-11-21 13:17:22 +0000 UTC
+53,CLOSED,NTR: ravine,auto-migrated,2015-06-04 18:40:15 +0000 UTC
+52,CLOSED,NTR: pine forest,auto-migrated,2015-06-04 19:43:54 +0000 UTC
+51,OPEN,NTR: fir,auto-migrated, possible domain conflict,2016-11-21 13:17:22 +0000 UTC
+50,CLOSED,NTR: talus slope,auto-migrated,2015-03-28 19:22:48 +0000 UTC
+49,CLOSED,NTR: mixed grassland,auto-migrated,2015-06-04 19:02:49 +0000 UTC
+48,OPEN,NTR: flatwoods,auto-migrated,2015-03-28 19:22:47 +0000 UTC
+47,CLOSED,NTR: ground,auto-migrated,2015-09-06 22:11:03 +0000 UTC
+46,CLOSED,NTR: pinyon juniper woodland,auto-migrated,2015-06-04 19:09:35 +0000 UTC
+45,CLOSED,NTR: granite,auto-migrated,2015-03-28 19:22:46 +0000 UTC
+44,CLOSED,NTR: disturbed area,auto-migrated,2015-06-04 17:12:46 +0000 UTC
+43,CLOSED,NTR: coniferous forest,auto-migrated,2015-04-14 17:23:58 +0000 UTC
+42,CLOSED,NTR: desert scrub,auto-migrated,2015-06-04 19:36:09 +0000 UTC
+41,CLOSED,NTR: desert scrub,auto-migrated,2015-03-28 19:22:44 +0000 UTC
+40,OPEN,NTR: saltbush,auto-migrated,2015-03-28 19:22:44 +0000 UTC
+39,CLOSED,NTR: oak woodland,auto-migrated,2015-03-28 19:22:43 +0000 UTC
+38,CLOSED,NTR: sagebrush community,auto-migrated,2015-03-28 19:22:43 +0000 UTC
+37,CLOSED,NTR: wet meadows,auto-migrated,2015-06-04 19:07:17 +0000 UTC
+36,CLOSED,NTR: conifer woodland,auto-migrated,2015-06-04 19:08:57 +0000 UTC
+35,CLOSED,NTR: junipar woodland,auto-migrated,2015-03-28 19:22:41 +0000 UTC
+34,CLOSED,Add syn 'sandy soil' to arenosol [ENVO:00002229],auto-migrated,2015-03-28 19:22:40 +0000 UTC
+33,CLOSED,NTR: subalpine,auto-migrated,2015-03-28 19:22:40 +0000 UTC
+32,CLOSED,NTR: hillside,auto-migrated,2015-03-28 19:22:39 +0000 UTC
+31,CLOSED,Add syn 'opening' to clearing [ENVO:00000444],auto-migrated,2015-03-28 19:22:38 +0000 UTC
+30,CLOSED,NTR: stream bank,auto-migrated,2015-03-28 19:22:38 +0000 UTC
+29,CLOSED,NTR: alpine,auto-migrated,2015-03-28 19:22:37 +0000 UTC
+28,CLOSED,NTR: rocky slope,auto-migrated,2015-03-28 19:22:36 +0000 UTC
+27,OPEN,NTR: sagebrush,auto-migrated,2015-03-28 19:22:36 +0000 UTC
+26,OPEN,NTR: shoulder,auto-migrated,2015-03-28 19:22:35 +0000 UTC
+25,OPEN,NTR: land plant,auto-migrated, possible domain conflict,2016-11-21 13:17:22 +0000 UTC
+24,CLOSED,NTR: Terrestrial feature,auto-migrated,2015-03-28 19:22:35 +0000 UTC
+23,OPEN,Mapping habitats in SpireEcoConcepts,auto-migrated,2015-03-28 19:22:34 +0000 UTC
+22,CLOSED,Hierarchy revision: geographic feature,auto-migrated,2020-04-08 19:40:11 +0000 UTC
+21,CLOSED,Hierarchy revision: habitats,auto-migrated, Type-Review,2015-04-15 14:26:06 +0000 UTC
+20,OPEN,Hierarchy revision: hill, butte, mesa, mount,auto-migrated, Type-Defect,2020-06-02 18:54:39 +0000 UTC
+19,CLOSED,incorrect parthood relation: drumlin and drumlin field,auto-migrated, Type-Defect,2015-03-28 19:22:30 +0000 UTC
+18,CLOSED,NTR: outcrop,auto-migrated,2015-04-14 17:37:36 +0000 UTC
+17,CLOSED,NTR: basalt,auto-migrated,2015-03-28 19:22:29 +0000 UTC
+16,CLOSED,NTR: gravelly slope,auto-migrated,2015-03-28 19:22:28 +0000 UTC
+15,CLOSED,NTR: old field,auto-migrated,2015-04-14 17:30:23 +0000 UTC
+14,CLOSED,NTR: roadside,auto-migrated,2015-06-04 18:51:32 +0000 UTC
+13,OPEN,NTR: pine,auto-migrated, possible domain conflict,2016-11-21 13:17:22 +0000 UTC
+12,CLOSED,NTR: coastal scrub,auto-migrated,2015-03-28 19:22:23 +0000 UTC
+11,OPEN,oil seep - always anthropogenic?,auto-migrated, Type-Defect,2020-06-02 18:54:39 +0000 UTC
+10,CLOSED,chloropicrine soil - should be chloropicrin soil,auto-migrated, Type-Defect,2015-04-07 21:37:18 +0000 UTC
+9,CLOSED,Add def for "blue-grass field soil",auto-migrated, Type-Defect, interesting-discussion,2015-04-14 18:03:16 +0000 UTC
+8,CLOSED,typo: "abode soil",auto-migrated, Type-Defect,2015-03-28 19:22:19 +0000 UTC
+7,CLOSED,Logical error: harbor,auto-migrated, Type-Defect,2015-03-28 19:22:18 +0000 UTC
+6,OPEN,inappropriate cave synonyms,auto-migrated, Type-Defect, interesting-discussion,2020-06-02 18:54:39 +0000 UTC
+5,CLOSED,NTR: cave subtypes,auto-migrated,2015-03-28 19:22:16 +0000 UTC
+4,CLOSED,speleothem is not a subtype of cave,auto-migrated, Type-Defect,2015-03-28 19:22:15 +0000 UTC
+3,CLOSED,NTR: underground environment/habitat,auto-migrated, Type-Defect,2015-03-28 19:22:14 +0000 UTC
+2,CLOSED,OBO format issues detected by ONTO-perl tools,auto-migrated, Type-Defect,2015-03-28 19:22:12 +0000 UTC
+1,CLOSED,Code review request,auto-migrated,2015-03-28 19:22:10 +0000 UTC
+220,CLOSED,relabel neritic littoral zone,auto-migrated,2015-09-01 15:19:38 +0000 UTC
+219,OPEN,Exhibit,auto-migrated, New term,2015-06-17 02:20:13 +0000 UTC
+218,CLOSED,Feedlot,auto-migrated, New term,2015-09-02 16:51:38 +0000 UTC
+217,CLOSED,Drylot,auto-migrated, New term,2015-09-02 16:51:38 +0000 UTC
+216,CLOSED,Cage,auto-migrated, New term,2015-09-02 15:53:32 +0000 UTC
+215,OPEN,Confined agricultural feature,auto-migrated, New term,2015-09-02 16:47:18 +0000 UTC
+214,CLOSED,apiary,auto-migrated, New term,2015-09-01 15:18:04 +0000 UTC
+213,CLOSED,apiary,auto-migrated, New term,2015-08-31 17:41:17 +0000 UTC
+212,OPEN,Microbialite,auto-migrated, New term,2015-06-17 02:19:48 +0000 UTC
+211,CLOSED,eutropic lake,auto-migrated, low priority,2015-08-05 14:12:23 +0000 UTC
+210,OPEN,health-care facility,auto-migrated, New term,2015-06-17 02:19:42 +0000 UTC
+209,CLOSED,latitude/longitude,auto-migrated,2015-09-01 15:32:36 +0000 UTC
+208,CLOSED,biome/ecosystem,auto-migrated, Modify term,2015-09-15 17:17:13 +0000 UTC
+207,CLOSED,terms missing is_a parents,auto-migrated,2015-08-05 20:33:07 +0000 UTC
+206,CLOSED,water body,auto-migrated,2021-03-09 14:47:16 +0000 UTC
+205,OPEN,grain of sand,auto-migrated,2015-09-01 18:30:15 +0000 UTC
+204,CLOSED,Proposal for new soil definiton,auto-migrated, Modify term,2015-09-21 15:26:44 +0000 UTC
+203,CLOSED,new term: "high-saline content polluted inland lake",auto-migrated,2015-09-06 21:45:16 +0000 UTC
+202,CLOSED,NTR: leaf litter,auto-migrated, low priority,2015-09-02 16:58:25 +0000 UTC
+201,OPEN,missing relationships,auto-migrated,2015-06-17 02:19:10 +0000 UTC
+200,CLOSED,trough/trench,auto-migrated,2015-09-06 18:33:55 +0000 UTC
+199,CLOSED,wetland/palsa,auto-migrated,2015-09-03 20:37:31 +0000 UTC
+198,CLOSED,karst field,auto-migrated,2015-09-06 21:28:00 +0000 UTC
+197,OPEN,dry river,auto-migrated,2015-09-02 11:29:58 +0000 UTC
+196,CLOSED,WWF biome,auto-migrated,2019-09-03 06:39:48 +0000 UTC
+195,CLOSED,caps,auto-migrated,2015-09-06 21:52:02 +0000 UTC
+194,CLOSED,water,auto-migrated,2015-09-06 21:49:55 +0000 UTC
+193,OPEN,volcanic feature,auto-migrated,2015-09-06 20:41:59 +0000 UTC
+192,CLOSED,coastal plain and coast,auto-migrated,2015-09-07 10:56:46 +0000 UTC
+191,CLOSED,marine habitat,auto-migrated,2015-09-06 21:58:52 +0000 UTC
+190,OPEN,New definitions for lagoon environment,auto-migrated,2015-06-17 02:18:31 +0000 UTC
+189,CLOSED,biosphere,auto-migrated, low priority,2016-05-16 21:34:02 +0000 UTC
+188,OPEN,new terms for lagoon environment,auto-migrated,2015-06-17 02:18:24 +0000 UTC
+187,OPEN,calcareous rock,auto-migrated,2015-09-26 23:52:40 +0000 UTC
+186,CLOSED,Add definitions,auto-migrated,2015-06-17 02:18:13 +0000 UTC
+185,CLOSED,ogi and fermented cereals,auto-migrated,2015-06-17 02:26:39 +0000 UTC
+184,CLOSED,add sourdough,auto-migrated,2015-06-17 02:25:44 +0000 UTC
+183,OPEN,sediment - determining definition,auto-migrated,2015-06-17 02:18:02 +0000 UTC
+182,CLOSED,New terms and some comments on existing terms,auto-migrated,2015-06-17 02:17:59 +0000 UTC
+181,CLOSED,environmental substance - sediment & biological product,auto-migrated,2015-06-17 02:17:55 +0000 UTC
+180,CLOSED,add hair to organism_associated habitat,auto-migrated,2015-06-17 02:17:52 +0000 UTC
+179,CLOSED,adding definition for coastal water,auto-migrated,2015-06-17 02:17:48 +0000 UTC
+178,CLOSED,animal habitation-nesting material,auto-migrated,2015-06-17 02:17:45 +0000 UTC
+177,CLOSED,animal habitation-nesting material,auto-migrated,2015-06-17 02:17:42 +0000 UTC
+176,CLOSED,Livestock,auto-migrated,2015-06-17 02:17:37 +0000 UTC
+175,CLOSED,create a node for cultured habitat (cell culture, etc),auto-migrated,2015-06-17 02:17:34 +0000 UTC
+174,CLOSED,expansion of milk node,auto-migrated,2015-06-17 02:17:30 +0000 UTC
+173,CLOSED,bodily fluid,auto-migrated,2015-06-17 02:17:27 +0000 UTC
+172,CLOSED,Great Pacific Garbage Patch,auto-migrated, low priority,2015-06-17 02:26:04 +0000 UTC
+171,OPEN,New terms needed,auto-migrated,2015-06-17 02:17:20 +0000 UTC
+170,CLOSED,An obsoletion, an additional synonym and new terms needed,auto-migrated,2015-06-17 02:17:16 +0000 UTC
+169,CLOSED,remove soil is_a physiographic feature relationship,auto-migrated,2015-06-17 02:17:12 +0000 UTC
+168,CLOSED,pockmark needed,auto-migrated,2015-06-17 02:17:09 +0000 UTC
+167,CLOSED,Addition of 'textile' and 'bedclothing',auto-migrated,2015-06-17 02:17:05 +0000 UTC
+166,CLOSED,hypodermic needle,auto-migrated,2015-06-17 02:17:01 +0000 UTC
+165,CLOSED,animal tissue,auto-migrated,2015-06-17 02:16:58 +0000 UTC
+164,CLOSED,animal blood,auto-migrated,2015-06-17 02:16:54 +0000 UTC
+163,CLOSED,Branch rearrangements, Environmental feature, Environment,auto-migrated,2021-04-06 14:11:31 +0000 UTC
+162,CLOSED,cell culture,auto-migrated,2015-06-17 02:16:47 +0000 UTC
+161,CLOSED,contaminated feed,auto-migrated,2015-06-17 02:16:44 +0000 UTC
+160,CLOSED,animal feed (done) - to do: culture feed and plant feed -,auto-migrated,2015-06-17 02:16:40 +0000 UTC

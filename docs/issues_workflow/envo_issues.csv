@@ -1,0 +1,1349 @@
+"issue","title","creator","state","comments","created","body"
+1238,"NTRs related to equipment found in food processing facilities","BarryFen","open",0,"2021-11-08T03:37:04Z","Hi,
+ 
+We are requesting 2 new terms related to equipment found in food processing facilities.
+Requests can be found here: [terms](https://docs.google.com/spreadsheets/d/1ocymTOF1QyWs8V8lC41SWPWsn4M12lE7PyNZKx_0Cas/edit?usp=sharing)
+"
+1236,"added class 'organic matter content in soil' per issue #413","KrishnaTO","open",0,"2021-11-05T01:01:13Z","followed example from 'concentration of' subclasses.
+
+closes #413  part of [Agronomy project](https://github.com/EnvironmentOntology/envo/projects/3)"
+1235,"Added class 'pressure of vapour' per issue #366 ","KrishnaTO","open",4,"2021-11-05T00:32:16Z","closes #366 
+
+Issue #366  part of [Agronomy project](https://github.com/EnvironmentOntology/envo/projects/3)"
+1234,"Add synonym - photosynthetically active radiation [PAR]","KrishnaTO","open",0,"2021-11-03T13:22:27Z","### Term
+[photosynthetically active radiation](http://purl.obolibrary.org/obo/ENVO_01001864)
+
+### Synonym
+PAR
+
+### Reason
+PAR is a common acronym for concept; and sufficiently unique in ENVO
+Part of AgrO issue [#134](https://github.com/AgriculturalSemantics/agro/issues/134)"
+1232,"Added classes per issue #396","KrishnaTO","open",0,"2021-10-29T22:18:01Z","Added 2 classes:
+hydrological evaporation in soil
+water evaporation rate in soil
+
+Issue #396  part of [Agronomy project](https://github.com/EnvironmentOntology/envo/projects/3)
+
+closes #396 "
+1231,"Added class 'water table' and 'water table depth' per issue #358","KrishnaTO","open",0,"2021-10-29T14:39:22Z","Issue #358  part of [Agronomy project](https://github.com/EnvironmentOntology/envo/projects/3)
+
+closes #358 "
+1230,"Added class per issue #375","KrishnaTO","open",0,"2021-10-29T01:35:08Z","Issue #375 part of [Agronomy project](https://github.com/EnvironmentOntology/envo/projects/3)
+
+ closes #375 "
+1229,"Issue 367 - Add synonym for acidity of soul","KrishnaTO","open",0,"2021-10-29T01:30:58Z","Issue #367 part of [Agronomy project](https://github.com/EnvironmentOntology/envo/projects/3)
+
+closes #367 "
+1228,"Added CC pattern classes (desc for issues list)","KrishnaTO","open",3,"2021-10-29T01:13:27Z","Addresses issues from [Agronomy project](https://github.com/EnvironmentOntology/envo/projects/3) 
+ closes #369
+ closes #370
+ closes #371
+ closes #372
+ closes #373
+ closes #374
+ closes #394
+ closes #401
+ closes #402
+ closes #403
+ closes #404
+ closes #405
+ closes #406
+ closes #407
+ closes #408
+ closes #409
+ closes #410
+ closes #411
+ closes #412
+ closes #414
+
+All terms added are related to concentrations."
+1226,"Documentation: no NTR should ever subclass a non-ENVO class","cmungall","open",10,"2021-10-27T19:11:46Z"," * See #1105. 
+
+If you are making an NTR to ENVO, every one of your terms MUST subclass at least one ENVO class (or use an ENVO class in a genus) and MUST NOT assert a subclass axiom to any non-ENVO class
+
+Only core ENVO editors should ever subclass to BFO, CHEBI, OBI, etc. If you think you really need to subclass a non-ENVO class, open a specific issue just for this one case and we will discuss. In some cases it may transpire we need to better document our DPs.
+
+For example, we should not subclass CHEBI. Instead subclass material, and used composed-primarily-of to link to CHEBI. ENVO represents a different level of granularity than CHEBI.
+
+(Furthermore, I think even core ENVO editors should ONLY subclass ENVO or COB, but that is for another issue)
+
+Rationale: subclassing non-ENVO classes is poor modularization and leads to issues. Additionally the axioms are likely wrong (see my comments on bottle in #1105) 
+
+Aside: OWL is a very powerful language that allows you to do all kinds of interesting things weaving together different ontologies, but a good rule of thumb is **keep it simple** and avoid trying to do anything clever.
+
+Indicate whether you are in favor with a comment +1, -1, +0 with any additional comments.
+"
+1225,"New term: Constructed wetland = def. A wetland which was constructed","tantascamila","open",0,"2021-10-21T12:28:18Z",
+1224,"New synonym request : dead organic matter","nleguillarme","open",1,"2021-10-21T11:38:39Z","""dead organic matter"" as a synonym of ""detritus"""
+1223,"Distinguish plant litter from leaf litter","nleguillarme","open",2,"2021-10-19T13:42:43Z","Hi,
+Soil ecologists distinguish between plant litter and leaf litter, the latter being a subclass of the former : Plant litter = leaf litter+root litter+wood litter
+
+Suggestion : create a class 'leaf litter' as a subclass of 'plant litter'"
+1221,"fixes #402","marieALaporte","open",4,"2021-10-14T08:53:40Z","I started adding the iron concentration term in the entity_attribute_location.csv file as stated here #1217. As deleting the line in the csv was deleting the obsoleted term completely, I decided to use the chemical_concentration pattern instead. 
+Not sure what the recommendation is when several patterns can be used to add a term.  
+
+@KrishnaTO I believe you can use this PR as an example to add the other terms, for which we have opened tickets. Could you use the pattern (chemical_concentration) to add the terms? Thanks"
+1220,"NT: monument. Fixes #1213","cmungall","open",1,"2021-10-13T23:37:37Z",
+1218,"Makefile refactor WIP","cmungall","open",0,"2021-10-08T15:50:37Z","EXPERIMENTAL: changes to Makefile"
+1217,"issue when adding terms using the entity_attribute_location template","marieALaporte","open",1,"2021-10-08T07:44:17Z","I was trying to propose more concentration terms relevant to soil and liquid water using the pattern approach and the template entity_attribute_location. I used the dedicated ID range for that specific pattern to create IDs for the new terms. 
+I added my terms directly to the corresponding module, and then ran the command that was in the Makefile for making the the modules (dosdp generate and robot annotate). 
+
+When looking at the diffs of the entity_attribute_location.owl file that I got in return, I see that one term ('concentration of oxygen in water') was obsoleted at some point, but because I ran the make module command again, the term is created again. See here: https://github.com/marieALaporte/envo/commit/d093bf0eaa9d3914762839c7403a28186c7d06cf
+
+I understand that what I am trying to do it different from what is described in the Wiki. I preferred to use the pattern approach as we have a bunch of concentration and composition terms that we would like to propose to ENVO (we have several issues open for those), and it is a great approach to add both the terms and the equivalent axioms in one shot. 
+
+Could you please advise what should be done here? Many thanks !
+"
+1214,"NTR: bed net","johnwjudkins","open",0,"2021-10-05T17:19:02Z","Definition:
+A processed material that is made of a flexible meshed material and functions as a barrier to keep arthropods out of a sleeping area over which it is placed.
+
+PMID: 32660475
+
+A bed net is often treated with pesticide, but that is not an essential quality of this entity."
+1213,"new term [Monument]: a type of structure that was explicitly created to commemorate a person or event""","jhpoelen","open",2,"2021-10-01T15:51:09Z","While meticulously transcribing bat co-roosting literature (see https://github.com/globalbioticinteractions/bat-co-roosting-database), Aja Sherman suggested to add a term for:
+
+Monument - ""a type of structure that was explicitly created to commemorate a person or event""
+
+Apparently, bats like to hangout with each other in monuments.  
+
+Perhaps something to group under:
+
+http://purl.obolibrary.org/obo/ENVO_00000073 (building)
+or 
+http://purl.obolibrary.org/obo/ENVO_00000070 (human construction) ?
+
+"
+1212,"Add broad syn ""seagrass"" to seagrass bed","cmungall","open",1,"2021-09-27T21:31:23Z","
+http://purl.obolibrary.org/obo/ENVO_01000059
+
+Also: fix typo on definition
+
+Definition: A bed of a marine, saline water body which is covered by one or more speices of seagrass typically belonging to the families Posidoniaceae, Zosteraceae, Hydrocharitaceae, or Cymodoceaceae. [database_cross_reference: https://en.wikipedia.org/wiki/Seagrass][database_cross_reference: ISBN:978-0-19-514172-6]
+
+We may also want to add seagrass to a taxon-union ontology"
+1211,"NTR famine","laurenechan","open",0,"2021-09-22T14:42:29Z","Previously discussed in these issues:
+https://github.com/EnvironmentOntology/envo/issues/1012
+https://github.com/EnvironmentOntology/envo/issues/655#issuecomment-468924246 
+
+"
+1209,"Create design patterns for biome and ecosystem","cmungall","open",6,"2021-09-07T17:30:41Z","Currently there is inconsistent classification between biome and ecosystem, exemplified here:
+
+ * #1208. 
+
+terrestrial biome = 
+biome
+ and ('determined by' some 
+    ('planetary landmass' or ('part of' some 'planetary landmass')))
+
+def: ""A biome which is  primarily or completely situated on a landmass.""
+
+Note the large deviation between textual def and logical def, this is a red flag see [S11 text and logical defs should match](https://douroucouli.wordpress.com/2019/07/08/ontotip-write-simple-concise-clear-operational-textual-definitions/)
+
+(FWIW it seems the logical definition is problematic)
+
+terrestial ecosystem has no logical definition and no textual definition.
+
+My understanding is that ""X biome"" should always be classified under ""X ecosystem"", and what differentiates the child from the parent is that the child has reached climax state. See #787 for full discussion.
+
+If we are agreed on this (can you confirm @pbuttigieg), I recommend:
+
+ * creating a characteristic ""in climax state"". This could live in ENVO or PATO
+ * creating a DP for ""X biome = X ecosystem and has-characteristic some in-climax-state""
+ * making the textual definitions reflect this
+
+I also recommend regularizing the DPs for ecosystems but this can be discussed in a separate ticket.
+
+I also recommend avoid single-children and naming the non-climax state siblings but we can also discuss this in a separate ticket
+
+Note: my personal preference is to only have a single concept and if people need to annotate an ecosystem as being in a climax state they do this with a field in their database rather than pre-composing shadow classes. However, my current proposal above is conservative and allows ENVO to retain the dual ecosystem and biome classes.
+
+Related issues
+
+ * #1051.  
+ * #1174.  "
+1208,"terrestrial biome should be a subclass of terrestrial ecosystem","cmungall","open",0,"2021-09-07T17:13:06Z","currently these two terms are unrelated:
+
+![image](https://user-images.githubusercontent.com/50745/132384468-90e17d8d-f4df-4ac2-9efd-6e17e873c77d.png)
+
+This means that samples classified under ""terrestrial biome"" are not found in searches for ""terrestrial ecosyystem"" which is confusing for users."
+1206,"New term: milky sea","cmungall","open",0,"2021-08-30T06:17:55Z","Definition: an environmental process which occurs in marine waters and is the macroscale excitation of bioluminescence arising from a saprophytic relationship between luminous bacteria and microalgae.
+
+Source:
+https://www.nature.com/articles/s41598-021-94823-z
+
+Cc @beroe who tweeted here https://twitter.com/beroe/status/1431331711699210243?s=19
+
+We may want a design pattern for environmental processes that are mass expressions of molecular or cellular processes, eg photosynthesis
+
+This one would be axiomatized using
+https://www.ebi.ac.uk/ols/ontologies/go/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGO_0008218"
+1205,"Modeling of earthquakes in envo","cmungall","open",1,"2021-08-27T16:04:38Z","Carried on from #1182. 
+
+Note: we should not block progress on #1182, that ticket needs to be fixed ASAP as currently the release version of ENVO has DL errors in it. We should close that ticket with a fix that remains close to the current axioms. Then at our leisure we can discuss long term modeling in this ticket.
+
+Currently earthquake-plate relationships are modeled as has-participant. Is this ideal?
+
+@dr-shorthair puts it well:
+
+_Earthquake is a tricky one._
+
+_From an engineering viewpoint, an earthquake is ground movement (vibration) at a location, as a result of various source phenomena at a distance. The characteristic properties are time, amplitude, acceleration etc at the observing location._
+
+_From the viewpoint of most geologists and geophysicists, the earthquake is the source phenomenon. Usually underground fault-slippage or fracturing, but maybe cavity collapse, an underground explosion, etc. The characteristic properties are location, timing, focal-mechanism, moment, etc of the natural or artificial phenomenon at the source._
+
+_These phenomena are causally related, but different, though often given the same name._
+
+I suspect ENVO will want to focus on the latter view, and we would have separate processes to represent the causal effects, but we should discuss this
+
+For the geological view, it points to a simple occurs_in relation between quakes and plates and plate-oriented entities, e.g
+
+ * plate
+    * plate boundary
+    * region of overlap between two plates
+    * etc
+
+earthqake is currently under material transport process - does this fit well with both views above?"
+1204,"No rain forest term?","turbomam","open",3,"2021-08-20T14:07:18Z","""rain forest"" is in one of the ROBOT-style Google Sheets that I've been asked to review and execute. The proposed definition is 
+
+> A forest ecosystem which has tall and mostly evergreen trees characterized by a closed and continuous tree canopy and a high amount of annual rainfall
+
+I think this is an example of a term that appears in the [annotation of a environmental biosample in GOLD](https://gold.jgi.doe.gov/biosamples?page=1&Biosample.Biosample+Name=rain+forest)
+
+The only place I currently see 'rain.?forest' in EnvO is [tropical lowland evergreen broadleaf rain forest](https://www.ebi.ac.uk/ols/ontologies/envo/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FENVO_01000384)
+
+I have browsed the ENVO:01001243 [forest ecosystem](https://www.ebi.ac.uk/ols/ontologies/envo/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FENVO_01001243&viewMode=All&siblings=false) branch of EnvO and see that the hierarchy is largely based on 
+- the predominant type of leaves observed in a forest
+- the prevailing climate
+- the continuity of the canopy, etc.
+
+I just don't have enough knowledge about this domain to tell if I can place a new 'rain forest' as a subclass of any existing term that's more specific than ""forest ecosystem""."
+1203,"Definitions missing for several waste management terms","turbomam","open",0,"2021-08-19T14:26:48Z","Thes terms appear to lack textual definitions
+
+- ENVO:00002043 'wastewater treatment plant'
+- ENVO:00002272 'waste treatment plant'
+- ENVO:00003043 'sewage plant'
+
+Mentioning @jagadishcs because some of his term requests in [NMDC-05_EnvO_template_robot_sheet](https://docs.google.com/spreadsheets/d/1JHQcAqPAQZrS3ib3fxx34IzajBPMJr-THinPPphU0IE/edit#gid=1943344657) are based on these terms.
+
+Here's the first link I found when Googling about the [difference between wastewater and sewage](https://www.oxymem.com/blog/sewage-versus-wastewater-whats-the-difference). I have no sense if the reliability of this source"
+1202,"DC vs oboInOwl annotation properties?","turbomam","open",1,"2021-08-10T21:13:00Z","@pbuttigieg recently suggested switching to Dublin Core annotation properties, as opposed to of oboInOwl.
+
+The NMDC team has been using oboInOwl in our templates, like [NMDC-03_EnvO_template_robot_sheet](https://docs.google.com/spreadsheets/d/12GICSjx2s3Ey0Crv9uMdkW8unt3LxPcOS2_u7EMAr38/edit#gid=2055246414)
+
+- oboInOwl:created_by
+- oboInOwl:creation_date^^xsd:dateTime
+- oboInOwl:hasBroadSynonym@en
+- oboInOwl:hasDbXref
+- oboInOwl:hasExactSynonym@en
+- oboInOwl:hasNarrowSynonym@en
+- oboInOwl:hasRelatedSynonym@en
+- oboInOwl:inSubset
+
+That's based on @kaiiam's nice EnvO/robot documentation 
+
+I have checked for predicate usage in EnvO via http://sparql.hegroup.org/sparql/
+
+_Remember there are two different Dublin Core prefixes._
+
+```
+     xmlns:dc=""http://purl.org/dc/elements/1.1/""
+     xmlns:terms=""http://purl.org/dc/terms/""
+```
+----
+
+```SPARQL
+SELECT  ?p (COUNT(?s) AS ?count)
+WHERE
+  { GRAPH <http://purl.obolibrary.org/obo/merged/ENVO>
+      { ?s  ?p  ?o }
+  }
+GROUP BY ?p
+```
+
+## DC and oboInOwl usage
+
+| ?p | ?count |
+|---------------------------------------------|----:|
+| http://purl.org/dc/elements/1.1/contributor | 186 |
+| http://purl.org/dc/elements/1.1/creator     | 451 |
+| http://purl.org/dc/elements/1.1/date        | 352 |
+| http://purl.org/dc/elements/1.1/description | 1   |
+| http://purl.org/dc/elements/1.1/source      | 3   |
+| http://purl.org/dc/elements/1.1/title       | 1   |
+| http://purl.org/dc/terms/creator            | 3   |
+| http://purl.org/dc/terms/date               | 1   |
+| http://purl.org/dc/terms/license            | 2   |
+| http://purl.org/dc/terms/rightsHolder       | 1   |
+| http://www.geneontology.org/formats/oboInOwl#consider          | 101  |
+| http://www.geneontology.org/formats/oboInOwl#created_by        | 810  |
+| http://www.geneontology.org/formats/oboInOwl#creation_date     | 591  |
+| http://www.geneontology.org/formats/oboInOwl#default-namespace | 1    |
+| http://www.geneontology.org/formats/oboInOwl#hasAlternativeId  | 86   |
+| http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym   | 468  |
+| http://www.geneontology.org/formats/oboInOwl#hasDbXref         | 7676 |
+| http://www.geneontology.org/formats/oboInOwl#hasExactSynonym   | 3131 |
+| http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym  | 465  |
+| http://www.geneontology.org/formats/oboInOwl#hasOBONamespace   | 1130 |
+| http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym | 1999 |
+| http://www.geneontology.org/formats/oboInOwl#hasSynonym        | 36   |
+| http://www.geneontology.org/formats/oboInOwl#hasSynonymType    | 106  |
+| http://www.geneontology.org/formats/oboInOwl#id                | 1115 |
+| http://www.geneontology.org/formats/oboInOwl#inSubset          | 1253 |
+| http://www.geneontology.org/formats/oboInOwl#is_class_level    | 1    |
+| http://www.geneontology.org/formats/oboInOwl#is_inferred       | 4    |
+| http://www.geneontology.org/formats/oboInOwl#is_metadata_tag   | 1    |
+| http://www.geneontology.org/formats/oboInOwl#shorthand         | 2    |
+| http://www.geneontology.org/formats/oboInOwl#source            | 1    |
+
+_Searching for `owl:onProperty`s associated with `owl:Restriction`s doesn't show any DC or oboInOwl usage that might need remediation._
+
+There is also heterogeneity in the objects of the various APs for mentioning creators and contributors:
+
+```SPARQL
+SELECT  ?o (COUNT(?s) AS ?count)
+WHERE
+  { GRAPH <http://purl.obolibrary.org/obo/merged/ENVO>
+      { ?s  <http://purl.org/dc/elements/1.1/contributor>  ?o }
+  }
+GROUP BY ?o
+```
+
+- `dc:contributor` all IRIs, except for nine ""https://orcid.org/0000-0002-7556-2097"" strings
+- `dc:creator`? mixture of ORCID IRIs, ORCID strings and **some non-ORCID strings**. Some `http` and some `https`
+- `terms:creator`?  All names or initials
+- `http://www.geneontology.org/formats/oboInOwl#created_by` most heterogeneous!
+
+
+"
+1201,"add pattern for contamination","wdduncan","open",0,"2021-08-09T20:29:25Z","Fixes #1102 
+
+Opening PR for contamination pattern"
+1200,"Request for a new set of EnvO terms","jagadishcs","open",2,"2021-08-09T05:10:36Z","Hi @turbomam 
+@cmungall 
+@wdduncan 
+@TBKReddy
+
+Request for a creation of [new set of EnvO terms](https://docs.google.com/spreadsheets/d/1JHQcAqPAQZrS3ib3fxx34IzajBPMJr-THinPPphU0IE/edit#gid=1943344657)."
+1199,"inconsistencies in hierarchy between envo-basic.obo, envo-basic.json, and envo-basic.owl","wdduncan","open",1,"2021-08-06T20:17:16Z","The hierarchies differ in the `envo-basic.obo`, `envo-basic.json`, and `envo-basic.owl` files.
+
+For example, here is hierarchy for `lake` in `envo-basic.obo`:
+![image](https://user-images.githubusercontent.com/3186638/128566169-c89eb8f1-ba23-4c55-a23f-f1baffefe06f.png)
+
+The corresponding json in `envo-basic.json` does not have a `""is_a"": ...` block.
+
+The `envo-basic.owl` file, however, does have a hierarchy:
+
+![image](https://user-images.githubusercontent.com/3186638/128566574-0b198964-403d-4ade-b2e9-a4d94b34f150.png)
+
+cc @cmungall 
+"
+1198,"envo basic is missing many parents","cmungall","open",3,"2021-08-06T20:05:56Z","caused by this:
+
+![image](https://user-images.githubusercontent.com/50745/128565591-2596c126-74c9-4923-9f20-8d70b03a43ff.png)
+
+we should be running reason prior to making basic?"
+1196,"fluid astronomical body part and compound astronomical body part have same logical def","matentzn","open",1,"2021-08-04T11:52:51Z","![image](https://user-images.githubusercontent.com/7070631/128175435-d0c4527d-3cf6-46c3-8583-b561cabd009a.png)
+
+Causes problems downstream would be good to fix (I can, if I knew how), but then we also need a new release.
+
+Also, we need to check for that, will make a PR.
+
+![image](https://user-images.githubusercontent.com/7070631/128175668-c80d073c-6ae4-4251-b1aa-5fdb978e6325.png)
+
+
+
+"
+1195,"Issue #1193 Jagadish NMDC NTRs from 202100702","turbomam","open",0,"2021-07-15T14:13:26Z","See also [NMDC-04_EnvO_template_robot_sheet](https://docs.google.com/spreadsheets/d/17yfrsNTiYk7XhYAQMJMYt7Is0RspLmZHu0WWpotIb9o/edit#gid=724193215)
+"
+1194,"Request for new ENVO terms","kukay003","open",1,"2021-07-14T20:42:08Z","Request for new envo terms of the attached terms.
+[ENVO term request.xlsx](https://github.com/EnvironmentOntology/envo/files/6818827/ENVO.term.request.xlsx)
+"
+1193,"Request for new EnvO terms","jagadishcs","open",1,"2021-07-03T00:49:37Z","@turbomam
+@cmungall
+@TBKReddy
+
+Request for creation of a new set of EnvO [terms](https://docs.google.com/spreadsheets/d/17yfrsNTiYk7XhYAQMJMYt7Is0RspLmZHu0WWpotIb9o/edit#gid=724193215)."
+1192,"Issue #1191 jagadish 20210625","turbomam","open",0,"2021-06-29T13:27:17Z","Looking forward to the review process!
+
+I have left two terms from #1191 out of the robot template execution, because @cmungall and I still had some questions after a brief meeting we had yesterday. See https://docs.google.com/spreadsheets/d/12GICSjx2s3Ey0Crv9uMdkW8unt3LxPcOS2_u7EMAr38/edit#gid=1778038570"
+1191,"Request for new terms","jagadishcs","open",18,"2021-06-24T04:19:46Z","@turbomam 
+@cmungall 
+@TBKReddy
+
+Request for creation of new EnvO terms for the list provided [here](https://docs.google.com/spreadsheets/d/12GICSjx2s3Ey0Crv9uMdkW8unt3LxPcOS2_u7EMAr38/edit#gid=154764881)
+ "
+1190,"Discuss: add import for REX","cmungall","open",0,"2021-06-24T00:49:30Z","http://obofoundry.org/ontology/rex
+
+this has concepts for processes like nuclear fission that may be useful
+
+note although the site doesn't show it, rex is orphaned - https://github.com/OBOFoundry/OBOFoundry.github.io/issues/788
+
+on the one hand I don't like a dependency on an ontology with no owner
+
+on the other hand the quality seems fine, and the content is likely stable
+
+one option would be to adopt rex"
+1189,"NTR: insulated shipping container","Dalalghamdi","open",0,"2021-06-23T19:35:37Z","Term request for bio-banking ontology project.
+
+Term label 'insulated shipping container'
+parent class 'container'
+definition 'A container which is used to ship temperature sensitive products such as foods, pharmaceuticals, organs, blood, biologic materials, and chemicals'
+
+Thanks, 
+Dalia"
+1186,"issue-1185, further editing of plastics related terms","raissameyer","open",1,"2021-06-17T14:57:33Z","PR addressing #1185, adding additional terms to the envoPlatics subset, updating 'nurdle', obsoleting 'plastic production compound' and 'manufactured plastic'."
+1185,"Editing nurdle, obsoleting manufactured plastic, and plastic production compound, and adding further relevant classes to the envoPlastics subset","raissameyer","open",1,"2021-06-17T14:35:21Z","As part of our work for UN environment on SDG 14 ...
+
+---
+
+...I'm editing the following class such that it follow the genus-differentia structure: 
+
+**Term**: [nurdle](http://purl.obolibrary.org/obo/ENVO_01000777) (xRef #289)
+
+**Former parent class**: [piece of plastic](http://purl.obolibrary.org/obo/ENVO_01000776)
+**Former definition**: A cylindrical shaped pre-production plastic pellet used in manufacturing and packaging.
+
+**New parent class**: [plastic pellet](https://www.ebi.ac.uk/ols/ontologies/envo/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FENVO_06105010)
+**New definition**: A plastic pellet which is produced such that its size allows it to be rapidly melted and used as input for further downstream manufacturing processes.
+
+---
+
+... I'll also obsolete the following terms:
+
+**Term**: [plastic production compound](http://purl.obolibrary.org/obo/ENVO_03510039)
+**Former definition**: A compound utilized for the production of plastics or polymers.
+**Former comment**: Plastics are produced by the conversion of natural products or by the synthesis of primary chemicals generally coming from oil, natural gas, or coal. Plasctic production compounds typically include elements such as carbon, hydrogen, oxygen, nitrogen, chlorine, and sulfur.
+**Reason for obsoletion**: This term is ambigious, as it could refer to the compound the plastic is (supposed to be) made of, additives, contaminants, etc. Please instead directly refer to the compound of interest.
+
+**Term**: [manufactured plastic](http://purl.obolibrary.org/obo/ENVO_01000404)
+**Former definition**: A (portion of) plastic is an (portion of) anthropogenic environmental material including any of numerous organic synthetic or processed materials which are primarily composed of thermoplastic or thermosetting polymers of high molecular weight.
+**Reason for obsoletion**: This term has been replaced by [synthetic plastic](http://purl.obolibrary.org/obo/ENVO_06105112) as part of a more coherent set of classes as part of the SDG14.1.1 project (see https://github.com/EnvironmentOntology/envo/projects/17)
+
+Please let me know if there is a need for these terms to stay.
+
+---
+
+... and adding `nurdle`, and `polyester polymer` to the envoPlastics subset. 
+
+"
+1184,"New terms for refineries and reactors","cmungall","open",2,"2021-06-16T23:02:29Z","New terms for refineries and reactors:
+
+http://purl.obolibrary.org/obo/ENVO_02000137 nuclear power reactor
+http://purl.obolibrary.org/obo/ENVO_02000138 mangrove biome soil
+http://purl.obolibrary.org/obo/ENVO_02000141 refinery
+http://purl.obolibrary.org/obo/ENVO_02000142 petroleum oil refinery
+http://purl.obolibrary.org/obo/ENVO_02000143 sugar refinery
+http://purl.obolibrary.org/obo/ENVO_02000144 natural gas processing plant
+
+some of these are used for gold mapping
+
+for axiomatization this includes two new OPs:
+
+http://purl.obolibrary.org/obo/ENVO_02000139 used for transport of
+http://purl.obolibrary.org/obo/ENVO_02000145 used for processing of
+
+These may be later added to RO
+"
+1183,"NTR: forest","cmungall","open",1,"2021-06-16T14:56:56Z","ENVO doesn't have a class with label 'forest'.
+
+http://purl.obolibrary.org/obo/ENVO_00000111 ""forested area"" has a related synonym 'forest', but this is an immaterial entity:
+
+_An area with a high density of trees. A small forest may be called a wood. [ https://en.wikipedia.org/wiki/Forest ]_:
+![image](https://user-images.githubusercontent.com/50745/122240419-9e2acd00-ce76-11eb-98eb-e6113f72280c.png)
+
+This means that someone searching for ENVO for a concept 'forest' is likely to come across ENVO_00000111, and if they are not familiar with BFO (likely) they will look at the definition and select it for their purposes, even though this is an immaterial entity.
+
+I don't think anyone would consider a forest to be an immaterial entity
+
+Note that in previous versions of ENVO, ENVO_00000111 represented an actual forest, which was a material entity:
+
+![image](https://user-images.githubusercontent.com/50745/122242059-e0084300-ce77-11eb-8a02-c7b1b35d58d6.png)
+
+At some point parts of the feature branch were moved from material to immaterial. I think as per obo policy this should have resulted in obsoletions, as when you change a basic concept like a forest from being something material with trees as parts etc to immaterial, you are changing the meaning radically.
+
+Note we also have an ENVO class for 'forest ecosystem', which is currently the best term for people looking for a forest concept.
+
+Moving forward, I propose one of 3 courses of action:
+
+ 1. create a new term forest, which would related to 'forest ecosystem' the same way 'desert' relates to 'desert ecosystem'. Remove the synonym 'forest' from the immaterial class
+ 2. Add the string 'forest' as an exact synonym to 'forest ecosystem'. Remove the synonym 'forest' from the immaterial class
+ 3. Move ENVO_00000111 back under material entity, and restore the label forest"
+1180,"NTR: shipwreck","cmungall","open",1,"2021-06-15T03:43:58Z","https://en.wikipedia.org/wiki/Shipwreck
+
+There is existing work going on now in ENVO for various kinds of marine debris, I am not sure if this fits in"
+1179,"NTRs: Indoor and outdoor air","cmungall","open",0,"2021-06-15T03:39:18Z","I propose an alternate way to subdivide air. We currently have:
+
+![image](https://user-images.githubusercontent.com/50745/121989019-4003ca00-cd50-11eb-9940-2dadfcdca9d0.png)
+
+I can add two classes, indoor and outdoor air, using contained-in some building as differentia
+
+
+
+"
+1178,"NTR: thermokarst pond","cmungall","open",0,"2021-06-15T03:31:36Z","We currently have:
+
+[Term]
+id: ENVO:03000082
+name: thermokarst lake
+def: ""A freshwater lake which fills a depression formed by the erosion of thermokarst caused by permafrost thaw."" [https://en.wikipedia.org/wiki/Thermokarst]
+subset: envoPolar
+synonym: ""cave-in lake"" EXACT  []
+synonym: ""thaw lake"" EXACT  []
+synonym: ""thermokarst lakes"" EXACT  []
+is_a: ENVO:00000021 ! freshwater lake
+relationship: BFO:0000050 ENVO:03000085 ! part of thermokarst
+relationship: RO:0002220 ENVO:03000084 ! adjacent to thermokarst depression
+relationship: RO:0002354 ENVO:03000086 ! formed as result of ice-bearing permafrost thawing process
+relationship: RO:0002473 ENVO:01000722 ! composed primarily of meltwater
+
+[Term]
+id: ENVO:03000084
+name: thermokarst depression
+def: ""A geographic basin which is formed due to the erosion of thermokarst by meltwater released from thawing permafrost."" []
+subset: envoPolar
+is_a: ENVO:01001781 ! part of a landmass
+is_a: ENVO:03000015 ! geographic basin
+relationship: BFO:0000050 ENVO:03000085 ! part of thermokarst
+relationship: RO:0002354 ENVO:03000086 ! formed as result of ice-bearing permafrost thawing process
+
+[Term]
+id: ENVO:03000085
+name: thermokarst
+def: ""An irregular land surface which consists of marshy hollows, hummocks, thermokarst depressions and thermokarst lakes formed from the erosion of ice-rich thawing permafrost areas."" [https://en.wikipedia.org/wiki/Thermokarst]
+subset: envoPolar
+is_a: ENVO:01000635 ! planetary landmass
+relationship: BFO:0000051 ENVO:03000084 ! has part thermokarst depression
+relationship: RO:0002354 ENVO:03000086 ! formed as result of ice-bearing permafrost thawing process
+
+ - Option 1: Add a synonym to 'thermokarst lake'
+    - https://en.wikipedia.org/wiki/Thermokarst suggests T-lakes are shallow, and than T-pond and tundra pond are acceptable synonyms
+ - Option 2: Add a new class
+    - I would suggest we also add a grouping for Thermokarst-body-of-water
+    - I would also implement a DP, Thermokarst-X = X and formed-as-result-of thermokarst formation process
+
+I favor 1 but welcome advice"
+1177,"NTRs: algal bloom subtypes by taxonomy","cmungall","open",0,"2021-06-15T03:24:15Z","![image](https://user-images.githubusercontent.com/50745/121987783-05009700-cd4e-11eb-8228-a27afc5d2d40.png)
+
+current divided into fresh w marine
+
+I propose also by algal type eg
+
+ * unicellular
+    * cyanobacteria
+    * ...
+ * macroscopic multicellular
+    * ...
+
+The string HAB (harmful algal bloom may be useful somewhere as this is an important concept. I am not sure it makes sense to make a subclass for this. We get into ragged lattice issues (i.e do we pre-populate the cross-product of harmfulness x water type x algal type?). I suggest a narrow syn for now but am happy to defer this part."
+1176,"NTR: Periphyton","cmungall","open",1,"2021-06-15T03:17:51Z","https://en.wikipedia.org/wiki/Periphyton
+
+_ a mass of biological material consisting of algae, cyanobacteria, heterotrophic microbes, and detritus that is attached to submerged surfaces in most aquatic ecosystems._
+
+I believe this would fit in this hierarchy:
+
+![image](https://user-images.githubusercontent.com/50745/121987460-5d836480-cd4d-11eb-9965-f16738b39a32.png)
+
+optionally add has-part axioms to various NCBITaxon classes
+
+I believe this belongs in ENVO and not PCO due to the fact this aggregate consists also of non-living organisms eg detritus, but ccing @ramonawalls 
+"
+1175,"NTR: hypoxic zone, anoxic zone","cmungall","open",0,"2021-06-15T03:09:34Z","The ENVO classification of oxic/anoxic/hypoxic water bodies is good:
+
+![image](https://user-images.githubusercontent.com/50745/121985672-09c34c00-cd4a-11eb-8718-376503703fa7.png)
+
+It looks like ""_X_oxic water"" material is only used to define lakes, not marine bodies. This is reasonable, as we don't see anoxic oceans (on Earth)
+
+conversely, we have a class for 'marine anoxic zone'
+
+![image](https://user-images.githubusercontent.com/50745/121986198-f49aed00-cd4a-11eb-9978-674a160a46bd.png)
+
+this is an immaterial entity, and is not connected to the class for 'anoxic water'
+
+I would like to add a material entity class for the general concept of hypoxic or dead zone. But I'm unsure how to do this without clashing with existing terminological patterns.
+
+I can make a PR but need more guidance on the existing classification philosophy
+
+ - option 1 (simple): Add non-exact synonyms ""Xocic zone"" or ""Xoxic water"" classes
+     - even though the zone connotes a large material region rather than an arbitrary portion, the concepts are close enough
+ - option 2 (harder)
+     - create parallel ""Xoxic region"" classes for {an,hyp,''}oxic region [of {lake,marine body}]
+     - decide how 'anoxic region of marine body' relates to existing ""marine anoxic zone"" class
+
+
+As an aside, I suggest a minor modification here:
+
+[Term]
+id: ENVO:01001063
+name: oxic water
+def: ""Water which has an appreciable concentration of dissolved oxygen."" [ORCID:0000-0002-4366-3088, https://en.wikipedia.org/wiki/Hypoxia_(environmental)]
+is_a: ENVO:00002006 ! liquid water
+
+""appreciable"" is a bit vague. I believe the intent is to partition the oxicity space into anoxic, hypoxic, oxic (where oxic could encompass normal oxicity and hyperoxicity). I would make this explicit using JEPD axioms"
+1174,"NTR: rainforest/rainforest biome and subtypes","cmungall","open",4,"2021-06-15T02:40:30Z","I'm looking for terms:
+
+ -  ""tropical rainforest"" or ""tropical rainforest biome""
+ -  ""temperate rainforest"" or ""temperate rainforest biome""
+
+I would expect a general concept for ""rainforest"" as per https://earthobservatory.nasa.gov/biome/biorainforest.php
+
+But I don't see this general concept in ENVO
+
+![image](https://user-images.githubusercontent.com/50745/121983906-ec40b300-cd46-11eb-83d8-aa722404f4c4.png)
+
+I see a concept for ""tropical forest"" _A forest ecosystem which is subject to tropical climate conditions._, but this is more general than ""tropical rainforest"" and includes e.g. dry broadleaf
+
+I would make a PR but I am not sure I understand the classification principles here:
+
+![image](https://user-images.githubusercontent.com/50745/121984479-e1d2e900-cd47-11eb-965b-f81299bca2c8.png)
+
+In some cases X is subclassed to make 'X biome', but this is not done for all Xs, and there are no siblings for Xs that have not reached a climax community.  I am this is also covered in #1051
+
+"
+1173,"headwater fixes","cmungall","open",0,"2021-06-15T02:23:00Z","http://purl.obolibrary.org/obo/ENVO_00000153
+
+[Term]
+id: ENVO:00000153
+name: headwater
+def: ""The upper part of a river system, denoting the upper basin and source streams of a river."" [USGS:SDTS]
+synonym: ""drainage basin"" RELATED  [ADL:FTT]
+synonym: ""headstream"" RELATED  [ADL:FTT]
+synonym: ""source"" RELATED  []
+**synonym: ""stream"" BROAD  [ADL:FTT]
+synonym: ""HEADWATER"" EXACT  [USGS:SDTS]
+synonym: ""headwaters"" EXACT  [Geonames:feature]
+xref: FTT:105
+xref: FTT:1221
+xref: FTT:1259
+xref: FTT:220
+xref: FTT:644
+xref: Geonames:H.STMH
+xref: TGN:21181
+xref: https://en.wikipedia.org/wiki/Headwater
+is_a: ENVO:01000813 ! astronomical body part
+relationship: BFO:0000050 ENVO:00000023 ! part of stream
+**relationship: BFO:0000051 ENVO:01000275 ! has part structural basin
+
+ * Add related synonyms: river source, stream source
+ * remove 'stream' as a synonym
+ * I am not an expert but I am extremely dubious about the has-part some structural basin
+ * Definition
+     * the source is given generically as USGS:STDS. What is this? Can a specific ID or URL be provided?
+     * ""denoting"": use/mention error
+     * Definition is partly circular
+     * Consider the simpler definition here https://en.wikipedia.org/wiki/River_source
+
+http://purl.obolibrary.org/obo/ENVO_00000888
+
+[Term]
+id: ENVO:00000888
+name: large river headwater biome
+subset: wwfBiome
+is_a: ENVO:01000253 ! freshwater river biome
+
+ * no def
+ * presumably this is the URL for this https://www.worldwildlife.org/biomes/large-river-headwater-ecosystems
+ * there is nothing connecting this to headwater
+ * I think a logical def would be overspecified, but I suggest
+     def: A freshwater river biome that is large in scale and determined by the presence of headwaters. Examples are The Mississippi Piedmont, Guayanan highlands, Upper Amazon, Upper Paraná, Brazilian Shield, Congo Basin Piedmont. These biomes feed number of the world's largest and richest rivers https://www.worldwildlife.org/biomes/large-river-headwater-ecosystems
+     subclass of: determined-by some headwaters
+     
+"
+1172,"Issue 1160","kaiiam","open",14,"2021-06-09T19:25:52Z","@pbuttigieg @rduerr PR addressing https://github.com/EnvironmentOntology/envo/issues/1160 last batch of cryospheric work. "
+1168,"Adding axioms to plastic-related terms","raissameyer","open",1,"2021-05-21T10:08:05Z","As announced in previous issues, we'll be adding axioms to plastic-related terms (added by @meichen-liu and @iwilkie, reviewed by @pbuttigieg and @raissameyer) in Phase 2 of this project, which begins with this issue.
+
+The related issues and PRs are collected in https://github.com/EnvironmentOntology/envo/projects/17.
+
+
+"
+1167,"Post-merge curation of COVID transmission site terminology","pbuttigieg","open",0,"2021-05-19T17:15:46Z","With reference to #1166 #1105 
+
+We're merging these in for expediency as they're part of a COVID text-mining project. 
+However, there are several terms that need additional curation post hoc.
+
+@ddooley has confirmed that synonym type changes, rearrangements in the hierarchies, modifications to textual and axiomatic defs, and modifications to labels providing the original label is added as a synonym (any type), will not affect their downstream uses.
+
+The terms to curate are in the range:
+ENVO:03501102 - 03501355
+
+
+Note: this range also includes terms for food processing sites belonging to the MIxS food extension."
+1165,"Set of terms that could go in ENVO rather than OBI","ddooley","open",2,"2021-05-18T06:33:23Z","OBI could take in these terms but the OBI curation team was wondering if ENVO wants them instead, esp. as they either very general, or pertain to agricultural sample collection?
+
+LABEL | Parent | DEFINITION | DEF SOURCE
+-- | -- | -- | --
+hand scoop sample collection device | device | A device which is a rigid material scoop attached to a 50-100 centimetre handle which is stiff and durable. | https://www.grainscanada.gc.ca/en/grain-quality/sampling-grain/sampling-systems-handbook/sampling-systems-handbook-4.html
+trier | device | A device which is a tapered hollow tube used in obtaining samples of bulk material for examination and testing. | https://www.grainscanada.gc.ca/en/grain-quality/sampling-grain/sampling-systems-handbook/sampling-systems-handbook-4.html
+nobbe trier | trier | A trier which has a single oval opening near the pointed end. | https://www.grainscanada.gc.ca/en/grain-quality/sampling-grain/sampling-systems-handbook/sampling-systems-handbook-4.html
+double sleeve trier | trier | A trier which has multiple chambers along its length, and a close fitting inner tube acting as a twistable valve to enable the chambers to be filled simultaneously. | https://www.grainscanada.gc.ca/en/grain-quality/sampling-grain/sampling-systems-handbook/sampling-systems-handbook-4.html
+filter | device | A device which at least partially removes something from whatever passes through it. | http://purl.obolibrary.org/obo/NCIT_C41199
+air filter | filter | A filter which at least partially removes particles from air. | http://purl.obolibrary.org/obo/NCIT_C49810
+bag | container | A container which is flexible and can be opened. | 
+vacuum device | device | A device which generates a vacuum to provide suction of material. | 
+
+"
+1163,"Adding missing defs detected in #1159","pbuttigieg","open",4,"2021-05-14T11:49:14Z","Description and progress notes in #1159 "
+1160,"ESIP SEM-Harmo Cryohackathon sessions Feb - April 2021","kaiiam","open",6,"2021-05-12T19:33:21Z","As part of the ongoing work of the ESIP Semantic harmonization cluster's Global Cryosphere Watch (GCW) cryohackaton work over the period of February - April 2021, we @pbuttigieg @rduerr @brandonnodnarb and others worked on the following term set shown in the second sheet of this [ESIP_Cryo_hackathon_robot_template](https://docs.google.com/spreadsheets/d/1Xt3BHNz-pP2ggJq_asPPcuKuGEAKtbT3MU2wFLTnCmQ/edit?usp=sharing) for addition into ENVO, as well as mapping to SWEET. These contributions we conducted following the [ENVO Robot template and merge workflow](https://github.com/EnvironmentOntology/envo/wiki/ENVO-Robot-template-and-merge-workflow) created during the course of this and subsequent work. This issue is to document this work and create a new pull request to merge the contributions into ENVO. "
+1159,"Terms missing definitions","wdduncan","open",10,"2021-05-12T14:44:32Z","@cmungall @kaiiam @pbuttigieg @turbomam while l working on creating subsets of terms for NMDC, I found a number of terms missing definitions.
+
+IRI | Label
+--|--
+http://purl.obolibrary.org/obo/ENVO_00002259 | agricultural soil
+http://purl.obolibrary.org/obo/ENVO_00000519 | agricultural terrace
+http://purl.obolibrary.org/obo/ENVO_00002874 | air conditioning unit
+http://purl.obolibrary.org/obo/ENVO_00002121 | alkaline salt lake
+http://purl.obolibrary.org/obo/ENVO_00005745 | allotment garden
+http://purl.obolibrary.org/obo/ENVO_00005759 | alluvial paddy field soil
+http://purl.obolibrary.org/obo/ENVO_00005741 | alpine soil
+http://purl.obolibrary.org/obo/ENVO_00002213 | anaerobic sludge blanket reactor
+http://purl.obolibrary.org/obo/ENVO_01000439 | andesitic volcano
+http://purl.obolibrary.org/obo/ENVO_00002204 | anthropogenic contamination feature
+http://purl.obolibrary.org/obo/ENVO_00005742 | arable soil
+http://purl.obolibrary.org/obo/ENVO_00000121 | artificial channel
+http://purl.obolibrary.org/obo/ENVO_00005770 | beech forest soil
+http://purl.obolibrary.org/obo/ENVO_01001476 | body of liquid
+http://purl.obolibrary.org/obo/ENVO_00000541 | brackish pond
+http://purl.obolibrary.org/obo/ENVO_00005760 | burned soil
+http://purl.obolibrary.org/obo/ENVO_00002143 | calcite hot spring
+http://purl.obolibrary.org/obo/ENVO_00003914 | chalk soil
+http://purl.obolibrary.org/obo/ENVO_00002262 | clay soil
+http://purl.obolibrary.org/obo/ENVO_00000416 | coastal dune
+http://purl.obolibrary.org/obo/ENVO_01000102 | cold surface current
+http://purl.obolibrary.org/obo/ENVO_00002153 | compost biofilter
+http://purl.obolibrary.org/obo/ENVO_00005747 | compost soil
+http://purl.obolibrary.org/obo/ENVO_00003893 | cosmetic product
+http://purl.obolibrary.org/obo/ENVO_00003896 | currency note
+http://purl.obolibrary.org/obo/ENVO_01000440 | dacitic volcano
+http://purl.obolibrary.org/obo/ENVO_0010163 | dry river valley
+http://purl.obolibrary.org/obo/ENVO_0010162 | dry stream valley
+http://purl.obolibrary.org/obo/ENVO_00002260 | dune soil
+http://purl.obolibrary.org/obo/ENVO_00005787 | eucalyptus forest soil
+http://purl.obolibrary.org/obo/ENVO_00003894 | face cream product
+http://purl.obolibrary.org/obo/ENVO_00005754 | fertilized soil
+http://purl.obolibrary.org/obo/ENVO_00005755 | field soil
+http://purl.obolibrary.org/obo/ENVO_01000253 | freshwater river biome
+http://purl.obolibrary.org/obo/ENVO_00005765 | frozen compost soil
+http://purl.obolibrary.org/obo/ENVO_00000000 | geographic feature
+http://purl.obolibrary.org/obo/ENVO_00002112 | gold mine drainage
+http://purl.obolibrary.org/obo/ENVO_00000548 | gravel field
+http://purl.obolibrary.org/obo/ENVO_00005781 | heat stressed soil
+http://purl.obolibrary.org/obo/ENVO_00005763 | humus-rich acidic ash soil
+http://purl.obolibrary.org/obo/ENVO_00000089 | inland cliff
+http://purl.obolibrary.org/obo/ENVO_00000532 | intermittent saline evaporation pond
+http://purl.obolibrary.org/obo/ENVO_00012411 | karst cave
+http://purl.obolibrary.org/obo/ENVO_00000397 | lake channel
+http://purl.obolibrary.org/obo/ENVO_00000891 | large lake biome
+http://purl.obolibrary.org/obo/ENVO_00000887 | large river biome
+http://purl.obolibrary.org/obo/ENVO_00000889 | large river delta biome
+http://purl.obolibrary.org/obo/ENVO_00000888 | large river headwater biome
+http://purl.obolibrary.org/obo/ENVO_00005756 | lawn soil
+http://purl.obolibrary.org/obo/ENVO_00005783 | leafy wood soil
+http://purl.obolibrary.org/obo/ENVO_00005766 | limed soil
+http://purl.obolibrary.org/obo/ENVO_00000396 | marine channel
+http://purl.obolibrary.org/obo/ENVO_01000145 | marine coral reef back reef
+http://purl.obolibrary.org/obo/ENVO_01000148 | marine coral reef buttress zone
+http://purl.obolibrary.org/obo/ENVO_01000146 | marine coral reef crest
+http://purl.obolibrary.org/obo/ENVO_01000149 | marine coral reef deep fore reef
+http://purl.obolibrary.org/obo/ENVO_01000144 | marine coral reef flat zone
+http://purl.obolibrary.org/obo/ENVO_01000147 | marine coral reef fore reef
+http://purl.obolibrary.org/obo/ENVO_01000143 | marine reef
+http://purl.obolibrary.org/obo/ENVO_01000150 | marine subtidal rocky reef
+http://purl.obolibrary.org/obo/ENVO_00000509 | marine terrace
+http://purl.obolibrary.org/obo/ENVO_00005761 | meadow soil
+http://purl.obolibrary.org/obo/ENVO_00000510 | meander neck
+http://purl.obolibrary.org/obo/ENVO_00010621 | medical instrument
+http://purl.obolibrary.org/obo/ENVO_00002128 | mesophilic sulfur spring
+http://purl.obolibrary.org/obo/ENVO_00005769 | mountain forest soil
+http://purl.obolibrary.org/obo/ENVO_00002185 | oil reservoir
+http://purl.obolibrary.org/obo/ENVO_00005740 | paddy field soil
+http://purl.obolibrary.org/obo/ENVO_00003895 | paper product
+http://purl.obolibrary.org/obo/ENVO_00005774 | peat soil
+http://purl.obolibrary.org/obo/ENVO_00005776 | peaty paddy field soil
+http://purl.obolibrary.org/obo/ENVO_00005764 | pond soil
+http://purl.obolibrary.org/obo/ENVO_00000534 | pothole
+http://purl.obolibrary.org/obo/ENVO_00002195 | pyritic acid mine drainage
+http://purl.obolibrary.org/obo/ENVO_00000478 | range of mounts
+http://purl.obolibrary.org/obo/ENVO_00000550 | range of seamounts
+http://purl.obolibrary.org/obo/ENVO_00005790 | red soil
+http://purl.obolibrary.org/obo/ENVO_01000652 | river channel
+http://purl.obolibrary.org/obo/ENVO_00005788 | rubber plantation soil
+http://purl.obolibrary.org/obo/ENVO_00002199 | sandy beach
+http://purl.obolibrary.org/obo/ENVO_00005752 | sawah soil
+http://purl.obolibrary.org/obo/ENVO_01000526 | sedimentary intrusion
+http://purl.obolibrary.org/obo/ENVO_00000892 | small lake biome
+http://purl.obolibrary.org/obo/ENVO_00000890 | small river biome
+http://purl.obolibrary.org/obo/ENVO_00005784 | spruce forest soil
+http://purl.obolibrary.org/obo/ENVO_01000650 | stream channel
+http://purl.obolibrary.org/obo/ENVO_01000187 | subtropical savanna biome
+http://purl.obolibrary.org/obo/ENVO_00002210 | sulfide-oxidizing bioreactor
+http://purl.obolibrary.org/obo/ENVO_01000857 | temperate mediterranean sea biome
+http://purl.obolibrary.org/obo/ENVO_01000189 | temperate savanna biome
+http://purl.obolibrary.org/obo/ENVO_01000215 | temperate shrubland biome
+http://purl.obolibrary.org/obo/ENVO_01000221 | temperate woodland biome
+http://purl.obolibrary.org/obo/ENVO_00002211 | thermophilic anaerobic methanogenic reactor
+http://purl.obolibrary.org/obo/ENVO_01000188 | tropical savanna biome
+http://purl.obolibrary.org/obo/ENVO_01000214 | tropical shrubland biome
+http://purl.obolibrary.org/obo/ENVO_00005778 | tropical soil
+http://purl.obolibrary.org/obo/ENVO_01000220 | tropical woodland biome
+http://purl.obolibrary.org/obo/ENVO_00002184 | underground physiographic feature
+http://purl.obolibrary.org/obo/ENVO_00000104 | undersea feature
+http://purl.obolibrary.org/obo/ENVO_00005786 | upland soil
+http://purl.obolibrary.org/obo/ENVO_00005779 | vegetable garden soil
+http://purl.obolibrary.org/obo/ENVO_00002926 | warm seep
+http://purl.obolibrary.org/obo/ENVO_01000101 | warm surface current
+http://purl.obolibrary.org/obo/ENVO_01000218 | xeric shrubland biome
+"
+1154,"NTR: bituminous sands","kaiiam","open",0,"2021-05-11T17:49:21Z","While discussing `bituminous sand` in https://github.com/EnvironmentOntology/envo/pull/1097 we @pbuttigieg @wdduncan and @turbomam decided it would also be good to have an astronomical body part term `bituminous sands` referring to the regions in Canada, Russia etc where fracking is done. We'll add to this exact synonyms `oil sands` and `tar sands`. 
+
+When we make this issue let's also change the synonyms in `bituminous sand` away from `oil sands` and `tar sands` to the singular forms `oil sand` and `tar sand`. "
+1147,"same term for bioreactor in OBI","cstoeckert","open",2,"2021-05-10T16:31:34Z","Both OBI and ENVO have a term for Bioreactor. 
+http://purl.obolibrary.org/obo/OBI_0001046
+We should coordinate. 
+See also: https://github.com/obi-ontology/obi/issues/1345"
+1141,"difference between shore, beach, and coast","cmungall","open",3,"2021-05-07T19:06:00Z","Let's look at the hierarchy around 'coast':
+
+![image](https://user-images.githubusercontent.com/50745/117494238-e924fc80-af28-11eb-8503-17b3c812da22.png)
+
+There are some unusual things here. If shore is part of coast, why isn't sea shore part of sea coast or lake shore part of lake coast? If beach is part of shore, why isn't sea beach part of sea shore? 
+
+But my main question is what is the difference between beach, shore, and coast:
+
+id: ENVO:00000091
+name: beach
+def: ""A landform consisting of loose rock particles such as sand, gravel, shingle, pebbles, cobble, or even shell fragments along the shoreline of a body of water."" [https://en.wikipedia.org/wiki/Beach]
+
+id: ENVO:00000304
+name: shore
+def: ""That part of the land in immediate contact with a body of water including the area between high and low water lines."" [USGS:SDTS]
+
+id: ENVO:01000687
+name: coast
+def: ""A coast is the area where land meets the sea, ocean, or lake."" [https://en.wikipedia.org/wiki/Coast]
+
+These definitions seem both imprecise and highly overlapping. Note the definition of shoreline is being discussed over on #1122  
+
+The definitions are also from mixed sources. I would recommend using the same source for related concepts to arrive at a coherent classification. I am not a geographer so I can't recommend specific ones, but as an example of how we might approach this, we could take the NOAA shoreline definitions: https://shoreline.noaa.gov/glossary.html
+
+"
+1130,"Review FTT mappings","cmungall","open",0,"2021-05-06T22:48:50Z","From https://github.com/EnvironmentOntology/envo/pull/1107 discussion of mappings of 'landfill' to FTT
+
+
+@pbuttigieg says:
+> FFT is the Feature Type Thesaurus, and ADL is the Alexandra Digital Library. These are legacy annotations from ENVO's early days, but likely still valid.
+
+This is correct, these were made in the early days
+
+However, I am not sure these are still useful
+
+For this class, we have two FTTs: FTT:621; FTT:624
+
+I am not sure how to construct URLs for these, if I try
+
+http://legacy.alexandria.ucsb.edu/gazetteer/FeatureTypes/ver100301/00000621.htm -- dumps
+http://legacy.alexandria.ucsb.edu/gazetteer/FeatureTypes/ver100301/00000624.htm -- mine dumps
+
+it's not clear why two were chosen here
+
+I think it may be simplest to do some of these again
+
+See also #1129   
+"
+1129,"Create SSSOM files for all mappings","cmungall","open",4,"2021-05-06T22:42:45Z","self-assigning
+
+We should have SSSOM files for all mappings This will make explicit the things that are currently secret knowledge or implicit. E.g.
+
+ - what abbrevs like FTT mean, and what URI they expand to
+ - when mappings were made, who made them, and what method they used
+ - whether the mappings are intended to be 1:1/exact, owl:Equivalent, or loose/close matches
+
+In doing this we should review mappings such as those to FTT. Will make a new ticket
+
+http://legacy.alexandria.ucsb.edu/gazetteer/FeatureTypes/ver100301/00000621.htm"
+1128,"github pages is incorrectly configured","cmungall","open",3,"2021-05-06T20:20:04Z","https://github.com/EnvironmentOntology/envo/settings/pages
+
+![image](https://user-images.githubusercontent.com/50745/117359987-157b4300-ae6d-11eb-909a-1c0bca26b331.png)
+
+this isn't right. The envo site is on google sites, not github pages. 
+
+We also have this
+
+https://github.com/EnvironmentOntology/envo/blob/master/_config.yml
+
+and this
+
+https://github.com/EnvironmentOntology/envo/blob/master/CNAME
+
+Which AFAICT does nothing?
+
+IF we decide to switch from google sites to GH pages (this would be a good idea but would require work) THEN it should be driven by a new repo in https://github.com/EnvironmentOntology called environmentontology.github.io
+
+Proposed actions:
+
+ - go to https://github.com/EnvironmentOntology/envo/settings/pages and remove github pages
+ - remove the file CNAME and _config.yml
+
+aside: environmentontology.org is still going through a proxy satin.lbl.gov, this is not necessary, @kltm and I have discussed this, but this fix would be a separate ticket"
+1111,"Pattern for pipeline network terms","kaiiam","open",2,"2021-05-03T15:44:49Z","Following up on @turbomam 's https://github.com/EnvironmentOntology/envo/pull/1097 there is an opportunity to create a pattern for pipeline network terms where each terms is capable/linked to the transport of some material, e.g. `oil` or `water`. `natural gas` etc. It would be good to expand the machine readable semantics on these terms. "
+1110,"New Term Requests","lschriml","open",8,"2021-05-03T14:52:23Z","Hello Pier,
+     These are term requests for the Disease Ontology project. 
+We are integrating environmental drivers of disease.
+These terms are being integrated with ExO and ECTO stressors (@laurenechan).
+
+Cheers,
+Lynn
+
+**secondhand smoke**
+   --> potential parent term, **smoke**  http://purl.obolibrary.org/obo/ENVO_01000838
+- An irritant that is secondhand tobacco smoke inhaled from another person's burning tobacco product or exhaled, or breathed out, by the person smoking.
+- https://www.cdc.gov/tobacco/basic_information/secondhand_smoke/
+- https://medlineplus.gov/secondhandsmoke.html
+- https://pubmed.ncbi.nlm.nih.gov/28138005/
+- 
+
+  
+**mother to child smoking**
+ --> potential parent term, **smoke**  http://purl.obolibrary.org/obo/ENVO_01000838
+
+  -- the smoke's chemicals are passed via the bloodstream to the child in utero 
+- An irritant that is mother to child smoking exposure, for babies whose mothers smoke while pregnant.
+- https://www.niehs.nih.gov/health/topics/agents/allergens/smoke/index.cfm; 
+- https://www.cdc.gov/tobacco/basic_information/secondhand_smoke/children-home/index.htm
+
+
+
+**hurricane**
+ --> parent, **atmospheric storm**,    http://purl.obolibrary.org/obo/ENVO_01000877
+- An ecological pertubation that is a hurricane.
+- https://tools.niehs.nih.gov/wetp/index.cfm?id=2472
+- https://www.niehs.nih.gov/health/topics/agents/extremeweather/index.cfm
+
+**heat**
+  --> perhaps a 'physical quality' ?? 
+    - exposure physical stress heat
+- https://www.osha.gov/dte/outreach/intro_osha/intro_to_osha_english/slide18.html
+- https://www.osha.gov/heat-exposure
+
+**strobing light**
+- A physical agent that is strobing light.
+- https://ncceh.ca/documents/practice-scenario/health-effects-large-led-screens-local-residents
+- https://austinpublishinggroup.com/clinical-neurology/fulltext/ajcn-v1-id1010.php"
+1103,"further specify fluid environmental material","wdduncan","open",1,"2021-04-29T15:11:30Z","The term `fluid environmental material` is simply defined as:
+```
+A liquid or a gas.
+```
+and equivalent to:
+```
+'gaseous environmental material' or plasma or 'liquid environmental material'
+```
+Can make the definition a little tighter? E.g.:
+```
+An environmental material which is composed primarily of environmental gas, liquid, or plasma.
+```
+
+cc @cmungall @kaiiam @pbuttigieg @turbomam "
+1102,"add ""contaminated"" pattern","wdduncan","open",0,"2021-04-29T14:54:26Z","We have a number of terms that contain the string ""contaminated"" (e.g., `contaminated air`, `contaminated soil`, `contaminated water`, etc.). 
+
+Each seems to contain the axiom:
+```
+has_increased_levels_of some 
+    ('material entity'
+     and ('has role' some 
+        (poison or 'environmental contaminant')))
+```
+Can we add this pattern to the `patterns` folder?
+
+cc @cmungall @pbuttigieg @kaiiam @turbomam "
+1093,"Merge agricultural process into agriculture","pbuttigieg","open",2,"2021-04-26T09:23:11Z","@marieALaporte
+
+For coordination with AgrO, ENVO_01001246 shuold be obsoleted and subclasses transferred to ENVO_01001442. Add synonym ""agricultural process"" to agriculture. 
+
+Add note to ""agriculture"" to look for subclasses in AgrO. "
+1091,"Makefile implementation of ""ENVO Robot template and merge workflow"" wiki page?","turbomam","open",4,"2021-04-22T15:35:15Z","I have found the [ENVO Robot template and merge workflow wiki page](../wiki/ENVO-Robot-template-and-merge-workflow) very useful.
+
+In fact, I implemented most of it, including `wget`-ing the template from Google Sheets in a [Makefile](https://github.com/EnvironmentOntology/envo/blob/mam-2021-04-13/Makefile) that I put at the root of an experimental branch.
+
+I wouldn't push this new Makefile to the root of `master`, but I could add the rules to one of the other Makefiles, if someone let me know which to use.  @cmungall ? @pbuttigieg ?
+
+```bash
+ % find . -name Makefile    
+```                                 
+> ./Makefile
+./mappings/Makefile
+./src/gaz/Makefile
+./src/gaz/diffs/Makefile
+./src/envo/Makefile
+./src/envo/diffs/Makefile
+./src/envo/sources/Makefile
+./src/envo/mappings/Makefile
+
+`./Makefile` is the one I created. It also contains some queries for ID range assignments and utilization. I'm probably not saving those results in the best location. Same thing for the intermediate files from compiling the robot template.
+
+I don't think I see any rules for compiling user-submitted robot templates in there yet
+
+```bash
+% grep -R template src/**/Makefile
+```
+> src/envo/Makefile:	dosdp-tools --table-format=csv --template=./patterns/$*.yaml --outfile=modules/$*.tmp.owl --obo-prefixes=true generate --infile=modules/$*.csv
+src/envo/Makefile:	$(ROBOT) template --template $< -i imports/ro_import.owl -o $@.tmp.owl && mv $@.tmp.owl $@
+MAM@MAM-M74 envo % 
+
+"
+1089,"Consolidate ROBOT templates from #1030 and #1075","turbomam","open",8,"2021-04-20T20:01:14Z","I have created a new [Google sheet](https://docs.google.com/spreadsheets/d/1OQOtSlSjuw4OKre9YNE25-x9XnSNYaSPvbx_UjNZoBA/edit?usp=sharing) with all 23 of the templated NTRs from 
+https://docs.google.com/spreadsheets/d/1UQq_-tuIX0eQvQOxhf1u5vab4SzBlgIHpDvizv1GOnE for #1030 (8 terms)
+and
+https://docs.google.com/spreadsheets/d/10My7JyR1_GtHZK1mM9Qyx3PXYwn_0f_KYyc3Cm_0kpY for #1075 (15 terms)"
+1087,"robot query errors with envo owl artifacts","turbomam","open",1,"2021-04-20T16:16:05Z","I just got an error running a pretty basic SPARQL query over envo-edit.owl with robot query
+
+_query has been updated since original post_
+
+```bash
+MAM@MAM-M74 envo % cat src/envo/util/used_ids.rq
+select ?s ?o 
+where {?s a ?o}
+limit 9
+MAM@MAM-M74 envo % robot query \
+--input src/envo/envo-edit.owl \
+--query src/envo/util/used_ids.rq src/envo/util/reports/envo-idranges.tsv
+```
+
+> 2021-04-20 11:49:40,052 ERROR org.semanticweb.owlapi.rio.utils.RioUtils - Object URI was invalid: <http://purl.obolibrary.org/obo/ENVO_00010505> <http://www.geneontology.org/formats/oboInOwl#hasDbXref> <>.
+
+And I get a diffeeent error running the same query over ./envo.owl
+
+```bash
+MAM@MAM-M74 envo % robot query \
+--input envo.owl \
+--query src/envo/util/used_ids.rq src/envo/util/reports/envo-idranges.tsv 
+```
+
+> 2021-04-20 11:55:06,361 ERROR org.obolibrary.robot.IOHelper - Input ontology contains 1 triple(s) that could not be parsed
+<https://www.wikidata.org/wiki/Q2306597> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> _:genid2147498543.
+
+Tagging @kaiiam as you suggested!
+
+@cmungall have you seen this kind of thing before?"
+1086,"Remove legacy synonyms on ice sheet","pbuttigieg","open",0,"2021-04-14T20:01:16Z","```
+continental glacier; glacial tongue; Arctic pack; pack ice; bay ice; island ice; polar ice; continental ice; shelf ice; ice mass; polar ice pack; ice field; rock glacier; ICE FIELD
+```"
+1072,"ENVO is outside DL profile which causes reasoners to fail","wdduncan","open",23,"2021-03-23T21:55:06Z","When HermiT is used to reason over http://purl.obolibrary.org/obo/envo/releases/2020-06-10/envo.owl (current release), there are errors of the form:
+```
+An error occurred during reasoning: Non-simple property 'BFO_0000051' or its inverse appears in the cardinality restriction 'BFO_0000051 max 1 ENVO_01001771'..
+java.lang.IllegalArgumentException: Non-simple property 'BFO_0000051' or its inverse appears in the cardinality restriction 'BFO_0000051 max 1 ENVO_01001771'
+```
+The reason for this is HermiT doesn't let you use cardinality constraints with non-simple object properties (i.e., object properties for which a characteristic such `Transitive` has been defined). ELK happily ignores such things :)
+
+In the case of the specific error above, the error is due to this:
+![image](https://user-images.githubusercontent.com/3186638/112223419-4a567200-8c00-11eb-8f5f-b549d73fb85d.png)
+
+However, there are other examples, such as `biome` has the axiom:
+![image](https://user-images.githubusercontent.com/3186638/112223714-a91beb80-8c00-11eb-9bc0-bcb7ac6122ef.png)
+
+Not sure how we missed this before now ...
+
+cc @cmungall 
+"
+1070,"NTR robot file of new transportation and medical infrastructure and other terms","ddooley","open",5,"2021-03-15T05:54:34Z","A [Google sheet ENVO tab](https://docs.google.com/spreadsheets/d/1FkC7p0vLbdoYoUgPMUhlvpHo26RqrP9FuUoXyQdrHGM/edit#gid=90525156)  of NTR requests which has been edited and reviewed for a number of months [edit] will soon exist as a Robot pull request. The terms are motivated by text mining and tagging of Covid19 related paper content.
+
+One question is the overlap of some OMSRE hospital/clinic facilities, raised in OMSRE issue https://github.com/ufbmi/OMRSE/issues/157 . If there is no OMRSE impact on that chunk of the terminology, then the pull request will have about 260 terms.
+
+A second ENVO batch edit that should be included in this involves a bit of a reorganization or touchup to some existing related ENVO terms, detailed in rows 271 - 292 of above google sheet. 
+
+"
+1069,"Accidental equivalent definitions","matentzn","open",2,"2021-03-11T01:32:11Z","The logical definitions for ENVO_01001479 and ENVO_01001784 are equivalent. To replicate the test (also useful for qc!)
+
+```
+robot reason -I http://purl.obolibrary.org/obo/envo.owl --equivalent-classes-allowed asserted-only -o reason.owl
+```
+
+"
+1068,"Usage of terms from EnvO 'material entity' & 'food material' for MIxS env_medium","jagadishcs","open",3,"2021-03-08T22:37:27Z","@cmungall, @wdduncan, @pbuttigieg, @kaiiam, @TBKReddy
+
+I have come across some biosamples, like **ice cream** and **currency notes** from which the microbial communities were studied. 
+EnvO terms 'ice cream food product' - FOODON_00001045 for ice cream and 'currency note' - ENVO_00003896 for currency notes were found to be appropriate EnvO terms, but they come under the hierarchy of [food material](http://www.ontobee.org/ontology/ENVO?iri=http://purl.obolibrary.org/obo/FOODON_00002403) and [material entity](http://www.ontobee.org/ontology/ENVO?iri=http://purl.obolibrary.org/obo/BFO_0000040) respectively.  I could not find any other suitable terms from the list of **env_medium** terms available at [environmental material](http://www.ontobee.org/ontology/ENVO?iri=http://purl.obolibrary.org/obo/ENVO_00010483), as suggested in the EnvO [General notes and guidance](https://github.com/EnvironmentOntology/envo/wiki/ENVO-annotations-for-MIxS-v5).
+
+Similar to the above examples, I have used a several such terms from **material entity** and **food material** since there were no equivalent terms under **environmental material**. 
+
+So, when no appropriate term is found in the hierarchy, **environmental material**, but present in **material entity**/**food material hierarchies**, would it be appropriate to allow such terms to be used for MIxS env_medium field.
+
+"
+1067,"Request for new terms to be included in the EnvO that are already existing in PO & BTO","jagadishcs","open",7,"2021-03-05T21:39:37Z","@cmungall, @wdduncan, @pbuttigieg, @kaiiam, @TBKReddy
+I used the following terms from PO & BTO ontologies to annotate EnvO/MIxS 'env_medium' field for a set of ~1250 plant associated biosamples. These terms are currently not part of the ENVO. I would like to request you for including these terms in the ENVO.
+
+fine root - BTO_0005194
+flower - PO_0009046
+fruit - PO_0009001
+panicle - BTO_0005436
+pollen - PO_0025281
+radicle - PO_0020031
+rhizoid - PO_0030078
+rhizome - PO_0004542
+root tip - PO_0000025
+seed - PO_0009010
+seedling - BTO_0001228
+spikelet - PO_0009051
+stalk - PO_0025066
+stem - PO_0009047"
+1066,"documentation/standards for defining axioms","wdduncan","open",9,"2021-03-03T20:54:53Z","I've seen a number of issues that mention guidance for writing axioms. E.g. (to name a few):
+- #253 
+- #718 
+- #1006 
+- #1039 
+
+Think we might want some documentation provide guidance. Themes I see in the tickets:
+- Don't use complex subclass axioms (e.g., X and (part of some Y) and (located in some Z). Instead list the list each subclass axiom individually.
+- Stick to with axioms that ELK can use for inference. I think ELK cannot use the following (but my list may be incomplete):
+    - distinct individuals
+    - same individuals
+    - min/max cardinality
+    - disjoint classes 
+    - data property assertions
+ - We may also need guidance on modeling complements (e.g., not part of some X)
+
+
+"
+1063,"manufactured product parent terms","kaiiam","open",10,"2021-02-11T14:32:36Z","Following on from the discussion in https://github.com/EnvironmentOntology/envo/pull/1060 @matentzn will need some suggestions for parent classes for the following terms. 
+
+dye
+India ink
+fountain pen ink
+varnish
+vitreous enamel
+turpentine
+naphtha
+automatic transmission fluid
+hydraulic fluid
+motor oil"
+1062,"Remove unreviewed terms","kaiiam","open",7,"2021-02-11T14:14:22Z","Xref https://github.com/EnvironmentOntology/envo/pull/1060 as @pbuttigieg pointed out there are some terms which were not reviewed in @laurenechan's ID range in conversation with @nicolevasilevsky we've decided to remove them (in a text editor) in this PR so that we can start @laurenechan request again. "
+1061,"Envo Term request for Lime Buffer Capacity and Equilibrium Lime Buffer Capacity","StantonMartin","open",0,"2021-02-04T18:00:17Z","Requesting ENVO term for Lime Buffering Capacity, Equilibrium Lime Buffer Capacity. This is an important measurement related to soils.  University of Georgia Extensions Circular 874. 
+ https://extension.uga.edu/publications/detail.html?number=C874&title=Determining%20Lime%20Requirement%20Using%20the%20Equilibrium%20Lime%20Buffer%20Capacity"
+1059,"Land as subclass or part of","Garybc","open",4,"2021-01-21T17:55:42Z","Should ""land"" have a part-of relation to ""solid surface layer"" rather than being a subclass?"
+1058,"Geological vs geographic features","Garybc","open",1,"2021-01-21T17:51:50Z"," Geological feature, a part of the solid Earth, seems to be where features like mountains are classified.  There still is perhaps a related concept called ""geographic feature"" in EnvO defined as ""A part of an astronomical body which is primarily composed of a continuous volume of solid material, shaped by one or more environmental processes."" Mountain would satisfy this definition but is not classed here.   ""Park"" is an example of a subclass though.  Perhaps there are more distinctions to make to place ""park"" here and not ""mountains.""  ""Geographic feature"" is also described as being ""depopulated"".   Does this mean that it will eventually become empty or that the class still makes sense and will just have fewer subclasses? "
+1056,"Should ""plateau"" be a subclass of ""Land""?","Garybc","open",2,"2021-01-17T17:03:12Z","In Envo plateau is subclass of  ""flattened elevation"", part of "" upland soil"", it is an "" astro body part"".   But is not a subclass of ""Land"" but is defined so.
+“An elevated and comparatively level expanse of ""land”.
+https://bioportal.bioontology.org/ontologies/ENVO/?p=classes&conceptid=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FENVO_00000182&jump_to_nav=true#visualization"
+1055,"greenhouse biome?","only1chunts","open",4,"2021-01-13T10:44:15Z","Hi, Can someone point me to the most appropriate term to use to describe a biome of a managed horticultural greenhouse for the growth of plants in a research setting?
+for now I am going use this term from AGRO http://purl.obolibrary.org/obo/AGRO_00000363"
+1053,"Align with OEO","cmungall","open",1,"2020-12-28T22:50:26Z","cc @jannahastings
+
+https://github.com/OpenEnergyPlatform/ontology/
+
+There are a few overlaps
+
+Here is a naive unvalidated alignment. There are false positives but this gives a sense of overlap
+
+|subject_id|subject_label|predicate_id|object_id|object_label|
+|---|---|---|---|---|
+|ENVO:2000036|generates|owl:equivalentClass|OEO:00000188|generator|
+|ENVO:2000032|thermal energy|owl:equivalentClass|OEO:00000207|thermal energy|
+|ENVO:2000025|nuclear energy|owl:equivalentClass|OEO:00000300|nuclear energy|
+|ENVO:2000023|chemical energy|owl:equivalentClass|OEO:00000007|chemical energy|
+|ENVO:2000017|kinetic energy|owl:equivalentClass|OEO:00230020|kinetic energy|
+|ENVO:2000015|energy|owl:equivalentClass|OEO:00000150|energy|
+|ENVO:2000011|anthracite|owl:equivalentClass|OEO:00000204|hard coal|
+|ENVO:2000011|anthracite|owl:equivalentClass|OEO:00000058|anthracite|
+|ENVO:2000008|lignite|owl:equivalentClass|OEO:00000251|lignite|
+|ENVO:02500037|air pollution|owl:equivalentClass|OEO:00010012|air pollutant|
+|ENVO:02500037|air pollution|owl:equivalentClass|OEO:00000055|air pollution|
+|ENVO:02500036|environmental pollution|owl:equivalentClass|OEO:00000330|pollution|
+|ENVO:02000125|transportation|owl:equivalentClass|OEO:00140003|transport|
+|ENVO:02000091|coal|owl:equivalentClass|OEO:00000088|coal|
+|ENVO:01001862|Solar radiation|owl:equivalentClass|OEO:00020038|solar radiation|
+|ENVO:01001608|kerosene oil|owl:equivalentClass|OEO:00000246|kerosene|
+|ENVO:01001445|usage of an environment for infrastructure and utilities|owl:equivalentClass|OEO:00140003|transport|
+|ENVO:01001444|usage of an environment for transportation|owl:equivalentClass|OEO:00140003|transport|
+|ENVO:01001211|stellar radiation|owl:equivalentClass|OEO:00020038|solar radiation|
+|ENVO:01001154|volatile astrogeological material|owl:equivalentClass|OEO:00010011|volatility|
+|ENVO:01001112|fossilization of organic material|owl:equivalentClass|OEO:00030002|fossil|
+|ENVO:01001023|radiation|owl:equivalentClass|OEO:00020037|radiation|
+|ENVO:01000793|atmospheric wind|owl:equivalentClass|OEO:00000043|wind|
+|ENVO:01000792|mass gaseous flow|owl:equivalentClass|OEO:00000043|wind|
+|ENVO:01000665|waste role|owl:equivalentClass|OEO:00000042|waste role|
+|ENVO:01000610|motor|owl:equivalentClass|OEO:00010032|motor|
+|ENVO:01000604|vehicle|owl:equivalentClass|OEO:00010023|vehicle|
+|ENVO:01000560|charcoal|owl:equivalentClass|OEO:00000084|charcoal|
+|ENVO:01000556|biogas|owl:equivalentClass|OEO:00000074|biogas|
+|ENVO:01000552|natural gas|owl:equivalentClass|OEO:00000292|natural gas|
+|ENVO:01000415|fine respirable suspended particulate matter|owl:equivalentClass|OEO:00010010|PM2.5|
+|ENVO:01000405|respirable suspended particulate matter|owl:equivalentClass|OEO:00010009|PM10|
+|ENVO:01000162|organ|owl:equivalentClass|OEO:00030022|organization|
+|ENVO:01000060|particulate matter|owl:equivalentClass|OEO:00000318|particulate matter|
+|ENVO:00005774|peat soil|owl:equivalentClass|OEO:00000320|peat|
+|ENVO:00003903|aviation fuel|owl:equivalentClass|OEO:00000245|KeroseneTypeJetFuel|
+|ENVO:00002984|petroleum|owl:equivalentClass|OEO:00000115|crude oil|
+|ENVO:00002006|liquid water|owl:equivalentClass|OEO:00000441|water|
+|ENVO:00002005|air|owl:equivalentClass|OEO:00000054|air|
+"
+1052,"request term ""freeze dried specimen""","msweetlove","open",1,"2020-12-18T10:11:20Z","I have a concrete example where soil was sampled underneath a mummified seal in Antarctica. I could not find an ENVO term to refer to this mummified seal. Something generalized like ""freeze dried specimen [EFO:0005121]"" from the Experimental Factor Ontology would do the trick.
+
+Cheers,
+Maxime"
+1051,"definition of environmental system/environment","cmungall","open",0,"2020-12-16T19:11:11Z","The definition of environmental system could be improved, to be more useful to domain scientists:
+
+https://www.ebi.ac.uk/ols/ontologies/envo/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FENVO_01000254
+
+Def: _A system which has the disposition to environ one or more material entities._ [ http://dx.doi.org/10.1186/2041-1480-4-43 ]
+
+What does it mean to environ a material entity?
+
+There is a comment that says:
+
+_ In ENVO's alignment with the Basic Formal Ontology, this class is being considered as a subclass of a proposed BFO class ""system"". The relation ""environed_by"" is also under development. Roughly, a system which includes a material entity (at least partially) within its site and causally influences that entity may be considered to environ it. Following the completion of this alignment, this class' definition and the definitions of its subclasses will be revised._
+
+In the > 7 years since this was written there is still no BFO system class, and there is no environed_by/environs relation in ENVO
+
+(I added 'system' to RO as a placeholder, but so far ENVO is the only ontology to use this, and it confuses people to have classes in RO. We can consider adding to COB)
+
+The referenced paper has more information:
+
+_We propose that an environment (synonymous with an environmental system [ENVO_01000254]) is a certain sort of system which has the disposition to environ, that is to contain within its BFO:site [BFO_0000029] and causally integrate, some BFO:material entity. Examples of environments range from rainforests to gut lumens to the interiors of virally infected cells. As described below, the subclasses of environmental system will reference environment-types familiar to most biologists._
+
+I think it would be useful to include the examples.
+
+Note also there is a subclass ""ecosystem"" _An environmental system which includes both living and non-living components._
+
+However, many of the direct subclasses of environmental system have both living and non-living components, so by this definition they should be moved under ecosystem?
+
+![image](https://user-images.githubusercontent.com/50745/102382622-7cac5f80-3f7f-11eb-820f-c4e624d3936b.png)
+
+![image](https://user-images.githubusercontent.com/50745/102386376-d9117e00-3f83-11eb-8acc-45a0c6ef847b.png)
+
+
+I have a number of (non-disjoint) proposals:
+
+Proposal 1: change definition
+
+I propose the definition should exclude all abstract BFO terms (""material entity"", ""disposition""). It can still use technical terms an environmental scientist would understand.
+
+Merriam Webster has a good definition:
+
+_the complex of physical, chemical, and biotic factors (such as climate, soil, and living things) that act upon an organism or an ecological community and ultimately determine its form and survival_
+
+To accommodate the planetary use case we can add a hedge that the complex is *capable* of acting on an organism/community
+
+Adding this and making the definition more conformant with OBO, I propose:
+
+_A combination of physical objects, materials, and living entities (or their parts)  that act upon an organism or an ecological community and ultimately determine its form and survival_
+
+Proposal 2: rename back to 'environment'
+
+Rename 'environmental system' back to 'environment', make it a direct subclass of material entity
+
+potentially: deprecate 'system' from RO
+
+Proposal 3: differentiate ecosystem from environment
+
+I would make ecosystem part of environment. For example:
+
+_The part of an environment consisting of living and non-living components linked via nutrient cycles and energy flows _ [ISBN:978-0-534-42066-6]
+
+However, this is more complex and may be better served as a separate ticket, as it is also tied with the ecosystem vs biome distinction (https://docs.google.com/document/d/15gp6RyMZrYskRSDonB7y8kkw9E3a8wHuqcdRDt_blhU/edit#)"
+1050,"request ENVO term for ""subglacial water""","msweetlove","open",0,"2020-12-14T09:27:53Z","I could not find a term to describe water under ice, e.g. in an ice-covered lake or seasonal sea ice. This is relevant for microbial and algal research, as the ice significantly reduces the light penetration in the water, but liquid water still allows many organisms to live in these conditions.
+Subglacial lake (ENVO:03000120) is the closest match I found, but does not work as the waterbodies in my example can seasonally contain open liquid water."
+1047,"request ENVO term for purified deionized water (e.g. milli q)","msweetlove","open",4,"2020-12-01T15:04:08Z","I would need an ENVO term that describes ""milli q water"" or equivalent (e.g. purified deionized water). Milli q water is highly purified and deionized water manufactured by Millipore Inc., and is often used in DNA or RNA extraction protocols. This is sometimes used in microbial studies to extract DNA from and see if any contamination occurred (thus the milli q water is such studies is seen as a potential environment for microorganisms). Closest match that I found is water (CHEBI:15377), although there exist different terms for other ""types"" of water (e.g. eutrophic and oligotrophic)."
+1046,"Deprecate ENVO:alga replaced by PCO:alga excluding Cyanobacteria?","kaiiam","open",9,"2020-11-23T17:26:23Z","@ramonawalls in https://github.com/PopulationAndCommunityOntology/pco/issues/58 created the new term: [alga excluding Cyanobacteria](http://purl.obolibrary.org/obo/PCO_0000073) to replace envo: [alga](http://purl.obolibrary.org/obo/ENVO_02500019). Also xref https://github.com/EcologicalSemantics/ecocore/issues/100. 
+
+Unless @pbuttigieg has any objections, should we precede to deprecate and replace by?"
+1045,"Same identifier assigned to several term through `alt_id` ","althonos","open",3,"2020-11-19T12:37:09Z","Hi!
+
+I noticed the current OBO release contains terms that have been given the same identifier (`ENVO:01000060`):
+```ini
+[Term]
+id: ENVO:01000060
+name: particulate matter
+def: ""Particulate material is an environmental material which is composed of microscopic portions of solid or liquid material suspended in another environmental material."" []
+subset: envoAtmo
+subset: envoPolar
+is_a: ENVO:00010483 ! environmental material
+property_value: IAO:0000116 ""Subclasses should be assigned by inference."" xsd:string
+```
+and 
+```ini
+[Term]
+id: ENVO:00000369
+name: brine pool
+alt_id: ENVO:01000060
+def: ""MERGED DEFINITION:\nTARGET DEFINITION: A large area of brine on the ocean basin near cold seep vents which release methane into the water. These pools are concentrations of water havi..."" [https://en.wikipedia.org/wiki/Brine_pool]
+subset: envoPolar
+synonym: ""marine brine pool"" EXACT []
+xref: https://en.wikipedia.org/wiki/Brine_pool
+is_a: ENVO:01000044 ! marine pelagic feature
+is_a: ENVO:01000617 ! lentic water body
+is_a: ENVO:01001308 ! hydroform
+relationship: BFO:0000050 ENVO:00000015 ! part of ocean
+```
+
+The second one really looks unsound, and I don't think the `alt_id` is coherent here. 
+"
+1044,"Document requirements and usage of ENVO for earth-specific vs interplanetary use cases","cmungall","open",1,"2020-11-18T21:53:58Z","ENVO was originally designed for earth-based microbiome sample metadata and is being generalized for broader use cases, including those that are not-earth bound.
+
+Generalizing ENVO to interplanetary use cases will have impacts on its usability for earth-based use cases. There are examples in various tickets, e.g #1034. I will add more to this ticket later.
+
+In many ways this is analogous to the species-specific vs species-neutral anatomy ontology scenario that we have >10 years experience with (and >20 for GO). We have various techniques for dealing with this that can be applied (e.g. taxon-GCIs => planetary GCIs TODO add link). But the situation still involves compromise and things are often left unsatisfactory.
+
+Sometimes it's necessary to have specific ontologies synchronized with the general one. This should not be off the table for ENVO. Although a complicating factor here is that there is already considerable uptake of ENVO for earth use cases (e.g microbiome) and managing a transition will be hard. But we should consider all options.
+
+Stub ticket, will fill out later"
+1042,"Correct part relation in Grain of Sand and in Sand","Garybc","open",3,"2020-11-18T20:34:37Z","We should say as an axiom that Grain of Sand is ""part of some sand""  And for Sand (http://purl.obolibrary.org/obo/ENVO_01000017) we should say has some part grain of sand."
+1041,"NASA is using ENVO and other OBO foundry terms for definitions of terms","rduerr","open",8,"2020-11-18T19:12:45Z","Primarily in documents about their United Metadata Model (UMM) which is used in their Common Metadata Repository (CMR)..  See https://wiki.earthdata.nasa.gov/download/attachments/49448405/EED2-TP-039_Rev03_UMM-Var.docx?version=1&modificationDate=1597956196634&api=v2"
+1040,"WIP: methane bubbles and emissions","cmungall","open",1,"2020-11-18T09:16:39Z","This is a WIP. More details will be added﻿
+"
+1039,"design patterns for emission processes","cmungall","open",1,"2020-11-18T09:15:35Z","http://purl.obolibrary.org/obo/ENVO_01000742 carbon-bearing gas emission process
+ SubClassOf has quality some quality of a gas and has output some (has part some carbon atom)
+
+this is cryptically incoherent - a process cannot have the quality of a gas
+
+http://purl.obolibrary.org/obo/ENVO_01000769 carbon dioxide emission process
+
+SubClassOf
+
+has output some (
+    carbon dioxide and
+    has quality some quality of a gas)
+
+This is dubious - individual chemical entities do not have qualities such as being a gas
+
+In the release of ENVO we have methane and carbon-bearing emission as siblings:
+
+![image](https://user-images.githubusercontent.com/50745/99509719-ff1f1080-293a-11eb-943b-33095df31ffe.png)
+
+by the definition of CB, methane should be a subclass - but the axiomatization is too opaque/inconsistent for the reasoner to determine this
+
+as usual, I suggest a simpler design pattern, with no nesting. emission processes and environmental transfer process in general should avoid complex nested classes with chebi. use either plain chebi classes, or plain environmental materials (e.g subclasses of gas)
+
+E.g. X emission = MTP and results-in-transport-of some X and has-end-location some atmosphere"
+1037,"high atmospheric level: Expand subClassOf A and B to two subClassOf axioms","cmungall","open",2,"2020-11-09T01:28:57Z","http://purl.obolibrary.org/obo/ENVO_03520002 high atmospheric level:
+
+SubClassOf:
+(('adjacent to' some stratosphere) and ('adjacent to' some 'middle atmospheric level')) and ('part of' some troposphere)
+
+This should be split into 3 axioms:
+
+ * SubClassOf 'adjacent to' some stratosphere
+ * SubClassOf 'adjacent to' some 'middle atmospheric level'
+ * SubClassOf 'part of' some troposphere
+
+Why?
+
+1. it's simpler
+
+2. by following standard structural patterns you get more from all ontology tools
+
+E.g OLS doesn't show troposphere as having any parts
+
+![image](https://user-images.githubusercontent.com/50745/98490773-6de7c580-21e7-11eb-9598-75161e47d409.png)
+
+also OLS doesn't show HAL in related from:
+
+![image](https://user-images.githubusercontent.com/50745/98490816-996ab000-21e7-11eb-99dc-7820b93dfb09.png)
+
+It could be argued this is a limitation of the OLS, and the OLS should run robot relax first... but OLS is in fact one of the most advanced tools and if it gets thrown, others will too, and we should meet tools where they are at
+
+3. it's simpler 
+
+4. there is a false precision in the nesting `((a and b) and c)` but in fact this is the same as `a and b and c`
+
+5. it's simpler
+
+@matentzn will there be an ODK check to determine if axioms are in standard/simplified structural form?
+"
+"issue","title","creator","state","comments","created","body"

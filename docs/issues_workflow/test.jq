@@ -1,0 +1,1 @@
+["issue", "title", "creator", "state", "comments", "created", "body"], (.[] | {number, title} as $index | {state, comments, created_at, body} as $list | .user as $use | [$index[], $use.login, $list[]])

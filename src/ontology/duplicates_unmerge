@@ -1,0 +1,15 @@
+# https://github.com/ontodev/robot/issues/848#issuecomment-840398546
+results/source-import-no-declaration.ofn:
+	robot convert --input envo-edit.owl -f ofn --output $@ \
+	grep -v '^Declaration' $@ > $@.txt && mv $@.txt $@
+
+results/source-edit3.owl: results/source-import-no-declaration.ofn
+	robot unmerge --input envo-edit.owl --input results/source-import-no-declaration.ofn --output $@
+
+---
+# https://github.com/enpadasi/Ontology-for-Nutritional-Studies/issues/16#issuecomment-854011773
+## Issue: Makes owl file diff remake entirely
+robot convert --input modules/chemical_concentration.owl --format ofn --output temp-import.ofn
+grep -v '^Declaration' temp-import.ofn > temp.ofn
+robot unmerge --input envo-edit.owl --input temp.ofn --output envo-edit.owl
+

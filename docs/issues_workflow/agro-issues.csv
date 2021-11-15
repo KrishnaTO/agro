@@ -1,0 +1,130 @@
+"issue","title","creator","state","comments","created","body"
+141,"Github Community Standards and additional Issue Templates","KrishnaTO","open",0,"2021-11-09T14:42:51Z","## Add contributors.md 
+Following Github [Community Standards](https://github.com/AgriculturalSemantics/agro/community), adding contributors page, forked from ENVO for the time being. Need to update later.
+
+"
+139,"Import classes from ENVO","KrishnaTO","open",0,"2021-11-05T01:20:14Z","### Please describe the issue in as much detail as possible
+
+Per [envo issue #369](https://github.com/EnvironmentOntology/envo/issues/369), import:
+- [conductivity of soil](http://purl.obolibrary.org/obo/ENVO_09200016) 
+- soil salinity (ENVO:3200079) [part of [envo PR #1228](https://github.com/EnvironmentOntology/envo/pull/1228)
+
+"
+138,"Think how to open AgrO for not experimental activities","celineaubert","open",0,"2021-11-04T17:24:04Z","AgrO is currently based on ''agricultural experiment plot''. How could we change that to open it for non experimental data?"
+137,"Envo import terms","KrishnaTO","open",0,"2021-11-04T14:29:20Z","Currently importing:
+- closes #134 [envo issue #364](https://github.com/EnvironmentOntology/envo/issues/364)
+- [envo issue #357](https://github.com/EnvironmentOntology/envo/issues/357)
+
+"
+134,"[NTR] photosynthetically active radiation","celineaubert","open",0,"2021-11-02T16:56:42Z","### AgrO term
+
+http://purl.obolibrary.org/obo/ENVO_01001864
+
+### Synonyms
+
+_No response_
+
+### Definition
+
+@KrishnaTO could you please import this term and add ''PAR'' as exact synonym?
+
+### Parent term
+
+...
+
+### Children terms
+
+_No response_
+
+### Your nano-attribution (ORCID)
+
+_No response_"
+132,"Import AGROVOC terms relating to fieldbook","KrishnaTO","open",0,"2021-11-02T02:37:39Z","May need AGROVOC terms to resolve #62 
+
+Notes:
+- Terms in English only"
+129,"Delete owl:nothing class","KrishnaTO","open",2,"2021-11-01T22:56:46Z","### AgrO term
+
+[owl:Nothing](http://www.w3.org/2002/07/owl#Nothing)
+
+### Bug/Typo/Error description
+
+Class appears in Ontology despite no reasoner errors/issues. 
+
+### Your nano-attribution (ORCID)
+
+_No response_"
+125,"Check pattern duplication [all terms] for QA","KrishnaTO","open",2,"2021-10-25T18:16:38Z","Check pattern duplication for QA
+Match duplicate annotations. 
+
+_Originally posted by @KrishnaTO in https://github.com/AgriculturalSemantics/agro/issues/107#issuecomment-948690788_
+
+Hint: Review ROBOT reporting tool"
+124,"[Revise subclass] Tillage and mulching process","celineaubert","open",0,"2021-10-21T15:54:23Z","**AgrO term (ID and Label)**
+http://purl.obolibrary.org/obo/AGRO_01000015
+http://purl.obolibrary.org/obo/AGRO_00000111
+
+
+**Suggested revision and reasons**
+Find a way to have those classes directly under agricultural process (http://purl.obolibrary.org/obo/AGRO_00002071)
+
+
+"
+118,"measurement method of (obj_property)","KrishnaTO","open",2,"2021-10-19T02:38:17Z","**AgrO term (ID and Label)**
+[measurement method of](http://purl.obolibrary.org/obo/AGRO_00000253)
+
+**Reason for deprecation**
+Not an RO property (currently violates OBOFoundry principle 7)
+
+**Suggested term to consider**
+None
+
+**Your nano-attribution (ORCID)**
+
+
+"
+73,"Create a cvs file of the ontology during release","marieALaporte","open",1,"2020-11-02T10:28:01Z","The file will be used by non-ontology experts. Ideally the file should not contain top level classes that can be confusing for agronomists.
+"
+61,"tillage present twice?","cmungall","open",2,"2019-10-24T17:27:06Z","I think a mistake was made when implementing @pbuttigieg's request for #33 - tillage was added as a new class, not a synonym
+
+We now have this:
+
+![image](https://user-images.githubusercontent.com/50745/67509868-cd108180-f648-11e9-9546-20871388054f.png)
+
+I think tillage and tillage process should be merged"
+55,"Mounted, trailed and self-propelled implements","richardostler","open",0,"2019-06-14T12:36:56Z","It would be useful to capture how implements are attached to tractors or if self-propelled. For example, a chemical [sprayer](http://purl.obolibrary.org/obo/AGRO_00000145) could be trailed (pulled by a tractor or animal), mounted onto a tractor, or self propelled (see http://knight-ltd.co.uk/). A combine harvester would always be self-propelled. "
+39,"New ""unit"": Count per square meter","frostbytten","open",1,"2018-10-30T15:45:29Z","I don't know at what level this could be implemented, but there is a need for a count per square meter (for example, plant population) as a unit. How could this be handled?"
+35,"material classes --> ENVO","pbuttigieg","open",3,"2018-05-14T13:30:42Z","Based on our original design of AGRO, several classes in (e.g. `liming material`, note the issues with multiple inheritance) should be moved into ENVO."
+28,"Axioms and input prompting","pbuttigieg","open",1,"2017-05-04T09:26:08Z","This is more a general reminder - perhaps to be transferred to a wiki page or README.
+@brianjlowe FYI
+
+Ensure that the axioms on classes can be used by the fieldbook to prompt for required input.
+For example, with 
+
+```
+'agronomic trial' 'has part' some 'replication plan' and 'treatment plan' and ...
+``` 
+The axioms will be used to prompt fieldbook users for input on the classes they point to. This is transitive, so `replication plan` will have subclasses such as `split-plot design` which can be offered in a dropdown.
+"
+27,"Geopolitical regions","pbuttigieg","open",4,"2017-05-04T09:12:40Z","Geopolitical/administrative regions should be available from something like [GADM ](http://www.gadm.org/), [FAO GAUL](http://www.fao.org/geonetwork/srv/en/metadata.show?id=12691), or ISO19139 (e.g. ).
+
+If no RDF is available, this may need to be created.
+Note that ENVO [has some of these](http://purl.obolibrary.org/obo/ENVO_00000004), but may not be up-to-date. SDGIO could use these too. 
+
+@marieALaporte @elizabetharnaud @cmungall Do you think we should manage an OBO semantic version of this in ENVO and link to classes in, e.g., GAUL? Or should we go entirely with an external reference? GAUL looks pretty good as it maps to time stamped shapefiles that are relevant to the ag domain. 
+
+@brianjlowe FYI"
+17,"Need complementary units and better PATO quality class for irrigation water quantity","celineaubert","open",1,"2016-12-16T14:53:44Z","Currently the class `irrigation water quantity` is under the quality class  `amount`. However, this class does not seems to match for a quantity of water.
+Also, the units currently linked to `irrigation water quantity recording protocol` are mm et liter. But many other units are used to value the quantity of water http://agriinfo.in/?page=topic&superid=1&topicid=17"
+15,"Add design patterns for AgrO","cmungall","open",1,"2016-10-26T23:37:49Z","As discussed with @marieALaporte we will specify YAML DPs in the same way we are doing for TO - in particular for measurements and qualities.
+
+At first there may be some overlap with ENVO pre-composed qualities, but we will cross that when we come to it
+
+This encompasses #14
+"
+10,"Create subset exports","pbuttigieg","open",3,"2016-06-04T16:31:36Z","@celineaubert is beginning to create subsets using the `in_subset` AP. We should start exporting these for easy consumption by developers. Our recipe from ENVO (which will be a bit different from what we need here) is summarised below:
+- First, we create a ""simple"" version of the ontology as a sort of subset in itself using owltools. The Makefile drives this [here](https://github.com/EnvironmentOntology/envo/blob/master/src/envo/Makefile#L42-L47). We should try to avoid the need to create an OBO version ([here](https://github.com/EnvironmentOntology/envo/blob/master/src/envo/Makefile#L59-L61)) and make the point below only rely on the simplified OWL file. @cmungall is that possible?
+- With the basic file (currently an OBO file in ENVO), we can use owltools' subset extraction to pull out named subsets. See [these lines](https://github.com/EnvironmentOntology/envo/blob/master/src/envo/Makefile#L184-L191)
+
+@marieALaporte, perhaps you could try to implement this?
+"
