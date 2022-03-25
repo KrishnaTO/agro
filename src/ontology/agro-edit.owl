@@ -5453,7 +5453,7 @@ AnnotationAssertion(Annotation(rdfs:comment "https://www.sciencedirect.com/scien
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00010165> <https://orcid.org/0000-0003-3985-4911>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/AGRO_00010165> "2022-01-04T00:56:20Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00010165> "cropping phase of taungya"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010165> <http://purl.obolibrary.org/obo/AGRO_00002071>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010165> <http://purl.obolibrary.org/obo/PATO_0000083>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00020000> (inter-cropping experiment)
 
