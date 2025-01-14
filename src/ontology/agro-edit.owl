@@ -654,6 +654,8 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002073>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002074>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002075>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00010005>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00010012>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00010017>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00010155>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00010156>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00010157>))
@@ -5656,6 +5658,22 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00010005> "c
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00010005> "copada"@es)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010005> <http://purl.obolibrary.org/obo/ENVO_0010003>)
 
+# Class: <http://purl.obolibrary.org/obo/AGRO_00010012> (falcadero)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#source> "Eugenio Monesma - Documentales, 'The ropers. Braiding of natural ropes with curious manual rigs that have now disappeared'. https://www.youtube.com/watch?v=ygSijsOEano") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00010012> "An environmental zone consisting of a hole within the ground and is reinforced with wedges."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00010012> <https://orcid.org/0000-0002-2627-0696>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00010012> "falcadero"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00010012> "falcadero"@es)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010012> <http://purl.obolibrary.org/obo/ENVO_01000408>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00010017> (rope)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#source> "https://www.merriam-webster.com/dictionary/rope") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00010017> "A manufactured product made of intertwined fibers or strands which are twisted or braided together."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00010017> <https://orcid.org/0000-0002-2627-0696>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#source> "Eugenio Monesma - Documentales, 'The ropers. Braiding of natural ropes with curious manual rigs that have now disappeared'. https://www.youtube.com/watch?v=ygSijsOEano") <http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> <http://purl.obolibrary.org/obo/AGRO_00010017> "pulley")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00010017> "rope"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010017> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/ENVO_00003074> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/AGRO_00010159>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0001000> <http://purl.obolibrary.org/obo/AGRO_00000154>)))
+
 # Class: <http://purl.obolibrary.org/obo/AGRO_00010155> (inorganic fertilizer role)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Fertilizer"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00010155> "A role that inheres in a material entity that is mined from mineral deposits or manufactured from synthetic compounds and that excludes carbon-containing materials except ureas."@en)
@@ -6418,7 +6436,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00010008> "organic fertilizer rate"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00010008> "organic input rate"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00010011> "total number of fertilizer applications")
-AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AGRO_00010012> "true"^^xsd:boolean)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00010015> "total number of irrigations")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00010018> "number of weeding interventions")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00010024> "number of puddling passes"@en)
