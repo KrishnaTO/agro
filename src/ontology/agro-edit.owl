@@ -653,6 +653,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002071>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002073>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002074>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002075>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00010005>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00010155>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00010156>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00010157>))
@@ -5646,6 +5647,15 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.oboli
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002075> "residue incorporation percentage"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002075> <http://purl.obolibrary.org/obo/PATO_0001470>)
 
+# Class: <http://purl.obolibrary.org/obo/AGRO_00010005> (copada)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#source> "Eugenio Monesma - Documentales, 'The ropers. Braiding of natural ropes with curious manual rigs that have now disappeared'. https://www.youtube.com/watch?v=ygSijsOEano") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00010005> "Agricultural environmental material of a bundle of straw strands, separated and hollow, tied by a knot at the end."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00010005> <https://orcid.org/0000-0002-2627-0696>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00010005> "flake"@es)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00010005> "copada"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00010005> "copada"@es)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010005> <http://purl.obolibrary.org/obo/ENVO_0010003>)
+
 # Class: <http://purl.obolibrary.org/obo/AGRO_00010155> (inorganic fertilizer role)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Fertilizer"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00010155> "A role that inheres in a material entity that is mined from mineral deposits or manufactured from synthetic compounds and that excludes carbon-containing materials except ureas."@en)
@@ -5658,6 +5668,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010155> <http://purl.obolibrar
 # Class: <http://purl.obolibrary.org/obo/AGRO_00010156> (cascadera)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#source> "Eugenio Monesma - Documentales, \"The ropers. Braiding of natural ropes with curious manual rigs that have now disappeared\". https://www.youtube.com/watch?v=ygSijsOEano") <http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/AGRO_00010156> "The \"cascadera\" or grammer, handled vigorously, separated the wood from the strand in two phases, first from the middle to the root and then from the middle to the tip"@es)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#source> "Eugenio Monesma - Documentales, 'The ropers. Braiding of natural ropes with curious manual rigs that have now disappeared'. https://www.youtube.com/watch?v=ygSijsOEano") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00010156> "An agricultural implement which is used to separate the wood from strands of textile fibre."@en)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00010156> <https://orcid.org/0000-0002-2627-0696>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00010156> "grammer"@es)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00010156> "cascadera"@en)
@@ -5672,6 +5683,7 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.oboli
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/AGRO_00010157> "skein"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00010157> "zippers"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010157> <http://purl.obolibrary.org/obo/ENVO_00003074>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010157> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00010158>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00010158> (textile manufacturing process)
 
@@ -6155,6 +6167,10 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_01000021> "agricultural experimental multiplot"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_01000021> <http://purl.obolibrary.org/obo/ENVO_01000408>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_01000021> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/AGRO_00000301>))
+
+# Class: <http://purl.obolibrary.org/obo/BFO_0000004> (independent continuant)
+
+EquivalentClasses(<http://purl.obolibrary.org/obo/BFO_0000004> <http://purl.obolibrary.org/obo/CARO_0030000>)
 
 # Class: <http://purl.obolibrary.org/obo/CHEBI_31341> (calcium dihydroxide)
 
