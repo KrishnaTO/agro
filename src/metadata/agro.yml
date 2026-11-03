@@ -4,9 +4,9 @@ idspace: AGRO
 base_url: /obo/agro
 
 products:
-- agro.owl: https://raw.githubusercontent.com/AgriculturalSemantics/master/agro.owl
+- agro.owl: https://raw.githubusercontent.com/AgriculturalSemantics/agro/master/agro.owl
 # OBO format not implemented
-#- agro.obo: https://raw.githubusercontent.com/AgriculturalSemantics/master/agro.obo
+#- agro.obo: https://raw.githubusercontent.com/AgriculturalSemantics/agro/master/agro.obo
 
 term_browser: ontobee
 example_terms:
