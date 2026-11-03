@@ -3093,7 +3093,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000326> <http://purl.obolibrar
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000327> "Number of crops cultivated at the same time during the previous year in the field where the experiment is done."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000327> "number of crops previously cultivated"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000327> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000070> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/AGRO_00000325>)))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000327> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000070> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/AGRO_00000325>)))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000327> <http://purl.obolibrary.org/obo/PATO_0000070>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000328> (slope orientation)
@@ -4475,7 +4475,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000540> "forager"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000540> "silage harvester"@en)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Forage_harvester") rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000540> "forage harvester"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000540> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/AGRO_00000416> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000025>)))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000540> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/AGRO_00000416> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000025>)))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000540> <http://purl.obolibrary.org/obo/AGRO_00000416>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000541> (reapper)
@@ -4483,7 +4483,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000540> <http://purl.obolibrar
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Reaper") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000541> "An agricultural implement that cuts and often also gathers crops when they are ripe."@en)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000541> <http://orcid.org/0000-0001-6284-4821>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000541> "reapper"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000541> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/AGRO_00000416> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000025>)))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000541> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/AGRO_00000416> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000025>)))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000541> <http://purl.obolibrary.org/obo/AGRO_00000416>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000542> (digger)
@@ -4491,7 +4491,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000541> <http://purl.obolibrar
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.britannica.com/topic/root-crop") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000542> "An agricultural implement, resembling a plow, that pulls up harvestable parts of plants growing underground."@en)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000542> <http://orcid.org/0000-0001-6284-4821>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000542> "digger"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000542> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/AGRO_00000416> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000025>)))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000542> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/AGRO_00000416> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000025>)))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000542> <http://purl.obolibrary.org/obo/AGRO_00000416>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000543> (ridge width)
@@ -4623,7 +4623,7 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.oboli
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000558> "number of m2 harvested"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000558> "number of m2 units harvested"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000558> "number of square meter harvested"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000558> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000070> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/AGRO_00000325>)))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000558> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000070> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/AGRO_00000325>)))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000558> <http://purl.obolibrary.org/obo/PATO_0000070>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000558> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/AGRO_00000325>))
 

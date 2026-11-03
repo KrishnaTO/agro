@@ -17,6 +17,9 @@ Infrastructure and tooling changes to the AgrO repository. Ontology content rele
 - `src/ontology/README-editors.md` is replaced by the ODK v1.6.1 editor guide.
 - The CI badge now points to GitHub Actions instead of Travis.
 - `imports/iao_terms.txt`: added the six IAO annotation properties used by `agro-edit.owl` that only the full IAO import used to provide (example of usage, editor note, definition source, obsolescence reason, curator note, term replaced by). Together with the existing `IAO_0000700`, they're added to `iao_import.owl` on the next `make refresh-imports`.
+- Fixed the inferred equivalences that ODK's `reason_test` rejects:
+  - `eq.tsv` and `definitions.owl`: "pruning date" (`AGRO:00010129`) pointed at `AGRO:00000027` (thinning process) instead of `AGRO:00000566` (pruning process).
+  - `agro-edit.owl`: forage harvester, reaper and digger (`AGRO:00000540`–`542`) had the same equivalence axiom as plant harvest implement (`AGRO:00000234`). "number of crops previously cultivated" (`AGRO:00000327`) and "number of square meter harvested" (`AGRO:00000558`) had the same one as "number of crops" (`AGRO:00000326`). These five axioms are now `SubClassOf` statements, so each class sits under the general class instead of being equivalent to it.
 - `src/metadata/agro.yml`: fixed the PURL product URL, which was missing the `agro` repository segment.
 
 ### Removed

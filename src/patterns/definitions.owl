@@ -3351,7 +3351,7 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000165"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AGRO_00000027"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AGRO_00000566"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>

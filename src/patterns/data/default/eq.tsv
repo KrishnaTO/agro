@@ -123,7 +123,7 @@ AGRO:00010125	crop residue management date	PATO:0000165	time	AGRO:00000005	crop 
 AGRO:00010126	irrigation date	PATO:0000165	time	AGRO:00000006	irrigation process
 AGRO:00010127	pest control date	PATO:0000165	time	AGRO:00000023	pest control process
 AGRO:00010128	harvesting date	PATO:0000165	time	AGRO:00000025	harvesting process
-AGRO:00010129	pruning date	PATO:0000165	time	AGRO:00000027	pruning process
+AGRO:00010129	pruning date	PATO:0000165	time	AGRO:00000566	pruning process
 AGRO:00010130	liming date	PATO:0000165	time	AGRO:00000112	liming process
 AGRO:00010131	plant transplanting date	PATO:0000165	time	AGRO:00000229	plant transplanting process
 AGRO:00010132	planting date	PATO:0000165	time	AGRO:00000231	planting process
