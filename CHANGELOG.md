@@ -16,6 +16,7 @@ Infrastructure and tooling changes to the AgrO repository. Ontology content rele
 - `.gitignore` is replaced by the ODK-managed version.
 - `src/ontology/README-editors.md` is replaced by the ODK v1.6.1 editor guide.
 - The CI badge now points to GitHub Actions instead of Travis.
+- `imports/iao_terms.txt`: added the six IAO annotation properties used by `agro-edit.owl` that only the full IAO import used to provide (example of usage, editor note, definition source, obsolescence reason, curator note, term replaced by). Together with the existing `IAO_0000700`, they're added to `iao_import.owl` on the next `make refresh-imports`.
 - `src/metadata/agro.yml`: fixed the PURL product URL, which was missing the `agro` repository segment.
 
 ### Removed
