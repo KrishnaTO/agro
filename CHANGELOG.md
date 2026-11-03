@@ -20,6 +20,8 @@ Infrastructure and tooling changes to the AgrO repository. Ontology content rele
 - Fixed the inferred equivalences that ODK's `reason_test` rejects:
   - `eq.tsv` and `definitions.owl`: "pruning date" (`AGRO:00010129`) pointed at `AGRO:00000027` (thinning process) instead of `AGRO:00000566` (pruning process).
   - `agro-edit.owl`: forage harvester, reaper and digger (`AGRO:00000540`–`542`) had the same equivalence axiom as plant harvest implement (`AGRO:00000234`). "number of crops previously cultivated" (`AGRO:00000327`) and "number of square meter harvested" (`AGRO:00000558`) had the same one as "number of crops" (`AGRO:00000326`). These five axioms are now `SubClassOf` statements, so each class sits under the general class instead of being equivalent to it.
+- `agro-edit.owl`: switched from the deprecated DC Elements 1.1 namespace to DC Terms (`creator`, `contributor`, `date`, `description`, `source`, `title`), as ODK's `dc-properties` check requires.
+- `agro-edit.owl`: the `tillage_technique` subset is now a declared subset property (`obo:agro#tillage_technique`, a sub-property of `oboInOwl:SubsetProperty`) instead of a text value, as ODK's `iri-range` check requires.
 - `src/metadata/agro.yml`: fixed the PURL product URL, which was missing the `agro` repository segment.
 
 ### Removed
