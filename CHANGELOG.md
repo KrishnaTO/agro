@@ -2,6 +2,10 @@
 
 Infrastructure and tooling changes to the AgrO repository. Ontology content releases are tagged `vYYYY-MM-DD` on GitHub.
 
+## ntr-184-dead-haul-trailer: Add dead haul trailer
+
+### Added
+- `agro-edit.owl`: "dead haul trailer" (`AGRO:00010169`), under "animal transportation equipment" (`AGRO:00000671`) ([#184](https://github.com/AgriculturalSemantics/agro/issues/184)).
 ## ntr-203-plant-life-cycle-dates: Add plant life cycle dates
 
 ### Added
