@@ -2,6 +2,16 @@
 
 Infrastructure and tooling changes to the AgrO repository. Ontology content releases are tagged `vYYYY-MM-DD` on GitHub.
 
+## ntr-203-plant-life-cycle-dates: Add plant life cycle dates
+
+### Added
+- `agro-edit.owl`: "germination date" (`AGRO:00010176`), under "plant phenological trait" (`TO:0000933`) ([#203](https://github.com/AgriculturalSemantics/agro/issues/203)).
+- `agro-edit.owl`: "emergence date" (`AGRO:00010177`), under "plant phenological trait" (`TO:0000933`) ([#203](https://github.com/AgriculturalSemantics/agro/issues/203)).
+- `agro-edit.owl`: "50% emergence date" (`AGRO:00010178`), under "plant phenological trait" (`TO:0000933`) ([#203](https://github.com/AgriculturalSemantics/agro/issues/203)).
+- `agro-edit.owl`: "flowering date" (`AGRO:00010179`), under "plant phenological trait" (`TO:0000933`) ([#203](https://github.com/AgriculturalSemantics/agro/issues/203)).
+- `agro-edit.owl`: "50% flowering date" (`AGRO:00010180`), under "plant phenological trait" (`TO:0000933`) ([#203](https://github.com/AgriculturalSemantics/agro/issues/203)).
+- `imports/to_terms.txt`: added "plant phenological trait" (`TO:0000933`), the parent of the new dates, and refreshed `to_import.owl`.
+
 ## claude/relaxed-franklin-27phmy: Migrate to ODK v1.6.1
 
 ### Added
