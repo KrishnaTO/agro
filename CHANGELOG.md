@@ -6,6 +6,35 @@ Infrastructure and tooling changes to the AgrO repository. Ontology content rele
 
 ### Added
 - `agro-edit.owl`: "plant work helper" (`AGRO:00010173`), under "person role within the experiment" (`AGRO:00000378`) ([#195](https://github.com/AgriculturalSemantics/agro/issues/195)).
+## ntr-152-production-hedges: Add production hedges
+
+### Added
+- `agro-edit.owl`: "production hedges" (`AGRO:00010175`), under "intercropping" (`AGRO:00000516`) ([#152](https://github.com/AgriculturalSemantics/agro/issues/152)).
+## ntr-194-growth-chamber: Add growth chamber
+
+### Added
+- `agro-edit.owl`: "growth chamber" (`AGRO:00010172`), under "experimental site" (`AGRO:00000360`) ([#194](https://github.com/AgriculturalSemantics/agro/issues/194)).
+## ntr-193-break-crop-role: Add break crop role
+
+### Added
+- `agro-edit.owl`: "break crop role" (`AGRO:00010171`), under "crop role" (`AGRO:00002001`) ([#193](https://github.com/AgriculturalSemantics/agro/issues/193)).
+## ntr-185-live-haul-trailer: Add live haul trailer
+
+### Added
+- `agro-edit.owl`: "live haul trailer" (`AGRO:00010170`), under "animal transportation equipment" (`AGRO:00000671`) ([#185](https://github.com/AgriculturalSemantics/agro/issues/185)).
+## ntr-184-dead-haul-trailer: Add dead haul trailer
+
+### Added
+- `agro-edit.owl`: "dead haul trailer" (`AGRO:00010169`), under "animal transportation equipment" (`AGRO:00000671`) ([#184](https://github.com/AgriculturalSemantics/agro/issues/184)).
+## ntr-203-plant-life-cycle-dates: Add plant life cycle dates
+
+### Added
+- `agro-edit.owl`: "germination date" (`AGRO:00010176`), under "plant phenological trait" (`TO:0000933`) ([#203](https://github.com/AgriculturalSemantics/agro/issues/203)).
+- `agro-edit.owl`: "emergence date" (`AGRO:00010177`), under "plant phenological trait" (`TO:0000933`) ([#203](https://github.com/AgriculturalSemantics/agro/issues/203)).
+- `agro-edit.owl`: "50% emergence date" (`AGRO:00010178`), under "plant phenological trait" (`TO:0000933`) ([#203](https://github.com/AgriculturalSemantics/agro/issues/203)).
+- `agro-edit.owl`: "flowering date" (`AGRO:00010179`), under "plant phenological trait" (`TO:0000933`) ([#203](https://github.com/AgriculturalSemantics/agro/issues/203)).
+- `agro-edit.owl`: "50% flowering date" (`AGRO:00010180`), under "plant phenological trait" (`TO:0000933`) ([#203](https://github.com/AgriculturalSemantics/agro/issues/203)).
+- `imports/to_terms.txt`: added "plant phenological trait" (`TO:0000933`), the parent of the new dates, and refreshed `to_import.owl`.
 
 ## claude/relaxed-franklin-27phmy: Migrate to ODK v1.6.1
 
