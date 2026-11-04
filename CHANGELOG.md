@@ -2,6 +2,10 @@
 
 Infrastructure and tooling changes to the AgrO repository. Ontology content releases are tagged `vYYYY-MM-DD` on GitHub.
 
+## fix-202-mulch-removal-date: Fix "mulch removal date" typo
+
+### Fixed
+- `eq.tsv` and `definitions.owl`: "much removal date" (`AGRO:00010141`) is now "mulch removal date", and its definition now says "mulch removal process" ([#202](https://github.com/AgriculturalSemantics/agro/issues/202)).
 ## fix-187-obi-import: Refresh OBI import
 
 ### Changed
