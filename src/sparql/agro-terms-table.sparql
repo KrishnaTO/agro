@@ -1,0 +1,28 @@
+# One row per non-obsolete AgrO class: ID, label, definition, parent labels
+# and exact synonyms. Used to build agro-terms.csv for non-ontologists.
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX oio: <http://www.geneontology.org/formats/oboInOwl#>
+PREFIX IAO: <http://purl.obolibrary.org/obo/IAO_>
+
+SELECT ?id ?label ?definition
+       (GROUP_CONCAT(DISTINCT ?parent_label; separator="|") AS ?parents)
+       (GROUP_CONCAT(DISTINCT ?synonym; separator="|") AS ?synonyms)
+WHERE {
+  ?cls a owl:Class ;
+       rdfs:label ?label_literal .
+  FILTER(STRSTARTS(STR(?cls), "http://purl.obolibrary.org/obo/AGRO_"))
+  FILTER NOT EXISTS { ?cls owl:deprecated true }
+  BIND(REPLACE(STR(?cls), "^http://purl.obolibrary.org/obo/AGRO_", "AGRO:") AS ?id)
+  BIND(STR(?label_literal) AS ?label)
+  OPTIONAL { ?cls IAO:0000115 ?def_literal . BIND(STR(?def_literal) AS ?definition) }
+  OPTIONAL {
+    ?cls rdfs:subClassOf ?parent .
+    ?parent rdfs:label ?parent_label_literal .
+    FILTER(isIRI(?parent))
+    BIND(STR(?parent_label_literal) AS ?parent_label)
+  }
+  OPTIONAL { ?cls oio:hasExactSynonym ?syn_literal . BIND(STR(?syn_literal) AS ?synonym) }
+}
+GROUP BY ?id ?label ?definition
+ORDER BY ?id
