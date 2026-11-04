@@ -754,6 +754,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00010177>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00010178>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00010179>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00010180>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00010181>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020002>))
@@ -6583,6 +6584,15 @@ AnnotationAssertion(<http://purl.org/dc/terms/creator> <http://purl.obolibrary.o
 AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/AGRO_00010180> "2026-11-03T00:00:00Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00010180> "50% flowering date"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010180> <http://purl.obolibrary.org/obo/TO_0000933>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00010181> (barrier hedges)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Sinclair, F.L., 1999. A general classification of agroforestry practice. Agroforestry systems, 46(2), pp.161-180.") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00010181> "An intercropping practice in which trees or shrubs are grown as hedges along the contours of crop land to act as barriers that reduce soil erosion and surface runoff."@en)
+AnnotationAssertion(<http://purl.org/dc/terms/creator> <http://purl.obolibrary.org/obo/AGRO_00010181> <https://orcid.org/0000-0003-3985-4911>)
+AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/AGRO_00010181> "2026-11-03T00:00:00Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00010181> "contour hedgerows"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00010181> "barrier hedges"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010181> <http://purl.obolibrary.org/obo/AGRO_00000516>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00020000> (inter-cropping experiment)
 
