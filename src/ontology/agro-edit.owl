@@ -742,6 +742,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00010165>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00010166>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00010167>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00010168>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00010172>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00010171>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00010170>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00010169>))
@@ -6490,6 +6491,14 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00010168> "f
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010168> <http://purl.obolibrary.org/obo/AGRO_00000584>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010168> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AGRO_00000426>))
 
+# Class: <http://purl.obolibrary.org/obo/AGRO_00010172> (growth chamber)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00010172> "An experimental site that is a climatic chamber used for growing plants under controlled environmental conditions."@en)
+AnnotationAssertion(<http://purl.org/dc/terms/creator> <http://purl.obolibrary.org/obo/AGRO_00010172> <https://orcid.org/0000-0001-9436-3109>)
+AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/AGRO_00010172> "2026-11-03T00:00:00Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00010172> "climate chamber"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00010172> "growth chamber"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010172> <http://purl.obolibrary.org/obo/AGRO_00000360>)
 # Class: <http://purl.obolibrary.org/obo/AGRO_00010171> (break crop role)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/break-crops#definition") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00010171> "A crop role that inheres in a crop that is inserted in a crop rotation sequence to disrupt the weed, pathogen and insect cycles of the other crops in the rotation."@en)

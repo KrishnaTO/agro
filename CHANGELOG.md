@@ -2,6 +2,10 @@
 
 Infrastructure and tooling changes to the AgrO repository. Ontology content releases are tagged `vYYYY-MM-DD` on GitHub.
 
+## ntr-194-growth-chamber: Add growth chamber
+
+### Added
+- `agro-edit.owl`: "growth chamber" (`AGRO:00010172`), under "experimental site" (`AGRO:00000360`) ([#194](https://github.com/AgriculturalSemantics/agro/issues/194)).
 ## ntr-193-break-crop-role: Add break crop role
 
 ### Added
