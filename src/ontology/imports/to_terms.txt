@@ -174,3 +174,4 @@ http://purl.obolibrary.org/obo/TO_0003073
 http://purl.obolibrary.org/obo/TO_0003061
 http://purl.obolibrary.org/obo/TO_0003087
 http://purl.obolibrary.org/obo/TO_0003101
+http://purl.obolibrary.org/obo/TO_0000933 ## plant phenological trait
