@@ -2,6 +2,10 @@
 
 Infrastructure and tooling changes to the AgrO repository. Ontology content releases are tagged `vYYYY-MM-DD` on GitHub.
 
+## fix-192-description-typo: Fix ontology description typo
+
+### Fixed
+- `agro-edit.owl`: the ontology header's `dcterms:description` said "ontlogy" instead of "ontology" ([#192](https://github.com/AgriculturalSemantics/agro/issues/192)).
 ## fix-202-mulch-removal-date: Fix "mulch removal date" typo
 
 ### Fixed
