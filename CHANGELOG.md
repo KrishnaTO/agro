@@ -2,6 +2,11 @@
 
 Infrastructure and tooling changes to the AgrO repository. Ontology content releases are tagged `vYYYY-MM-DD` on GitHub.
 
+## fix-124-tillage-mulching-parent: Move tillage and mulching process under agricultural process
+
+### Changed
+- `agro-edit.owl`: "tillage" (`AGRO:01000015`) and "mulching process" (`AGRO:00000111`) are now direct subclasses of "agricultural process" (`AGRO:00002071`) instead of OBI "planned process" (`OBI:0000011`) ([#124](https://github.com/AgriculturalSemantics/agro/issues/124)). Mulching process keeps its other two parents, "mechanical pest exclusion process" and "mechanical control weeding process".
+
 ## fix-183-agronomic-fertilizer: Fix agronomic fertilizer definition typo
 
 ### Fixed
