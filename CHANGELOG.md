@@ -2,6 +2,13 @@
 
 Infrastructure and tooling changes to the AgrO repository. Ontology content releases are tagged `vYYYY-MM-DD` on GitHub.
 
+## feat-73-terms-csv: Release a CSV of AgrO terms
+
+### Added
+- `agro-terms.csv` release file: one row per non-obsolete AgrO class with ID, label, definition, parent labels and exact synonyms. It's for agronomists and developers who don't use OWL tools ([#73](https://github.com/AgriculturalSemantics/agro/issues/73)). It's built from the reasoned full release, so parents include inferred superclasses, and it lists only `AGRO_` classes, which leaves out imported upper-level classes. Multiple parents or synonyms are separated by `|`.
+- `src/sparql/agro-terms-table.sparql`: the query behind the CSV.
+- `agro.Makefile`: an `agro-terms.csv` rule, added to `ASSETS` and `RELEASE_ASSETS` so `make prepare_release` builds it and copies it to the repository root.
+
 ## fix-183-agronomic-fertilizer: Fix agronomic fertilizer definition typo
 
 ### Fixed
