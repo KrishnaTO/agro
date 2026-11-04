@@ -26,6 +26,7 @@ Infrastructure and tooling changes to the AgrO repository. Ontology content rele
   - Removed a stray `DatatypeDefinition(xsd:base64Binary xsd:Name)`, which redefined a built-in datatype.
   - "relay cropping experiment" (`AGRO:00002000`): changed `min 1` to `some`, which means the same thing.
   - Cardinality restrictions on the non-simple `has participant` (RO:0000057) aren't allowed in OWL 2 DL. They're now `SubClassOf … has participant some crop` on inter-cropping experiment (`AGRO:00020000`, was an equivalence with `min 2`), mono-cropping experiment (`AGRO:00000480`, was an equivalence with `exactly 1`) and intercropping (`AGRO:00000516`, was `min 2`). ELK ignores cardinality, so no inferences change, and the counts are still in the text definitions. Inter-cropping experiment's restriction also read "has role some crop", but crop is an organism, not a role, so ELK found the class unsatisfiable once it could read the axiom. It now says "has participant some crop".
+- `imports/`: regenerated `uo_import.owl`, `envo_import.owl`, `iao_import.owl` and `bfo_import.owl` with ODK v1.6.1 (`make refresh-<id>`). The November 2022 UO and ENVO modules contained classes the reasoner found equivalent, which failed the `agro-full.owl` build. The ChEBI and NCBITaxon modules are unchanged, because the ChEBI download timed out.
 - `src/metadata/agro.yml`: fixed the PURL product URL, which was missing the `agro` repository segment.
 
 ### Removed
