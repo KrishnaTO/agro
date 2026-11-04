@@ -2,6 +2,11 @@
 
 Infrastructure and tooling changes to the AgrO repository. Ontology content releases are tagged `vYYYY-MM-DD` on GitHub.
 
+## ntr-185-live-haul-trailer: Add live haul trailer
+
+### Added
+- `agro-edit.owl`: "live haul trailer" (`AGRO:00010170`), under "animal transportation equipment" (`AGRO:00000671`) ([#185](https://github.com/AgriculturalSemantics/agro/issues/185)).
+
 ## claude/relaxed-franklin-27phmy: Migrate to ODK v1.6.1
 
 ### Added
