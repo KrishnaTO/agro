@@ -2,6 +2,10 @@
 
 Infrastructure and tooling changes to the AgrO repository. Ontology content releases are tagged `vYYYY-MM-DD` on GitHub.
 
+## ntr-152-production-hedges: Add production hedges
+
+### Added
+- `agro-edit.owl`: "production hedges" (`AGRO:00010175`), under "intercropping" (`AGRO:00000516`) ([#152](https://github.com/AgriculturalSemantics/agro/issues/152)).
 ## ntr-194-growth-chamber: Add growth chamber
 
 ### Added
