@@ -2,6 +2,16 @@
 
 Infrastructure and tooling changes to the AgrO repository. Ontology content releases are tagged `vYYYY-MM-DD` on GitHub.
 
+## fix-125-duplicate-labels: Fix duplicate labels and synonyms
+
+### Changed
+- `agro-edit.owl`: "agricultural process" (`AGRO:00002071`) is relabelled "agricultural field process", with "agricultural process" kept as a related synonym. Its old label was the same as ENVO's broader "agricultural process" (`ENVO:01001246`) ([#125](https://github.com/AgriculturalSemantics/agro/issues/125)).
+
+### Removed
+- `agro-edit.owl`: two exact synonyms that were the labels of other AgrO classes, which ROBOT reported as `duplicate_label_synonym` ([#125](https://github.com/AgriculturalSemantics/agro/issues/125)):
+  - "hedgerow intercropping" on "alley cropping" (`AGRO:00000579`). It's the label of its subclass `AGRO:00000610`.
+  - "forest garden" on "forest garden practice" (`AGRO:00010166`). It's the label of the site class `AGRO:00000683`.
+
 ## fix-183-agronomic-fertilizer: Fix agronomic fertilizer definition typo
 
 ### Fixed
