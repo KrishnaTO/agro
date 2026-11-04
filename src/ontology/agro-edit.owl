@@ -742,6 +742,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00010165>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00010166>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00010167>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00010168>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00010174>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00010173>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00010175>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00010172>))
@@ -6493,6 +6494,13 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00010168> "f
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010168> <http://purl.obolibrary.org/obo/AGRO_00000584>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010168> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AGRO_00000426>))
 
+# Class: <http://purl.obolibrary.org/obo/AGRO_00010174> (inbred line)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00010174> "A crop of nearly identical and homozygous genotypes, resulting from repeated selfing over several generations."@en)
+AnnotationAssertion(<http://purl.org/dc/terms/creator> <http://purl.obolibrary.org/obo/AGRO_00010174> <https://orcid.org/0000-0001-9436-3109>)
+AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/AGRO_00010174> "2026-11-03T00:00:00Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00010174> "inbred line"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010174> <http://purl.obolibrary.org/obo/AGRO_00000325>)
 # Class: <http://purl.obolibrary.org/obo/AGRO_00010173> (plant work helper)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00010173> "A person that helps at various steps of the plant growth cycle, e.g. sowing seeds, separating plants at the correct age or collecting seeds."@en)

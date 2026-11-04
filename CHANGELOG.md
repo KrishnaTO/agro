@@ -2,6 +2,10 @@
 
 Infrastructure and tooling changes to the AgrO repository. Ontology content releases are tagged `vYYYY-MM-DD` on GitHub.
 
+## ntr-196-inbred-line: Add inbred line
+
+### Added
+- `agro-edit.owl`: "inbred line" (`AGRO:00010174`), under "crop" (`AGRO:00000325`) ([#196](https://github.com/AgriculturalSemantics/agro/issues/196)).
 ## ntr-195-plant-work-helper: Add plant work helper
 
 ### Added
