@@ -743,6 +743,12 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00010166>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00010167>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00010168>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00010170>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00010169>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00010176>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00010177>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00010178>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00010179>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00010180>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020002>))
@@ -6490,6 +6496,52 @@ AnnotationAssertion(<http://purl.org/dc/terms/creator> <http://purl.obolibrary.o
 AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/AGRO_00010170> "2026-11-03T00:00:00Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00010170> "live haul trailer"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010170> <http://purl.obolibrary.org/obo/AGRO_00000671>)
+# Class: <http://purl.obolibrary.org/obo/AGRO_00010169> (dead haul trailer)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00010169> "A trailer used by a dead haul truck to transport dead animals from an abattoir."@en)
+AnnotationAssertion(<http://purl.org/dc/terms/creator> <http://purl.obolibrary.org/obo/AGRO_00010169> <https://orcid.org/0000-0001-5275-8866>)
+AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/AGRO_00010169> "2026-11-03T00:00:00Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00010169> "dead haul trailer"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010169> <http://purl.obolibrary.org/obo/AGRO_00000671>)
+# Class: <http://purl.obolibrary.org/obo/AGRO_00010176> (germination date)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://github.com/Planteome/plant-trait-ontology/issues/516") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00010176> "A plant phenological trait (TO:0000933) which is the date at which a plant has completed a radicle emergence stage (PO:0007015)."@en)
+AnnotationAssertion(<http://purl.org/dc/terms/creator> <http://purl.obolibrary.org/obo/AGRO_00010176> <https://orcid.org/0000-0002-8844-9165>)
+AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/AGRO_00010176> "2026-11-03T00:00:00Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00010176> "germination date"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010176> <http://purl.obolibrary.org/obo/TO_0000933>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00010177> (emergence date)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://github.com/Planteome/plant-trait-ontology/issues/516") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00010177> "A plant phenological trait (TO:0000933) which is the date at which a plant has reached a seedling shoot emergence stage (PO:0007030)."@en)
+AnnotationAssertion(<http://purl.org/dc/terms/creator> <http://purl.obolibrary.org/obo/AGRO_00010177> <https://orcid.org/0000-0002-8844-9165>)
+AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/AGRO_00010177> "2026-11-03T00:00:00Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00010177> "emergence date"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010177> <http://purl.obolibrary.org/obo/TO_0000933>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00010178> (50% emergence date)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://github.com/Planteome/plant-trait-ontology/issues/516") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00010178> "A plant phenological trait (TO:0000933) which is the date at which 50% of germinated plants have reached a seedling shoot emergence stage (PO:0007030)."@en)
+AnnotationAssertion(<http://purl.org/dc/terms/creator> <http://purl.obolibrary.org/obo/AGRO_00010178> <https://orcid.org/0000-0002-8844-9165>)
+AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/AGRO_00010178> "2026-11-03T00:00:00Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00010178> "50% emergence date"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010178> <http://purl.obolibrary.org/obo/TO_0000933>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00010179> (flowering date)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://github.com/Planteome/plant-trait-ontology/issues/516") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00010179> "A plant phenological trait (TO:0000933) which is the date at which an emergent plant has reached a whole plant flowering stage (PO:0007016)."@en)
+AnnotationAssertion(<http://purl.org/dc/terms/creator> <http://purl.obolibrary.org/obo/AGRO_00010179> <https://orcid.org/0000-0002-8844-9165>)
+AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/AGRO_00010179> "2026-11-03T00:00:00Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00010179> "flowering date"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010179> <http://purl.obolibrary.org/obo/TO_0000933>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00010180> (50% flowering date)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://github.com/Planteome/plant-trait-ontology/issues/516") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00010180> "A plant phenological trait (TO:0000933) which is the date at which 50% of emergent plants have reached a whole plant flowering stage (PO:0007016)."@en)
+AnnotationAssertion(<http://purl.org/dc/terms/creator> <http://purl.obolibrary.org/obo/AGRO_00010180> <https://orcid.org/0000-0002-8844-9165>)
+AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/AGRO_00010180> "2026-11-03T00:00:00Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00010180> "50% flowering date"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010180> <http://purl.obolibrary.org/obo/TO_0000933>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00020000> (inter-cropping experiment)
 
