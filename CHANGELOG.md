@@ -2,6 +2,10 @@
 
 Infrastructure and tooling changes to the AgrO repository. Ontology content releases are tagged `vYYYY-MM-DD` on GitHub.
 
+## ntr-193-break-crop-role: Add break crop role
+
+### Added
+- `agro-edit.owl`: "break crop role" (`AGRO:00010171`), under "crop role" (`AGRO:00002001`) ([#193](https://github.com/AgriculturalSemantics/agro/issues/193)).
 ## ntr-185-live-haul-trailer: Add live haul trailer
 
 ### Added
