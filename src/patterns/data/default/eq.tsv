@@ -134,7 +134,7 @@ AGRO:00010136	crop rotation sart date	PATO:0000165	time	AGRO:00000469	crop rotat
 AGRO:00010137	sequence start date	PATO:0000165	time	AGRO:00000470	sequence process
 AGRO:00010138	dessication date	PATO:0000165	time	AGRO:00000475	dessication process
 AGRO:00010140	rotation phase  start date	PATO:0000165	time	AGRO:00000487	rotation phase
-AGRO:00010141	much removal date	PATO:0000165	time	AGRO:00002015	much removal process
+AGRO:00010141	mulch removal date	PATO:0000165	time	AGRO:00002015	mulch removal process
 AGRO:00010142	seedbed preparation date	PATO:0000165	time	AGRO:00002034	seedbed preparation process
 AGRO:00010143	agronomic fertilization date	PATO:0000165	time	AGRO:01000000	agronomic fertilization process
 AGRO:00010144	crop cultivation date	PATO:0000165	time	AGRO:01000020	crop cultivation process
