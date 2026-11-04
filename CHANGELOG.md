@@ -2,6 +2,11 @@
 
 Infrastructure and tooling changes to the AgrO repository. Ontology content releases are tagged `vYYYY-MM-DD` on GitHub.
 
+## fix-183-agronomic-fertilizer: Fix agronomic fertilizer definition typo
+
+### Fixed
+- `agro-edit.owl`: the definition of "agronomic fertilizer" (`AGRO:00002062`) said "enviromental" instead of "environmental" ([#183](https://github.com/AgriculturalSemantics/agro/issues/183)). The duplicated placement under "environmental material" reported in that issue came from the 2022 ENVO import and was already fixed by the ENVO import refresh.
+
 ## claude/relaxed-franklin-27phmy: Migrate to ODK v1.6.1
 
 ### Added
