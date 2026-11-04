@@ -22,6 +22,10 @@ Infrastructure and tooling changes to the AgrO repository. Ontology content rele
   - `agro-edit.owl`: forage harvester, reaper and digger (`AGRO:00000540`–`542`) had the same equivalence axiom as plant harvest implement (`AGRO:00000234`). "number of crops previously cultivated" (`AGRO:00000327`) and "number of square meter harvested" (`AGRO:00000558`) had the same one as "number of crops" (`AGRO:00000326`). These five axioms are now `SubClassOf` statements, so each class sits under the general class instead of being equivalent to it.
 - `agro-edit.owl`: switched from the deprecated DC Elements 1.1 namespace to DC Terms (`creator`, `contributor`, `date`, `description`, `source`, `title`), as ODK's `dc-properties` check requires.
 - `agro-edit.owl`: the `tillage_technique` subset is now a declared subset property (`obo:agro#tillage_technique`, a sub-property of `oboInOwl:SubsetProperty`) instead of a text value, as ODK's `iri-range` check requires.
+- `agro-edit.owl`: fixed the OWL 2 DL profile violations:
+  - Removed a stray `DatatypeDefinition(xsd:base64Binary xsd:Name)`, which redefined a built-in datatype.
+  - "relay cropping experiment" (`AGRO:00002000`): changed `min 1` to `some`, which means the same thing.
+  - Cardinality restrictions on the non-simple `has participant` (RO:0000057) aren't allowed in OWL 2 DL. They're now `SubClassOf … has participant some crop` on inter-cropping experiment (`AGRO:00020000`, was an equivalence with `min 2`), mono-cropping experiment (`AGRO:00000480`, was an equivalence with `exactly 1`) and intercropping (`AGRO:00000516`, was `min 2`). ELK ignores cardinality, so no inferences change, and the counts are still in the text definitions.
 - `src/metadata/agro.yml`: fixed the PURL product URL, which was missing the `agro` repository segment.
 
 ### Removed
