@@ -742,6 +742,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00010165>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00010166>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00010167>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00010168>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00010173>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00010175>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00010172>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00010171>))
@@ -6492,6 +6493,12 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00010168> "f
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010168> <http://purl.obolibrary.org/obo/AGRO_00000584>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010168> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AGRO_00000426>))
 
+# Class: <http://purl.obolibrary.org/obo/AGRO_00010173> (plant work helper)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00010173> "A person that helps at various steps of the plant growth cycle, e.g. sowing seeds, separating plants at the correct age or collecting seeds."@en)
+AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/AGRO_00010173> "2026-11-03T00:00:00Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00010173> "plant work helper"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010173> <http://purl.obolibrary.org/obo/AGRO_00000378>)
 # Class: <http://purl.obolibrary.org/obo/AGRO_00010175> (production hedges)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Sinclair, F.L., 1999. A general classification of agroforestry practice. Agroforestry systems, 46(2), pp.161-180.") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00010175> "An intercropping practice in which trees or shrubs are grown as hedges in rows on crop land and are managed for the products they yield."@en)

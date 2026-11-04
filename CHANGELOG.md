@@ -2,6 +2,10 @@
 
 Infrastructure and tooling changes to the AgrO repository. Ontology content releases are tagged `vYYYY-MM-DD` on GitHub.
 
+## ntr-195-plant-work-helper: Add plant work helper
+
+### Added
+- `agro-edit.owl`: "plant work helper" (`AGRO:00010173`), under "person role within the experiment" (`AGRO:00000378`) ([#195](https://github.com/AgriculturalSemantics/agro/issues/195)).
 ## ntr-152-production-hedges: Add production hedges
 
 ### Added
