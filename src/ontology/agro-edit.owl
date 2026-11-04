@@ -742,6 +742,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00010165>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00010166>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00010167>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00010168>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00010170>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00010169>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00010176>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00010177>))
@@ -6488,6 +6489,13 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00010168> "f
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010168> <http://purl.obolibrary.org/obo/AGRO_00000584>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010168> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AGRO_00000426>))
 
+# Class: <http://purl.obolibrary.org/obo/AGRO_00010170> (live haul trailer)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00010170> "A trailer used by a live haul truck to transport live animals."@en)
+AnnotationAssertion(<http://purl.org/dc/terms/creator> <http://purl.obolibrary.org/obo/AGRO_00010170> <https://orcid.org/0000-0001-5275-8866>)
+AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/AGRO_00010170> "2026-11-03T00:00:00Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00010170> "live haul trailer"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010170> <http://purl.obolibrary.org/obo/AGRO_00000671>)
 # Class: <http://purl.obolibrary.org/obo/AGRO_00010169> (dead haul trailer)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00010169> "A trailer used by a dead haul truck to transport dead animals from an abattoir."@en)
