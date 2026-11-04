@@ -2,6 +2,11 @@
 
 Infrastructure and tooling changes to the AgrO repository. Ontology content releases are tagged `vYYYY-MM-DD` on GitHub.
 
+## ntr-164-barrier-hedges: Add barrier hedges
+
+### Added
+- `agro-edit.owl`: "barrier hedges" (`AGRO:00010181`), under "intercropping" (`AGRO:00000516`) ([#164](https://github.com/AgriculturalSemantics/agro/issues/164)).
+
 ## fix-183-agronomic-fertilizer: Fix agronomic fertilizer definition typo
 
 ### Fixed
