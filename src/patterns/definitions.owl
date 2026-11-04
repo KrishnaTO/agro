@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://purl.obolibrary.org/obo/agro/patterns/eq.owl#"
-     xml:base="http://purl.obolibrary.org/obo/agro/patterns/eq.owl"
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/agro/patterns/definitions.owl#"
+     xml:base="http://purl.obolibrary.org/obo/agro/patterns/definitions.owl"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -8,7 +8,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
-    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/agro/patterns/eq.owl"/>
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/agro/patterns/definitions.owl"/>
     
 
 
@@ -3351,7 +3351,7 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000165"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AGRO_00000027"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AGRO_00000566"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>

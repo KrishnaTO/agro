@@ -1,0 +1,44 @@
+id: agro
+title: "Agronomy Ontology"
+github_org: AgriculturalSemantics
+git_main_branch: master
+repo: agro
+edit_format: owl
+uribase: http://purl.obolibrary.org/obo
+reasoner: ELK
+use_dosdps: true
+release_artefacts:
+  - base
+  - full
+primary_release: full
+export_formats:
+  - owl
+  - obo
+namespaces:
+  - http://purl.obolibrary.org/obo/AGRO_
+robot_java_args: '-Xmx8G'
+ci:
+  - github_actions
+workflows:
+  - qc
+import_group:
+  module_type: slme
+  slme_individuals: exclude
+  products:
+    - id: bfo
+    - id: chebi
+      is_large: true
+    - id: envo
+    - id: foodon
+    - id: go
+    - id: iao
+    - id: ncbitaxon
+      is_large: true
+    - id: obi
+    - id: pato
+    - id: peco
+    - id: po
+    - id: ro
+    - id: to
+    - id: uo
+    - id: xco
