@@ -2,6 +2,11 @@
 
 Infrastructure and tooling changes to the AgrO repository. Ontology content releases are tagged `vYYYY-MM-DD` on GitHub.
 
+## ntr-195-plant-work-helper: Add plant work helper
+
+### Added
+- `agro-edit.owl`: "plant work helper" (`AGRO:00010173`), under "person role within the experiment" (`AGRO:00000378`) ([#195](https://github.com/AgriculturalSemantics/agro/issues/195)).
+
 ## claude/relaxed-franklin-27phmy: Migrate to ODK v1.6.1
 
 ### Added
