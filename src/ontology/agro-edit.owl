@@ -6241,7 +6241,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002061> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00002062> (agronomic fertilizer)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002062> "An enviromental material that has a role of fertilization")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002062> "An environmental material that has a role of fertilization.")
 AnnotationAssertion(<http://purl.org/dc/terms/creator> <http://purl.obolibrary.org/obo/AGRO_00002062> <http://orcid.org/0000-0002-8461-9745>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002062> "agronomic fertilizer"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002062> <http://purl.obolibrary.org/obo/ENVO_00010483>)
