@@ -2,6 +2,10 @@
 
 Infrastructure and tooling changes to the AgrO repository. Ontology content releases are tagged `vYYYY-MM-DD` on GitHub.
 
+## fix-187-obi-import: Refresh OBI import
+
+### Changed
+- `imports/obi_import.owl`: regenerated with ODK v1.6.1 from OBI 2026-07-27 (`make refresh-obi`). The 2022 module declared 52 UO units, including picomole, nanomole and micromole, as individuals of "substance unit" as well as classes, so they appeared twice ([#187](https://github.com/AgriculturalSemantics/agro/issues/187)). ODK's import configuration excludes individuals, so the units are now classes only. All 29 OBI terms that AgrO uses are still in the module.
 ## ntr-196-inbred-line: Add inbred line
 
 ### Added
